@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T14:15:04+00:00",
+ "generado_utc": "2026-08-29T16:39:56+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -11,6 +11,12 @@
   {
    "noche": "2026-08-29",
    "oscuridad_astronomica_h": 7.8,
+   "crepusculo": {
+    "astronomico_desde": "2026-08-29T20:16+00:00",
+    "astronomico_hasta": "2026-08-30T04:04+00:00",
+    "ocaso": "2026-08-29T18:39+00:00",
+    "orto": "2026-08-30T05:41+00:00"
+   },
    "luna_iluminacion": 0.969,
    "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
@@ -386,7 +392,10 @@
       0.0,
       0.0
      ],
-     "limita": "-cccaaaaaaaannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlcccc"
+     "limita": "-cccaaaaaaaannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlcccc",
+     "i_max": 33,
+     "i_min": 0,
+     "i_meridiano": 33
     },
     {
      "nombre": "IC 1396 (Trompa del Elefante)",
@@ -590,7 +599,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlllllllllllllcc--"
+     "limita": "ccccnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnlllllllllllllcc--",
+     "i_max": 23,
+     "i_min": 58,
+     "i_meridiano": 23
     },
     {
      "nombre": "IC 1805 (Corazon)",
@@ -795,7 +807,10 @@
       0.0,
       0.0
      ],
-     "limita": "----------aaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnnnlcccc"
+     "limita": "----------aaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnnnlcccc",
+     "i_max": 52,
+     "i_min": 0,
+     "i_meridiano": 52
     },
     {
      "nombre": "IC 1848 (Alma)",
@@ -1000,7 +1015,10 @@
       0.0,
       0.0
      ],
-     "limita": "-------------aaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnlcccc"
+     "limita": "-------------aaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnlcccc",
+     "i_max": 53,
+     "i_min": 0,
+     "i_meridiano": 53
     },
     {
      "nombre": "NGC 7000 (Norteamérica)",
@@ -1205,7 +1223,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccnnnnllllllllllllllllllllllllllllllllllllllllllllll-----"
+     "limita": "ccccnnnnllllllllllllllllllllllllllllllllllllllllllllll-----",
+     "i_max": 20,
+     "i_min": 58,
+     "i_meridiano": 20
     },
     {
      "nombre": "NGC 6888 (Creciente)",
@@ -1409,7 +1430,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccnnnnnlllllllllllllllllllllllllllllllllllllllll---------"
+     "limita": "ccccnnnnnlllllllllllllllllllllllllllllllllllllllll---------",
+     "i_max": 15,
+     "i_min": 58,
+     "i_meridiano": 15
     },
     {
      "nombre": "Velo (NGC 6960)",
@@ -1615,7 +1639,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccclllllllllllllllllllllllllllllllllllllllllllllll--------"
+     "limita": "cccclllllllllllllllllllllllllllllllllllllllllllllll--------",
+     "i_max": 18,
+     "i_min": 58,
+     "i_meridiano": 19
     },
     {
      "nombre": "M1 (Cangrejo)",
@@ -1802,25 +1829,28 @@
       0.0,
       0.0,
       0.0,
-      0.599,
-      0.658,
-      0.716,
-      0.772,
-      0.826,
-      0.878,
-      0.929,
-      0.977,
-      1.024,
-      1.068,
-      1.11,
-      1.225,
-      0.297,
+      0.598,
+      0.657,
+      0.714,
+      0.77,
+      0.824,
+      0.877,
+      0.927,
+      0.975,
+      1.022,
+      1.066,
+      1.108,
+      1.223,
+      0.296,
       0.0,
       0.0,
       0.0,
       0.0
      ],
-     "limita": "------------------------------------------aaaaaaaaaaanlcccc"
+     "limita": "------------------------------------------aaaaaaaaaaanlcccc",
+     "i_max": 58,
+     "i_min": 3,
+     "i_meridiano": 58
     },
     {
      "nombre": "M16 (Aguila)",
@@ -2025,7 +2055,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccaaallllllllllllll--------------------------------------"
+     "limita": "ccccaaallllllllllllll--------------------------------------",
+     "i_max": 5,
+     "i_min": 58,
+     "i_meridiano": 5
     },
     {
      "nombre": "M17 (Omega)",
@@ -2230,7 +2263,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccaallllllllllllll---------------------------------------"
+     "limita": "ccccaallllllllllllll---------------------------------------",
+     "i_max": 5,
+     "i_min": 58,
+     "i_meridiano": 5
     },
     {
      "nombre": "IC 434 (Cabeza de Caballo)",
@@ -2434,7 +2470,10 @@
       0.0,
       0.0
      ],
-     "limita": "--------------------------------------------------aaaalcccc"
+     "limita": "--------------------------------------------------aaaalcccc",
+     "i_max": 58,
+     "i_min": 3,
+     "i_meridiano": 58
     },
     {
      "nombre": "M8 (Laguna)",
@@ -2639,7 +2678,10 @@
       0.0,
       0.0
      ],
-     "limita": "--ccaaaaaa-------------------------------------------------"
+     "limita": "--ccaaaaaa-------------------------------------------------",
+     "i_max": 4,
+     "i_min": 58,
+     "i_meridiano": 4
     },
     {
      "nombre": "NGC 2237 (Roseta)",
@@ -2843,7 +2885,10 @@
       0.0,
       0.0
      ],
-     "limita": "-----------------------------------------------------alcccc"
+     "limita": "-----------------------------------------------------alcccc",
+     "i_max": 58,
+     "i_min": 5,
+     "i_meridiano": 58
     },
     {
      "nombre": "Cruz de Einstein (Q2237+0305)",
@@ -3048,7 +3093,10 @@
       0.0,
       0.0
      ],
-     "limita": "------ccccccccccccccccccccccccccccccccccccccccccccccc------"
+     "limita": "------ccccccccccccccccccccccccccccccccccccccccccccccc------",
+     "i_max": 29,
+     "i_min": 0,
+     "i_meridiano": 30
     },
     {
      "nombre": "IFN en M81/M82",
@@ -3253,7 +3301,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccc--------------------------------------------cccccccccc"
+     "limita": "ccccc--------------------------------------------cccccccccc",
+     "i_max": 58,
+     "i_min": 25,
+     "i_meridiano": 58
     },
     {
      "nombre": "M101 (Molinete)",
@@ -3457,7 +3508,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccccccccccccccccc----------------------------------------"
+     "limita": "ccccccccccccccccccc----------------------------------------",
+     "i_max": 0,
+     "i_min": 49,
+     "i_meridiano": 0
     },
     {
      "nombre": "M104 (Sombrero)",
@@ -3661,7 +3715,10 @@
       0.0,
       0.0
      ],
-     "limita": "-----------------------------------------------------------"
+     "limita": "-----------------------------------------------------------",
+     "i_max": 0,
+     "i_min": 42,
+     "i_meridiano": 0
     },
     {
      "nombre": "M106",
@@ -3864,7 +3921,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccccc-----------------------------------------------------"
+     "limita": "cccccc-----------------------------------------------------",
+     "i_max": 0,
+     "i_min": 39,
+     "i_meridiano": 0
     },
     {
      "nombre": "M13",
@@ -4069,7 +4129,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccccccccccccccccccccccccccc-------------------------------"
+     "limita": "cccccccccccccccccccccccccccc-------------------------------",
+     "i_max": 1,
+     "i_min": 57,
+     "i_meridiano": 1
     },
     {
      "nombre": "M15",
@@ -4272,7 +4335,10 @@
       0.0,
       0.0
      ],
-     "limita": "--cccccccccccccccccccccccccccccccccccccccccccccccc---------"
+     "limita": "--cccccccccccccccccccccccccccccccccccccccccccccccc---------",
+     "i_max": 23,
+     "i_min": 58,
+     "i_meridiano": 23
     },
     {
      "nombre": "M20 (Trifida)",
@@ -4477,7 +4543,10 @@
       0.0,
       0.0
      ],
-     "limita": "-ccccccccccc-----------------------------------------------"
+     "limita": "-ccccccccccc-----------------------------------------------",
+     "i_max": 4,
+     "i_min": 58,
+     "i_meridiano": 4
     },
     {
      "nombre": "M22",
@@ -4680,7 +4749,10 @@
       0.0,
       0.0
      ],
-     "limita": "---ccccccccccc---------------------------------------------"
+     "limita": "---ccccccccccc---------------------------------------------",
+     "i_max": 5,
+     "i_min": 58,
+     "i_meridiano": 6
     },
     {
      "nombre": "M27 (Dumbbell)",
@@ -4885,7 +4957,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccccccccccccccccccccccccccccccccccccccccccc---------------"
+     "limita": "cccccccccccccccccccccccccccccccccccccccccccc---------------",
+     "i_max": 14,
+     "i_min": 58,
+     "i_meridiano": 14
     },
     {
      "nombre": "M31",
@@ -5090,7 +5165,10 @@
       0.0,
       0.0
      ],
-     "limita": "-------cccccccccccccccccccccccccccccccccccccccccccccccccccc"
+     "limita": "-------cccccccccccccccccccccccccccccccccccccccccccccccccccc",
+     "i_max": 42,
+     "i_min": 0,
+     "i_meridiano": 42
     },
     {
      "nombre": "M33 (Triangulo)",
@@ -5295,7 +5373,10 @@
       0.0,
       0.0
      ],
-     "limita": "---------------cccccccccccccccccccccccccccccccccccccccccccc"
+     "limita": "---------------cccccccccccccccccccccccccccccccccccccccccccc",
+     "i_max": 47,
+     "i_min": 0,
+     "i_meridiano": 47
     },
     {
      "nombre": "M42 (Orion)",
@@ -5500,7 +5581,10 @@
       0.0,
       0.0
      ],
-     "limita": "---------------------------------------------------cccccccc"
+     "limita": "---------------------------------------------------cccccccc",
+     "i_max": 58,
+     "i_min": 3,
+     "i_meridiano": 58
     },
     {
      "nombre": "M45 (Pleyades)",
@@ -5705,7 +5789,10 @@
       0.0,
       0.0
      ],
-     "limita": "------------------------------ccccccccccccccccccccccccccccc"
+     "limita": "------------------------------ccccccccccccccccccccccccccccc",
+     "i_max": 55,
+     "i_min": 0,
+     "i_meridiano": 55
     },
     {
      "nombre": "M51 (halo y puente de marea)",
@@ -5910,7 +5997,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccccccccccc----------------------------------------------"
+     "limita": "ccccccccccccc----------------------------------------------",
+     "i_max": 0,
+     "i_min": 46,
+     "i_meridiano": 0
     },
     {
      "nombre": "M57 (Anillo)",
@@ -6115,7 +6205,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccccccccccccccccccccccccccccccccccccccc------------------"
+     "limita": "ccccccccccccccccccccccccccccccccccccccccc------------------",
+     "i_max": 7,
+     "i_min": 58,
+     "i_meridiano": 7
     },
     {
      "nombre": "M63 (Girasol)",
@@ -6319,7 +6412,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccccccccc-------------------------------------------------"
+     "limita": "cccccccccc-------------------------------------------------",
+     "i_max": 0,
+     "i_min": 44,
+     "i_meridiano": 0
     },
     {
      "nombre": "M64 (Ojo Negro)",
@@ -6523,7 +6619,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccc-------------------------------------------------------"
+     "limita": "cccc-------------------------------------------------------",
+     "i_max": 0,
+     "i_min": 43,
+     "i_meridiano": 0
     },
     {
      "nombre": "M65",
@@ -6726,7 +6825,10 @@
       0.0,
       0.0
      ],
-     "limita": "-----------------------------------------------------------"
+     "limita": "-----------------------------------------------------------",
+     "i_max": 0,
+     "i_min": 33,
+     "i_meridiano": 0
     },
     {
      "nombre": "M66",
@@ -6929,7 +7031,10 @@
       0.0,
       0.0
      ],
-     "limita": "-----------------------------------------------------------"
+     "limita": "-----------------------------------------------------------",
+     "i_max": 0,
+     "i_min": 34,
+     "i_meridiano": 0
     },
     {
      "nombre": "M78",
@@ -7132,7 +7237,10 @@
       0.0,
       0.0
      ],
-     "limita": "--------------------------------------------------ccccccccc"
+     "limita": "--------------------------------------------------ccccccccc",
+     "i_max": 58,
+     "i_min": 3,
+     "i_meridiano": 58
     },
     {
      "nombre": "M81",
@@ -7337,7 +7445,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccc--------------------------------------------cccccccccc"
+     "limita": "ccccc--------------------------------------------cccccccccc",
+     "i_max": 58,
+     "i_min": 24,
+     "i_meridiano": 58
     },
     {
      "nombre": "M82 (Cigarro)",
@@ -7541,7 +7652,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccc-------------------------------------------ccccccccccc"
+     "limita": "ccccc-------------------------------------------ccccccccccc",
+     "i_max": 58,
+     "i_min": 25,
+     "i_meridiano": 58
     },
     {
      "nombre": "M92",
@@ -7744,7 +7858,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccccccccccccccccccccccccccccccccc-------------------------"
+     "limita": "cccccccccccccccccccccccccccccccccc-------------------------",
+     "i_max": 3,
+     "i_min": 58,
+     "i_meridiano": 3
     },
     {
      "nombre": "M97 (Lechuza)",
@@ -7948,7 +8065,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccc-----------------------------------------------------cc"
+     "limita": "cccc-----------------------------------------------------cc",
+     "i_max": 0,
+     "i_min": 33,
+     "i_meridiano": 0
     },
     {
      "nombre": "NGC 253",
@@ -8152,7 +8272,10 @@
       0.0,
       0.0
      ],
-     "limita": "-------------------------------------cccccccccccc----------"
+     "limita": "-------------------------------------cccccccccccc----------",
+     "i_max": 42,
+     "i_min": 0,
+     "i_meridiano": 43
     },
     {
      "nombre": "NGC 2903",
@@ -8355,7 +8478,10 @@
       0.0,
       0.0
      ],
-     "limita": "---------------------------------------------------------cc"
+     "limita": "---------------------------------------------------------cc",
+     "i_max": 58,
+     "i_min": 22,
+     "i_meridiano": 58
     },
     {
      "nombre": "NGC 4565 (Aguja)",
@@ -8559,7 +8685,10 @@
       0.0,
       0.0
      ],
-     "limita": "cccc-------------------------------------------------------"
+     "limita": "cccc-------------------------------------------------------",
+     "i_max": 0,
+     "i_min": 41,
+     "i_meridiano": 0
     },
     {
      "nombre": "NGC 7023 (Iris)",
@@ -8763,7 +8892,10 @@
       0.0,
       0.0
      ],
-     "limita": "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+     "limita": "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+     "i_max": 19,
+     "i_min": 58,
+     "i_meridiano": 19
     },
     {
      "nombre": "NGC 7293 (Helix)",
@@ -8968,7 +9100,10 @@
       0.0,
       0.0
      ],
-     "limita": "------------------ccccccccccccccccccccccc------------------"
+     "limita": "------------------ccccccccccccccccccccccc------------------",
+     "i_max": 28,
+     "i_min": 58,
+     "i_meridiano": 29
     },
     {
      "nombre": "NGC 891",
@@ -9171,7 +9306,10 @@
       0.0,
       0.0
      ],
-     "limita": "-----------------cccccccccccccccccccccccccccccccccccccccccc"
+     "limita": "-----------------cccccccccccccccccccccccccccccccccccccccccc",
+     "i_max": 52,
+     "i_min": 0,
+     "i_meridiano": 52
     }
    ],
    "consejos": {
@@ -9217,6 +9355,13 @@
       "luz": "ambar",
       "resumen": "medio filtro a ciegas",
       "detalle": "Un dual Hα+OIII con la Luna al 97 % te da un canal bueno y otro ruidoso: el Hα aguanta y el OIII no. Si el objeto vive del OIII — restos de supernova, planetarias grandes — la toma va a salir desequilibrada y lo verás al combinar. En emisión pura de Hα no lo notarás."
+     },
+     {
+      "clave": "ir",
+      "etiqueta": "Infrarrojo",
+      "luz": "verde",
+      "resumen": "la Luna le molesta poco",
+      "detalle": "Mismo argumento que hace robusto al Halfa, llevado mas lejos: a 97 % de Luna, el fondo en IR sube mucho menos que en visible porque el Rayleigh va como lambda^-4. Y el seeing mejora con lambda^(1/5), asi que ademas resuelve algo mejor. Pide objeto que EMITA ahi -- polvo, gigantes rojas, reflexion -- y camara sin filtro de bloqueo IR."
      },
      {
       "clave": "planetaria",
@@ -9271,12 +9416,19 @@
      }
     ],
     "avisos": [],
-    "resumen": "Esta noche es de Hα; olvídate de RGB / color."
+    "limitante": "luna",
+    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea."
    }
   },
   {
    "noche": "2026-08-30",
    "oscuridad_astronomica_h": 7.8,
+   "crepusculo": {
+    "astronomico_desde": "2026-08-30T20:14+00:00",
+    "astronomico_hasta": "2026-08-31T04:05+00:00",
+    "ocaso": "2026-08-30T18:37+00:00",
+    "orto": "2026-08-31T05:42+00:00"
+   },
    "luna_iluminacion": 0.922,
    "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
@@ -9495,6 +9647,13 @@
       "detalle": "Un dual Hα+OIII con la Luna al 92 % te da un canal bueno y otro ruidoso: el Hα aguanta y el OIII no. Si el objeto vive del OIII — restos de supernova, planetarias grandes — la toma va a salir desequilibrada y lo verás al combinar. En emisión pura de Hα no lo notarás."
      },
      {
+      "clave": "ir",
+      "etiqueta": "Infrarrojo",
+      "luz": "verde",
+      "resumen": "la Luna le molesta poco",
+      "detalle": "Mismo argumento que hace robusto al Halfa, llevado mas lejos: a 92 % de Luna, el fondo en IR sube mucho menos que en visible porque el Rayleigh va como lambda^-4. Y el seeing mejora con lambda^(1/5), asi que ademas resuelve algo mejor. Pide objeto que EMITA ahi -- polvo, gigantes rojas, reflexion -- y camara sin filtro de bloqueo IR."
+     },
+     {
       "clave": "planetaria",
       "etiqueta": "Planetaria y lunar",
       "luz": "verde",
@@ -9547,31 +9706,32 @@
      }
     ],
     "avisos": [],
-    "resumen": "Esta noche es de Hα; olvídate de RGB / color."
+    "limitante": "luna",
+    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea."
    }
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T14:15:09+00:00",
-  "medido_utc": "2026-08-29T14:14:08+00:00",
-  "antiguedad_min": 1.0,
-  "fresco": true,
-  "temperatura": 26.1,
-  "humedad": 31.0,
-  "punto_rocio": 7.64,
-  "margen_rocio": 18.5,
-  "riesgo_rocio": "bajo",
-  "viento_ms": 2.5,
-  "viento_dir": 320.0,
-  "presion": 847.9,
-  "cielo_ir": -9.22,
-  "cielo_indice": 2.1,
+  "leido_utc": "2026-08-29T16:40:03+00:00",
+  "medido_utc": null,
+  "antiguedad_min": null,
+  "fresco": false,
+  "temperatura": null,
+  "humedad": null,
+  "punto_rocio": null,
+  "margen_rocio": null,
+  "riesgo_rocio": "desconocido",
+  "viento_ms": null,
+  "viento_dir": null,
+  "presion": null,
+  "cielo_ir": -12.82,
+  "cielo_indice": 1.6,
   "cielo_fresco": true,
-  "cielo_despejado": false,
+  "cielo_despejado": true,
   "techos_abiertos": 0,
-  "techos_total": 18,
-  "estado_seguridad": "Unsafe",
-  "incompleto": null
+  "techos_total": 0,
+  "estado_seguridad": null,
+  "incompleto": "Descarga incompleta: falta estaciones meteo, estadística de horas abiertas, techos, registro de seguridad"
  },
  "cupula": {
   "sky_tercile": "desfavorable",
@@ -11224,7 +11384,7 @@
   "curva_ajustada_el": "2026-08-29T12:11:06+00:00",
   "avisos": [
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
-   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 31 horas medidas contra la estacion del sitio prevé el 55 % del viento medio real (-1.8 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
+   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 33 horas medidas contra la estacion del sitio prevé el 56 % del viento medio real (-1.7 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
   ]
  }
 }
