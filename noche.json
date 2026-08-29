@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T12:14:33+00:00",
+ "generado_utc": "2026-08-29T13:03:37+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -159,20 +159,2760 @@
    },
    "recomendaciones": [
     {
-     "objeto": "NGC 7000 (Norteamérica)",
+     "objeto": "NGC 7635 (Burbuja)",
      "clase": "narrowband",
-     "horas_si_despeja": 5.6,
-     "horas_esperadas": 4.9,
+     "horas_si_despeja": 8.7,
+     "horas_esperadas": 7.6,
      "veredicto": "recomendado",
-     "porque": "5.6 h equivalentes si despeja"
+     "porque": "8.7 h equivalentes si despeja"
     },
     {
-     "objeto": "Velo (NGC 6960)",
+     "objeto": "IC 1396 (Trompa del Elefante)",
      "clase": "narrowband",
+     "horas_si_despeja": 8.2,
+     "horas_esperadas": 7.2,
+     "veredicto": "recomendado",
+     "porque": "8.2 h equivalentes si despeja"
+    },
+    {
+     "objeto": "IC 1805 (Corazon)",
+     "clase": "narrowband",
+     "horas_si_despeja": 6.9,
+     "horas_esperadas": 6.0,
+     "veredicto": "recomendado",
+     "porque": "6.9 h equivalentes si despeja"
+    }
+   ],
+   "objetos": [
+    {
+     "nombre": "NGC 7635 (Burbuja)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 350.2013,
+     "dec": 61.2017,
+     "nota": "",
+     "horas_si_despeja": 8.7,
+     "horas_esperadas": 7.6,
+     "horas_sobre_minimo": 12.8,
+     "altura_maxima": 66.8,
+     "separacion_luna": 71.0,
+     "mejor_hora": "2026-08-30T00:59+00:00",
+     "veredicto": "recomendado",
+     "porque": "8.7 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 34.0,
+       "az": 35.3
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 42.2,
+       "az": 37.4
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 45.8,
+       "az": 37.6
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 49.4,
+       "az": 37.1
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 52.9,
+       "az": 35.8
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 56.3,
+       "az": 33.6
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 59.4,
+       "az": 30.3
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 62.2,
+       "az": 25.6
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 64.4,
+       "az": 19.3
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 66.0,
+       "az": 11.6
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 66.8,
+       "az": 2.8
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 66.6,
+       "az": 353.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 65.5,
+       "az": 345.2
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 63.6,
+       "az": 338.0
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 61.1,
+       "az": 332.4
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 58.2,
+       "az": 328.3
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 55.0,
+       "az": 325.4
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 46.8,
+       "az": 322.5
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 36.1,
+       "az": 323.9
+      }
+     ]
+    },
+    {
+     "nombre": "IC 1396 (Trompa del Elefante)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 324.745,
+     "dec": 57.5139,
+     "nota": "",
+     "horas_si_despeja": 8.2,
+     "horas_esperadas": 7.2,
+     "horas_sobre_minimo": 12.6,
+     "altura_maxima": 70.5,
+     "separacion_luna": 67.6,
+     "mejor_hora": "2026-08-29T23:19+00:00",
+     "veredicto": "recomendado",
+     "porque": "8.2 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 34.2,
+       "az": 40.1
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 46.0,
+       "az": 42.9
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 55.3,
+       "az": 41.2
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 59.1,
+       "az": 38.8
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 62.7,
+       "az": 34.9
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 65.9,
+       "az": 29.2
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 68.4,
+       "az": 21.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 70.0,
+       "az": 10.7
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 70.5,
+       "az": 358.9
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 69.8,
+       "az": 347.2
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 68.0,
+       "az": 337.2
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 65.3,
+       "az": 329.6
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 62.1,
+       "az": 324.2
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 58.5,
+       "az": 320.6
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 54.6,
+       "az": 318.5
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 50.6,
+       "az": 317.4
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 46.6,
+       "az": 317.1
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 42.6,
+       "az": 317.5
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 33.5,
+       "az": 320.2
+      }
+     ]
+    },
+    {
+     "nombre": "IC 1805 (Corazon)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 38.21,
+     "dec": 61.4711,
+     "nota": "",
+     "horas_si_despeja": 6.9,
+     "horas_esperadas": 6.0,
+     "horas_sobre_minimo": 9.8,
+     "altura_maxima": 66.5,
+     "separacion_luna": 84.6,
+     "mejor_hora": "2026-08-30T03:59+00:00",
+     "veredicto": "recomendado",
+     "porque": "6.9 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 27.3,
+       "az": 31.4
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 30.5,
+       "az": 33.3
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 33.8,
+       "az": 34.9
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 37.2,
+       "az": 36.1
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 40.7,
+       "az": 36.9
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 44.3,
+       "az": 37.2
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 47.9,
+       "az": 37.0
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 51.4,
+       "az": 36.0
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 54.8,
+       "az": 34.3
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 58.0,
+       "az": 31.4
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 60.9,
+       "az": 27.3
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 63.4,
+       "az": 21.8
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 65.3,
+       "az": 14.7
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 66.3,
+       "az": 6.4
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 65.4,
+       "az": 346.1
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 58.3,
+       "az": 328.9
+      }
+     ]
+    },
+    {
+     "nombre": "IC 1848 (Alma)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 42.855,
+     "dec": 60.4189,
+     "nota": "",
+     "horas_si_despeja": 6.4,
+     "horas_esperadas": 5.7,
+     "horas_sobre_minimo": 9.3,
+     "altura_maxima": 67.6,
+     "separacion_luna": 86.1,
+     "mejor_hora": "2026-08-30T04:29+00:00",
+     "veredicto": "recomendado",
+     "porque": "6.4 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 28.0,
+       "az": 33.2
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 31.3,
+       "az": 35.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 34.8,
+       "az": 36.6
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 38.3,
+       "az": 37.8
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 42.0,
+       "az": 38.5
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 45.7,
+       "az": 38.7
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 49.4,
+       "az": 38.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 53.0,
+       "az": 37.2
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 56.5,
+       "az": 35.0
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 59.8,
+       "az": 31.8
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 62.7,
+       "az": 27.0
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 65.1,
+       "az": 20.6
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 66.8,
+       "az": 12.6
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 67.1,
+       "az": 350.5
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 60.8,
+       "az": 329.7
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 7000 (Norteamérica)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 314.75,
+     "dec": 44.52,
+     "nota": "banda estrecha: aprovecha noches de Luna",
+     "horas_si_despeja": 5.6,
+     "horas_esperadas": 4.9,
+     "horas_sobre_minimo": 11.1,
+     "altura_maxima": 83.5,
+     "separacion_luna": 57.7,
+     "mejor_hora": "2026-08-29T19:39+00:00",
+     "veredicto": "recomendado",
+     "porque": "5.6 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 35.7,
+       "az": 57.6
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 51.1,
+       "az": 63.3
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 63.6,
+       "az": 64.8
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 68.9,
+       "az": 63.6
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 74.1,
+       "az": 59.8
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 79.0,
+       "az": 50.3
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 82.8,
+       "az": 25.5
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 83.1,
+       "az": 341.0
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 79.7,
+       "az": 312.4
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 75.0,
+       "az": 301.2
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 69.8,
+       "az": 296.8
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 64.4,
+       "az": 295.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 59.1,
+       "az": 295.3
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 53.8,
+       "az": 296.0
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 48.5,
+       "az": 297.4
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 43.3,
+       "az": 299.2
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 38.2,
+       "az": 301.2
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 33.2,
+       "az": 303.6
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 6888 (Creciente)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 303.0273,
+     "dec": 38.3549,
+     "nota": "",
+     "horas_si_despeja": 5.0,
+     "horas_esperadas": 4.4,
+     "horas_sobre_minimo": 9.9,
+     "altura_maxima": 89.7,
+     "separacion_luna": 57.6,
+     "mejor_hora": "2026-08-29T20:09+00:00",
+     "veredicto": "recomendado",
+     "porque": "5.0 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 41.7,
+       "az": 69.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 58.6,
+       "az": 76.7
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 72.2,
+       "az": 82.0
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 78.1,
+       "az": 84.0
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 84.0,
+       "az": 85.0
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 89.7,
+       "az": 27.4
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 84.2,
+       "az": 275.0
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 78.3,
+       "az": 276.0
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 72.5,
+       "az": 277.9
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 66.6,
+       "az": 280.0
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 60.8,
+       "az": 282.4
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 55.1,
+       "az": 284.8
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 49.4,
+       "az": 287.3
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 43.8,
+       "az": 290.0
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 38.3,
+       "az": 292.8
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 32.9,
+       "az": 295.7
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 27.6,
+       "az": 298.7
+      }
+     ]
+    },
+    {
+     "nombre": "Velo (NGC 6960)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 311.66,
+     "dec": 30.72,
+     "nota": "",
      "horas_si_despeja": 3.3,
      "horas_esperadas": 2.9,
+     "horas_sobre_minimo": 10.1,
+     "altura_maxima": 82.6,
+     "separacion_luna": 47.2,
+     "mejor_hora": "2026-08-29T19:39+00:00",
      "veredicto": "recomendado",
-     "porque": "3.3 h equivalentes si despeja"
+     "porque": "3.3 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 32.0,
+       "az": 73.9
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 49.5,
+       "az": 85.2
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 63.2,
+       "az": 96.4
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 69.1,
+       "az": 103.3
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 74.7,
+       "az": 113.7
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 79.7,
+       "az": 132.6
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 82.6,
+       "az": 171.2
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 81.1,
+       "az": 216.6
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 76.5,
+       "az": 241.0
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 71.1,
+       "az": 253.6
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 65.3,
+       "az": 261.4
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 59.4,
+       "az": 267.2
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 53.5,
+       "az": 271.9
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 47.6,
+       "az": 276.1
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 41.8,
+       "az": 279.9
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 36.0,
+       "az": 283.6
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 30.3,
+       "az": 287.2
+      }
+     ]
+    },
+    {
+     "nombre": "M1 (Cangrejo)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 83.6324,
+     "dec": 22.0174,
+     "nota": "resto de supernova: Halfa y OIII",
+     "horas_si_despeja": 2.5,
+     "horas_esperadas": 2.2,
+     "horas_sobre_minimo": 4.4,
+     "altura_maxima": 72.4,
+     "separacion_luna": 107.8,
+     "mejor_hora": "2026-08-30T04:29+00:00",
+     "veredicto": "recomendado",
+     "porque": "2.5 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 26.2,
+       "az": 81.7
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 32.1,
+       "az": 86.0
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 38.0,
+       "az": 90.5
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 43.9,
+       "az": 95.4
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 57.4,
+       "az": 110.0
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 71.5,
+       "az": 147.6
+      }
+     ]
+    },
+    {
+     "nombre": "M16 (Aguila)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 274.688,
+     "dec": -13.792,
+     "nota": "los Pilares piden focal larga",
+     "horas_si_despeja": 1.7,
+     "horas_esperadas": 1.5,
+     "horas_sobre_minimo": 5.1,
+     "altura_maxima": 38.0,
+     "separacion_luna": 61.6,
+     "mejor_hora": "2026-08-29T19:39+00:00",
+     "veredicto": "recomendado",
+     "porque": "1.7 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 28.8,
+       "az": 141.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 36.8,
+       "az": 165.3
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 37.8,
+       "az": 186.7
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 36.6,
+       "az": 195.8
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 34.6,
+       "az": 204.4
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 31.8,
+       "az": 212.5
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 28.3,
+       "az": 219.9
+      }
+     ]
+    },
+    {
+     "nombre": "M17 (Omega)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 275.1958,
+     "dec": -16.1717,
+     "nota": "",
+     "horas_si_despeja": 1.5,
+     "horas_esperadas": 1.4,
+     "horas_sobre_minimo": 4.9,
+     "altura_maxima": 35.6,
+     "separacion_luna": 61.0,
+     "mejor_hora": "2026-08-29T19:39+00:00",
+     "veredicto": "posible",
+     "porque": "1.5 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 26.4,
+       "az": 141.8
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 34.4,
+       "az": 165.3
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 35.5,
+       "az": 185.8
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 34.4,
+       "az": 194.6
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 32.5,
+       "az": 202.9
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 29.9,
+       "az": 210.8
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 26.5,
+       "az": 218.0
+      }
+     ]
+    },
+    {
+     "nombre": "IC 434 (Cabeza de Caballo)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 85.25,
+     "dec": -2.5,
+     "nota": "",
+     "horas_si_despeja": 0.9,
+     "horas_esperadas": 0.8,
+     "horas_sobre_minimo": 3.1,
+     "altura_maxima": 48.4,
+     "separacion_luna": 106.5,
+     "mejor_hora": "2026-08-30T04:29+00:00",
+     "veredicto": "posible",
+     "porque": "0.9 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 27.0,
+       "az": 117.6
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 38.2,
+       "az": 133.6
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 47.8,
+       "az": 161.8
+      }
+     ]
+    },
+    {
+     "nombre": "M8 (Laguna)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 270.9042,
+     "dec": -24.3867,
+     "nota": "",
+     "horas_si_despeja": 0.8,
+     "horas_esperadas": 0.7,
+     "horas_sobre_minimo": 2.5,
+     "altura_maxima": 27.4,
+     "separacion_luna": 65.0,
+     "mejor_hora": "2026-08-29T19:39+00:00",
+     "veredicto": "posible",
+     "porque": "0.8 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 27.0,
+       "az": 171.5
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 26.9,
+       "az": 189.4
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 25.5,
+       "az": 196.9
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 2237 (Roseta)",
+     "tipo": "nebula",
+     "clase": "narrowband",
+     "ra": 97.6504,
+     "dec": 4.9807,
+     "nota": "",
+     "horas_si_despeja": 0.4,
+     "horas_esperadas": 0.4,
+     "horas_sobre_minimo": 2.4,
+     "altura_maxima": 51.2,
+     "separacion_luna": 120.0,
+     "mejor_hora": "2026-08-30T04:29+00:00",
+     "veredicto": "poco rentable",
+     "porque": "0.4 h equivalentes si despeja",
+     "traza": [
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 35.9,
+       "az": 115.7
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 50.0,
+       "az": 139.9
+      }
+     ]
+    },
+    {
+     "nombre": "Cruz de Einstein (Q2237+0305)",
+     "tipo": "lens",
+     "clase": "compacto_resolucion",
+     "ra": 340.13,
+     "dec": 3.36,
+     "nota": "componentes a 1.8 arcsec: solo con seeing excepcional",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 8.0,
+     "altura_maxima": 55.3,
+     "separacion_luna": 12.7,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 19.5 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 25.5,
+       "az": 106.8
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 31.1,
+       "az": 112.5
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 36.4,
+       "az": 118.9
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 41.4,
+       "az": 126.1
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 45.9,
+       "az": 134.4
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 49.8,
+       "az": 144.0
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 52.8,
+       "az": 155.0
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 54.7,
+       "az": 167.3
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 55.3,
+       "az": 180.4
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 54.6,
+       "az": 193.4
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 52.6,
+       "az": 205.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 49.6,
+       "az": 216.6
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 45.7,
+       "az": 226.1
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 41.1,
+       "az": 234.3
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 36.1,
+       "az": 241.5
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 30.8,
+       "az": 247.8
+      }
+     ]
+    },
+    {
+     "nombre": "IFN en M81/M82",
+     "tipo": "ifn",
+     "clase": "extremo_contraste",
+     "ra": 148.9,
+     "dec": 69.1,
+     "nota": "el target mas exigente en contraste que existe: sin Luna o nada",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 5.5,
+     "altura_maxima": 41.1,
+     "separacion_luna": 119.8,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 21.3 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 34.9,
+       "az": 334.1
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 27.6,
+       "az": 338.2
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 26.9,
+       "az": 21.2
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 32.3,
+       "az": 24.8
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 40.2,
+       "az": 27.1
+      }
+     ]
+    },
+    {
+     "nombre": "M101 (Molinete)",
+     "tipo": "galaxy",
+     "clase": "bajo_contraste",
+     "ra": 210.8024,
+     "dec": 54.3488,
+     "nota": "brillo superficial bajo",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 4.8,
+     "altura_maxima": 64.4,
+     "separacion_luna": 118.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 64.4,
+       "az": 318.4
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 51.7,
+       "az": 312.0
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 41.5,
+       "az": 313.0
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 37.2,
+       "az": 314.3
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 33.0,
+       "az": 316.0
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 29.0,
+       "az": 318.1
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 25.1,
+       "az": 320.4
+      }
+     ]
+    },
+    {
+     "nombre": "M104 (Sombrero)",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 189.9976,
+     "dec": -11.6231,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 0.0,
+     "altura_maxima": 21.6,
+     "separacion_luna": 141.5,
+     "mejor_hora": null,
+     "veredicto": "no observable",
+     "porque": "no sube de 25 grados esta noche",
+     "traza": []
+    },
+    {
+     "nombre": "M106",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 184.7401,
+     "dec": 47.3037,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 2.6,
+     "altura_maxima": 49.2,
+     "separacion_luna": 135.6,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 49.2,
+       "az": 301.1
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 34.4,
+       "az": 306.3
+      }
+     ]
+    },
+    {
+     "nombre": "M13",
+     "tipo": "cluster",
+     "clase": "normal",
+     "ra": 250.42,
+     "dec": 36.46,
+     "nota": "poco exigente: buen plan de noche mediocre",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 6.3,
+     "altura_maxima": 87.2,
+     "separacion_luna": 93.3,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 81.7,
+       "az": 99.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 80.0,
+       "az": 263.6
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 66.3,
+       "az": 275.1
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 60.4,
+       "az": 278.3
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 54.6,
+       "az": 281.4
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 48.8,
+       "az": 284.4
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 43.1,
+       "az": 287.4
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 37.5,
+       "az": 290.4
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 32.0,
+       "az": 293.5
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 26.7,
+       "az": 296.7
+      }
+     ]
+    },
+    {
+     "nombre": "M15",
+     "tipo": "cluster",
+     "clase": "normal",
+     "ra": 322.493,
+     "dec": 12.167,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 9.2,
+     "altura_maxima": 64.1,
+     "separacion_luna": 26.2,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 31.2,
+       "az": 99.2
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 44.4,
+       "az": 113.0
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 49.7,
+       "az": 120.5
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 54.5,
+       "az": 129.6
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 58.7,
+       "az": 140.6
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 61.9,
+       "az": 154.0
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 63.8,
+       "az": 169.6
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 64.0,
+       "az": 186.3
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 62.5,
+       "az": 202.4
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 59.6,
+       "az": 216.4
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 55.6,
+       "az": 227.9
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 50.9,
+       "az": 237.4
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 45.7,
+       "az": 245.2
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 40.2,
+       "az": 251.9
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 34.5,
+       "az": 257.7
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 28.7,
+       "az": 263.0
+      }
+     ]
+    },
+    {
+     "nombre": "M20 (Trifida)",
+     "tipo": "nebula",
+     "clase": "normal",
+     "ra": 270.675,
+     "dec": -22.9717,
+     "nota": "mezcla emision y reflexion: no es solo banda estrecha",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 3.3,
+     "altura_maxima": 28.9,
+     "separacion_luna": 65.2,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 28.4,
+       "az": 171.5
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 28.2,
+       "az": 189.9
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 26.8,
+       "az": 197.5
+      }
+     ]
+    },
+    {
+     "nombre": "M22",
+     "tipo": "cluster",
+     "clase": "normal",
+     "ra": 279.0997,
+     "dec": -23.9047,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 2.7,
+     "altura_maxima": 27.9,
+     "separacion_luna": 57.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 26.0,
+       "az": 163.2
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 27.9,
+       "az": 181.1
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 27.4,
+       "az": 188.8
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 26.1,
+       "az": 196.4
+      }
+     ]
+    },
+    {
+     "nombre": "M27 (Dumbbell)",
+     "tipo": "planetary",
+     "clase": "normal",
+     "ra": 299.9,
+     "dec": 22.72,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 8.9,
+     "altura_maxima": 74.6,
+     "separacion_luna": 48.9,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 37.2,
+       "az": 88.7
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 54.8,
+       "az": 105.0
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 67.2,
+       "az": 126.8
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 71.4,
+       "az": 142.5
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 74.1,
+       "az": 164.3
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 74.4,
+       "az": 190.0
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 72.2,
+       "az": 213.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 68.3,
+       "az": 230.1
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 63.4,
+       "az": 242.1
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 57.9,
+       "az": 251.0
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 52.2,
+       "az": 257.9
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 46.4,
+       "az": 263.6
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 40.5,
+       "az": 268.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 34.6,
+       "az": 273.2
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 28.7,
+       "az": 277.6
+      }
+     ]
+    },
+    {
+     "nombre": "M31",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 10.68,
+     "dec": 41.27,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 10.3,
+     "altura_maxima": 86.7,
+     "separacion_luna": 58.7,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 28.7,
+       "az": 58.1
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 33.8,
+       "az": 60.9
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 39.1,
+       "az": 63.5
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 44.4,
+       "az": 65.9
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 49.8,
+       "az": 68.1
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 55.4,
+       "az": 70.0
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 61.0,
+       "az": 71.5
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 66.6,
+       "az": 72.4
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 72.2,
+       "az": 72.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 77.8,
+       "az": 69.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 83.2,
+       "az": 59.0
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 86.7,
+       "az": 3.6
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 83.6,
+       "az": 302.6
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 78.2,
+       "az": 290.6
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 72.6,
+       "az": 287.8
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 59.5,
+       "az": 288.9
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 43.0,
+       "az": 294.7
+      }
+     ]
+    },
+    {
+     "nombre": "M33 (Triangulo)",
+     "tipo": "galaxy",
+     "clase": "bajo_contraste",
+     "ra": 23.4621,
+     "dec": 30.6602,
+     "nota": "brillo superficial bajo: enganosa",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 8.9,
+     "altura_maxima": 82.6,
+     "separacion_luna": 59.0,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 25.1,
+       "az": 69.5
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 30.7,
+       "az": 73.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 36.5,
+       "az": 76.8
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 42.3,
+       "az": 80.5
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 48.1,
+       "az": 84.3
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 54.0,
+       "az": 88.5
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 59.9,
+       "az": 93.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 65.8,
+       "az": 99.2
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 71.6,
+       "az": 107.4
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 77.0,
+       "az": 120.5
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 81.3,
+       "az": 146.6
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 82.5,
+       "az": 193.0
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 79.3,
+       "az": 229.5
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 66.6,
+       "az": 259.8
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 48.9,
+       "az": 275.1
+      }
+     ]
+    },
+    {
+     "nombre": "M42 (Orion)",
+     "tipo": "nebula",
+     "clase": "normal",
+     "ra": 83.8201,
+     "dec": -5.3876,
+     "nota": "nucleo saturado: exposiciones cortas aparte",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 2.9,
+     "altura_maxima": 45.8,
+     "separacion_luna": 104.6,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 25.9,
+       "az": 120.9
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 36.6,
+       "az": 137.1
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 45.3,
+       "az": 164.8
+      }
+     ]
+    },
+    {
+     "nombre": "M45 (Pleyades)",
+     "tipo": "cluster",
+     "clase": "bajo_contraste",
+     "ra": 56.6008,
+     "dec": 24.1139,
+     "nota": "la nebulosa de reflexion es lo dificil",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 6.4,
+     "altura_maxima": 76.0,
+     "separacion_luna": 83.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 25.0,
+       "az": 78.0
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 30.9,
+       "az": 82.1
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 36.7,
+       "az": 86.3
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 42.6,
+       "az": 90.9
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 48.5,
+       "az": 95.9
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 54.4,
+       "az": 101.7
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 60.1,
+       "az": 108.7
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 65.5,
+       "az": 117.9
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 75.1,
+       "az": 157.8
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 70.2,
+       "az": 229.8
+      }
+     ]
+    },
+    {
+     "nombre": "M51 (halo y puente de marea)",
+     "tipo": "galaxy",
+     "clase": "bajo_contraste",
+     "ra": 202.47,
+     "dec": 47.19,
+     "nota": "el nucleo sale casi siempre; el puente, no",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 3.7,
+     "altura_maxima": 61.2,
+     "separacion_luna": 126.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 61.2,
+       "az": 300.2
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 45.9,
+       "az": 301.8
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 34.4,
+       "az": 306.2
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 29.7,
+       "az": 308.5
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 25.2,
+       "az": 311.2
+      }
+     ]
+    },
+    {
+     "nombre": "M57 (Anillo)",
+     "tipo": "planetary",
+     "clase": "compacto_resolucion",
+     "ra": 283.4,
+     "dec": 33.03,
+     "nota": "pequena: el seeing manda",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 8.4,
+     "altura_maxima": 84.9,
+     "separacion_luna": 66.7,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 19.5 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 54.8,
+       "az": 84.9
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 72.5,
+       "az": 100.6
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 84.3,
+       "az": 152.6
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 83.8,
+       "az": 216.4
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 79.1,
+       "az": 245.8
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 73.4,
+       "az": 258.0
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 67.6,
+       "az": 265.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 61.7,
+       "az": 270.3
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 55.8,
+       "az": 274.5
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 49.9,
+       "az": 278.3
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 44.1,
+       "az": 281.8
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 38.3,
+       "az": 285.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 32.7,
+       "az": 288.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 27.1,
+       "az": 292.2
+      }
+     ]
+    },
+    {
+     "nombre": "M63 (Girasol)",
+     "tipo": "galaxy",
+     "clase": "bajo_contraste",
+     "ra": 198.9553,
+     "dec": 42.0294,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 3.2,
+     "altura_maxima": 58.6,
+     "separacion_luna": 131.2,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 58.6,
+       "az": 290.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 42.2,
+       "az": 295.7
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 30.1,
+       "az": 301.7
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 25.1,
+       "az": 304.7
+      }
+     ]
+    },
+    {
+     "nombre": "M64 (Ojo Negro)",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 194.1821,
+     "dec": 21.6827,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 1.8,
+     "altura_maxima": 47.4,
+     "separacion_luna": 142.8,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 47.4,
+       "az": 260.6
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 29.7,
+       "az": 275.1
+      }
+     ]
+    },
+    {
+     "nombre": "M65",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 169.733,
+     "dec": 13.0923,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 0.0,
+     "altura_maxima": 23.3,
+     "separacion_luna": 167.5,
+     "mejor_hora": null,
+     "veredicto": "no observable",
+     "porque": "no sube de 25 grados esta noche",
+     "traza": []
+    },
+    {
+     "nombre": "M66",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 170.0626,
+     "dec": 12.9915,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 0.0,
+     "altura_maxima": 23.5,
+     "separacion_luna": 167.2,
+     "mejor_hora": null,
+     "veredicto": "no observable",
+     "porque": "no sube de 25 grados esta noche",
+     "traza": []
+    },
+    {
+     "nombre": "M78",
+     "tipo": "nebula",
+     "clase": "bajo_contraste",
+     "ra": 86.6908,
+     "dec": 0.0792,
+     "nota": "reflexion: nada de banda estrecha",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 3.1,
+     "altura_maxima": 50.6,
+     "separacion_luna": 108.4,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 27.8,
+       "az": 114.3
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 39.5,
+       "az": 130.2
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 49.9,
+       "az": 158.6
+      }
+     ]
+    },
+    {
+     "nombre": "M81",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 148.89,
+     "dec": 69.07,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 5.5,
+     "altura_maxima": 41.1,
+     "separacion_luna": 119.8,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 34.9,
+       "az": 334.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 27.6,
+       "az": 338.2
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 26.9,
+       "az": 21.2
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 32.3,
+       "az": 24.9
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 40.2,
+       "az": 27.1
+      }
+     ]
+    },
+    {
+     "nombre": "M82 (Cigarro)",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 148.9685,
+     "dec": 69.6797,
+     "nota": "los chorros de Halfa piden filtro",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 5.7,
+     "altura_maxima": 41.1,
+     "separacion_luna": 119.2,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 35.1,
+       "az": 334.7
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 28.0,
+       "az": 338.7
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 25.3,
+       "az": 18.7
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 27.3,
+       "az": 20.7
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 32.5,
+       "az": 24.2
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 40.2,
+       "az": 26.3
+      }
+     ]
+    },
+    {
+     "nombre": "M92",
+     "tipo": "cluster",
+     "clase": "normal",
+     "ra": 259.2808,
+     "dec": 43.1359,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 7.3,
+     "altura_maxima": 84.4,
+     "separacion_luna": 88.0,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 74.8,
+       "az": 65.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 84.4,
+       "az": 332.9
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 73.3,
+       "az": 293.9
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 67.9,
+       "az": 292.0
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 62.4,
+       "az": 291.9
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 56.9,
+       "az": 292.7
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 51.5,
+       "az": 294.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 46.1,
+       "az": 295.9
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 40.9,
+       "az": 298.0
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 35.7,
+       "az": 300.4
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 30.7,
+       "az": 303.0
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 25.8,
+       "az": 305.8
+      }
+     ]
+    },
+    {
+     "nombre": "M97 (Lechuza)",
+     "tipo": "planetary",
+     "clase": "compacto_resolucion",
+     "ra": 168.6988,
+     "dec": 55.019,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 2.2,
+     "altura_maxima": 40.5,
+     "separacion_luna": 133.4,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 19.5 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 40.5,
+       "az": 314.2
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 28.3,
+       "az": 319.3
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 27.5,
+       "az": 40.2
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 253",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 11.8881,
+     "dec": -25.2888,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 2.0,
+     "altura_maxima": 26.7,
+     "separacion_luna": 35.9,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 26.1,
+       "az": 171.0
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 26.7,
+       "az": 178.5
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 26.4,
+       "az": 186.1
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 25.4,
+       "az": 193.6
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 2903",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 143.0421,
+     "dec": 21.5008,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 0.4,
+     "altura_maxima": 30.4,
+     "separacion_luna": 161.0,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 28.4,
+       "az": 84.2
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 4565 (Aguja)",
+     "tipo": "galaxy",
+     "clase": "normal",
+     "ra": 189.0867,
+     "dec": 25.9874,
+     "nota": "",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 1.8,
+     "altura_maxima": 45.6,
+     "separacion_luna": 145.8,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.0 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 45.6,
+       "az": 269.4
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 28.0,
+       "az": 282.1
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 7023 (Iris)",
+     "tipo": "nebula",
+     "clase": "bajo_contraste",
+     "ra": 315.4038,
+     "dec": 68.1633,
+     "nota": "reflexion mas polvo: banda ancha y cielo oscuro",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 13.0,
+     "altura_maxima": 59.9,
+     "separacion_luna": 79.0,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T17:39+00:00",
+       "alt": 40.5,
+       "az": 28.0
+      },
+      {
+       "t": "2026-08-29T19:09+00:00",
+       "alt": 48.7,
+       "az": 26.4
+      },
+      {
+       "t": "2026-08-29T20:19+00:00",
+       "alt": 54.3,
+       "az": 21.3
+      },
+      {
+       "t": "2026-08-29T20:49+00:00",
+       "alt": 56.3,
+       "az": 17.9
+      },
+      {
+       "t": "2026-08-29T21:19+00:00",
+       "alt": 58.0,
+       "az": 13.8
+      },
+      {
+       "t": "2026-08-29T21:49+00:00",
+       "alt": 59.1,
+       "az": 8.9
+      },
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 59.8,
+       "az": 3.6
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 59.9,
+       "az": 358.1
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 59.4,
+       "az": 352.6
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 58.4,
+       "az": 347.6
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 56.9,
+       "az": 343.2
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 55.0,
+       "az": 339.6
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 52.8,
+       "az": 336.7
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 50.3,
+       "az": 334.6
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 47.7,
+       "az": 333.1
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 45.0,
+       "az": 332.2
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 42.2,
+       "az": 331.9
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 39.4,
+       "az": 332.1
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 33.1,
+       "az": 333.9
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 25.9,
+       "az": 338.7
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 7293 (Helix)",
+     "tipo": "planetary",
+     "clase": "narrowband",
+     "ra": 337.4106,
+     "dec": -20.8372,
+     "nota": "baja desde Nerpio: mira la altura",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 3.8,
+     "altura_maxima": 31.1,
+     "separacion_luna": 11.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 19.5 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 25.8,
+       "az": 151.7
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 28.3,
+       "az": 159.1
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 30.0,
+       "az": 166.9
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 31.0,
+       "az": 175.0
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 31.1,
+       "az": 183.2
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 30.3,
+       "az": 191.3
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 28.8,
+       "az": 199.2
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 26.5,
+       "az": 206.7
+      }
+     ]
+    },
+    {
+     "nombre": "NGC 891",
+     "tipo": "galaxy",
+     "clase": "bajo_contraste",
+     "ra": 35.6371,
+     "dec": 42.3483,
+     "nota": "canal de polvo: pide resolucion y cielo",
+     "horas_si_despeja": 0.0,
+     "horas_esperadas": 0.0,
+     "horas_sobre_minimo": 8.6,
+     "altura_maxima": 85.7,
+     "separacion_luna": 73.5,
+     "mejor_hora": null,
+     "veredicto": "poco rentable",
+     "porque": "el cielo no baja de 20.9 mag/arcsec2 esta noche: esta clase no cuaja",
+     "traza": [
+      {
+       "t": "2026-08-29T22:19+00:00",
+       "alt": 27.6,
+       "az": 56.1
+      },
+      {
+       "t": "2026-08-29T22:49+00:00",
+       "alt": 32.6,
+       "az": 58.9
+      },
+      {
+       "t": "2026-08-29T23:19+00:00",
+       "alt": 37.7,
+       "az": 61.5
+      },
+      {
+       "t": "2026-08-29T23:49+00:00",
+       "alt": 43.0,
+       "az": 63.8
+      },
+      {
+       "t": "2026-08-30T00:19+00:00",
+       "alt": 48.3,
+       "az": 65.9
+      },
+      {
+       "t": "2026-08-30T00:49+00:00",
+       "alt": 53.8,
+       "az": 67.6
+      },
+      {
+       "t": "2026-08-30T01:19+00:00",
+       "alt": 59.2,
+       "az": 69.0
+      },
+      {
+       "t": "2026-08-30T01:49+00:00",
+       "alt": 64.8,
+       "az": 69.7
+      },
+      {
+       "t": "2026-08-30T02:19+00:00",
+       "alt": 70.3,
+       "az": 69.4
+      },
+      {
+       "t": "2026-08-30T02:49+00:00",
+       "alt": 75.8,
+       "az": 66.7
+      },
+      {
+       "t": "2026-08-30T03:19+00:00",
+       "alt": 81.1,
+       "az": 57.9
+      },
+      {
+       "t": "2026-08-30T03:49+00:00",
+       "alt": 85.2,
+       "az": 24.9
+      },
+      {
+       "t": "2026-08-30T04:59+00:00",
+       "alt": 77.9,
+       "az": 295.5
+      },
+      {
+       "t": "2026-08-30T06:29+00:00",
+       "alt": 61.4,
+       "az": 290.6
+      }
+     ]
+    }
+   ],
+   "consejos": [
+    {
+     "clave": "ifn_luna",
+     "tecnica": "luminancia",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "Nada de IFN ni de halos",
+     "texto": "El contraste extremo necesita 21.3 mag/arcsec2 y esta noche el cielo se queda en 17.1. Con la Luna al 97 % no hay integracion que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
+    },
+    {
+     "clave": "oiii_luna",
+     "tecnica": "oiii",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "OIII no, aunque sea banda estrecha",
+     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa mas (Rayleigh va como lambda^-4), asi que NO se comporta como el Halfa: con la Luna al 97 % el fondo en OIII sube mucho mas que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
+    },
+    {
+     "clave": "rgb_luna_alta",
+     "tecnica": "rgb",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "Hoy no saques RGB de campo profundo",
+     "texto": "La Luna esta al 97 % y el fondo de cielo se queda en 17.1 mag/arcsec2, por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La senal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
+    },
+    {
+     "clave": "nubes_bueno",
+     "tecnica": "cualquiera",
+     "problema": "nubes",
+     "severidad": "aprovecha",
+     "titulo": "Noche estable: empieza por lo largo",
+     "texto": "88 % de probabilidad de noche utilizable. Si tienes un proyecto que necesita muchas horas seguidas -- mosaicos, banda estrecha profunda -- esta es la noche para adelantarlo."
+    },
+    {
+     "clave": "halfa_luna",
+     "tecnica": "halfa",
+     "problema": "luna",
+     "severidad": "aprovecha",
+     "titulo": "Noche de Halfa: aprovechala",
+     "texto": "La Luna al 97 % es justo la noche que el Halfa esta hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, asi que el fondo que arruina el RGB aqui casi no existe. Es la noche de las nebulosas de emision."
+    },
+    {
+     "clave": "planetaria_luna",
+     "tecnica": "planetaria",
+     "problema": "luna",
+     "severidad": "aprovecha",
+     "titulo": "A la Luna y a los planetas les da igual la Luna",
+     "texto": "Con la Luna al 97 % el cielo profundo esta comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
+    },
+    {
+     "clave": "seeing_bueno",
+     "tecnica": "planetaria",
+     "problema": "seeing",
+     "severidad": "aprovecha",
+     "titulo": "Seeing favorable: gastalo en resolucion",
+     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequenas y de los pares cerrados. Lo extenso y debil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
+    },
+    {
+     "clave": "dualband_luna",
+     "tecnica": "dual",
+     "problema": "luna",
+     "severidad": "cuidado",
+     "titulo": "Con dual-band, la mitad del filtro trabaja a ciegas",
+     "texto": "Un dual-band Ha+OIII con la Luna al 97 % te da un canal bueno y otro ruidoso: el Halfa aguanta y el OIII no. Si el objeto vive del OIII (restos de supernova, planetarias), esta noche va a salir desequilibrado."
     }
    ]
   },
@@ -327,32 +3067,571 @@
    },
    "recomendaciones": [
     {
+     "objeto": "NGC 7635 (Burbuja)",
+     "clase": "narrowband",
+     "horas_si_despeja": 8.7,
+     "horas_esperadas": 7.6,
+     "veredicto": "recomendado",
+     "porque": "8.7 h equivalentes si despeja"
+    },
+    {
+     "objeto": "IC 1396 (Trompa del Elefante)",
+     "clase": "narrowband",
+     "horas_si_despeja": 8.6,
+     "horas_esperadas": 7.6,
+     "veredicto": "recomendado",
+     "porque": "8.6 h equivalentes si despeja"
+    },
+    {
      "objeto": "NGC 7000 (Norteamérica)",
      "clase": "narrowband",
      "horas_si_despeja": 7.0,
      "horas_esperadas": 6.1,
      "veredicto": "recomendado",
      "porque": "7.0 h equivalentes si despeja"
+    }
+   ],
+   "objetos": [],
+   "consejos": [
+    {
+     "clave": "ifn_luna",
+     "tecnica": "luminancia",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "Nada de IFN ni de halos",
+     "texto": "El contraste extremo necesita 21.3 mag/arcsec2 y esta noche el cielo se queda en 17.0. Con la Luna al 92 % no hay integracion que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
     },
     {
-     "objeto": "Velo (NGC 6960)",
-     "clase": "narrowband",
-     "horas_si_despeja": 4.5,
-     "horas_esperadas": 3.9,
-     "veredicto": "recomendado",
-     "porque": "4.5 h equivalentes si despeja"
+     "clave": "oiii_luna",
+     "tecnica": "oiii",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "OIII no, aunque sea banda estrecha",
+     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa mas (Rayleigh va como lambda^-4), asi que NO se comporta como el Halfa: con la Luna al 92 % el fondo en OIII sube mucho mas que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
     },
     {
-     "objeto": "M57 (Anillo)",
-     "clase": "compacto_resolucion",
-     "horas_si_despeja": 0.2,
-     "horas_esperadas": 0.2,
-     "veredicto": "poco rentable",
-     "porque": "poca altura o cielo demasiado brillante para rendir"
+     "clave": "rgb_luna_alta",
+     "tecnica": "rgb",
+     "problema": "luna",
+     "severidad": "evitar",
+     "titulo": "Hoy no saques RGB de campo profundo",
+     "texto": "La Luna esta al 92 % y el fondo de cielo se queda en 17.0 mag/arcsec2, por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La senal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
+    },
+    {
+     "clave": "nubes_bueno",
+     "tecnica": "cualquiera",
+     "problema": "nubes",
+     "severidad": "aprovecha",
+     "titulo": "Noche estable: empieza por lo largo",
+     "texto": "88 % de probabilidad de noche utilizable. Si tienes un proyecto que necesita muchas horas seguidas -- mosaicos, banda estrecha profunda -- esta es la noche para adelantarlo."
+    },
+    {
+     "clave": "halfa_luna",
+     "tecnica": "halfa",
+     "problema": "luna",
+     "severidad": "aprovecha",
+     "titulo": "Noche de Halfa: aprovechala",
+     "texto": "La Luna al 92 % es justo la noche que el Halfa esta hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, asi que el fondo que arruina el RGB aqui casi no existe. Es la noche de las nebulosas de emision."
+    },
+    {
+     "clave": "planetaria_luna",
+     "tecnica": "planetaria",
+     "problema": "luna",
+     "severidad": "aprovecha",
+     "titulo": "A la Luna y a los planetas les da igual la Luna",
+     "texto": "Con la Luna al 92 % el cielo profundo esta comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
+    },
+    {
+     "clave": "seeing_bueno",
+     "tecnica": "planetaria",
+     "problema": "seeing",
+     "severidad": "aprovecha",
+     "titulo": "Seeing favorable: gastalo en resolucion",
+     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequenas y de los pares cerrados. Lo extenso y debil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
+    },
+    {
+     "clave": "dualband_luna",
+     "tecnica": "dual",
+     "problema": "luna",
+     "severidad": "cuidado",
+     "titulo": "Con dual-band, la mitad del filtro trabaja a ciegas",
+     "texto": "Un dual-band Ha+OIII con la Luna al 92 % te da un canal bueno y otro ruidoso: el Halfa aguanta y el OIII no. Si el objeto vive del OIII (restos de supernova, planetarias), esta noche va a salir desequilibrado."
     }
    ]
   }
  ],
+ "sensores": {
+  "leido_utc": "2026-08-29T13:03:44+00:00",
+  "medido_utc": "2026-08-29T13:02:07+00:00",
+  "antiguedad_min": 1.6,
+  "fresco": true,
+  "temperatura": 30.1,
+  "humedad": 29.0,
+  "punto_rocio": 10.09,
+  "margen_rocio": 20.0,
+  "riesgo_rocio": "bajo",
+  "viento_ms": 2.2222222222222223,
+  "viento_dir": 257.0,
+  "presion": 848.3,
+  "cielo_ir": -12.72,
+  "cielo_indice": 1.5,
+  "cielo_fresco": true,
+  "cielo_despejado": true,
+  "techos_abiertos": 0,
+  "techos_total": 18,
+  "estado_seguridad": "Unsafe",
+  "incompleto": null
+ },
+ "cupula": {
+  "noche": "2026-08-29",
+  "luna": {
+   "illumination": 0.969,
+   "phase_angle": 22.1,
+   "glow": [
+    {
+     "sep": 5,
+     "mag": 13.99
+    },
+    {
+     "sep": 15,
+     "mag": 15.75
+    },
+    {
+     "sep": 30,
+     "mag": 16.52
+    },
+    {
+     "sep": 50,
+     "mag": 17.55
+    },
+    {
+     "sep": 80,
+     "mag": 19.1
+    },
+    {
+     "sep": 120,
+     "mag": 19.11
+    },
+    {
+     "sep": 170,
+     "mag": 18.64
+    }
+   ]
+  },
+  "marcos": [
+   {
+    "t": "2026-08-29T17:39:13.976355+00:00",
+    "etiqueta": "17:39",
+    "sol_alt": 11.7,
+    "luna_alt": -19.6,
+    "luna_az": 74.4,
+    "cielo_mag": 3.5,
+    "nubes": [
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 14,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 6.3,
+      "cover": 6,
+      "layer": "mid",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 12,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 5.7,
+      "cover": 42,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 61,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 180.0,
+      "alt": 5.7,
+      "cover": 18,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T18:09:13.976355+00:00",
+    "etiqueta": "18:09",
+    "sol_alt": 5.8,
+    "luna_alt": -14.0,
+    "luna_az": 79.2,
+    "cielo_mag": 4.61,
+    "nubes": [
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 14,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 6.3,
+      "cover": 6,
+      "layer": "mid",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 12,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 5.7,
+      "cover": 42,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 61,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 180.0,
+      "alt": 5.7,
+      "cover": 18,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T18:39:13.976355+00:00",
+    "etiqueta": "18:39",
+    "sol_alt": -0.0,
+    "luna_alt": -8.2,
+    "luna_az": 83.7,
+    "cielo_mag": 9.79,
+    "nubes": [
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 6,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 46,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T19:09:13.976355+00:00",
+    "etiqueta": "19:09",
+    "sol_alt": -5.7,
+    "luna_alt": -2.5,
+    "luna_az": 88.2,
+    "cielo_mag": 14.89,
+    "nubes": [
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 6,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 46,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T19:39:13.976355+00:00",
+    "etiqueta": "19:39",
+    "sol_alt": -11.3,
+    "luna_alt": 3.3,
+    "luna_az": 92.6,
+    "cielo_mag": 19.29,
+    "nubes": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 7,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T20:09:13.976355+00:00",
+    "etiqueta": "20:09",
+    "sol_alt": -16.7,
+    "luna_alt": 9.1,
+    "luna_az": 97.0,
+    "cielo_mag": 19.56,
+    "nubes": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 7,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ]
+   },
+   {
+    "t": "2026-08-29T20:39:13.976355+00:00",
+    "etiqueta": "20:39",
+    "sol_alt": -21.9,
+    "luna_alt": 14.9,
+    "luna_az": 101.6,
+    "cielo_mag": 19.19,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T21:09:13.976355+00:00",
+    "etiqueta": "21:09",
+    "sol_alt": -26.7,
+    "luna_alt": 20.5,
+    "luna_az": 106.5,
+    "cielo_mag": 18.83,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T21:39:13.976355+00:00",
+    "etiqueta": "21:39",
+    "sol_alt": -31.1,
+    "luna_alt": 26.1,
+    "luna_az": 111.7,
+    "cielo_mag": 18.51,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T22:09:13.976355+00:00",
+    "etiqueta": "22:09",
+    "sol_alt": -35.0,
+    "luna_alt": 31.4,
+    "luna_az": 117.5,
+    "cielo_mag": 18.21,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T22:39:13.976355+00:00",
+    "etiqueta": "22:39",
+    "sol_alt": -38.2,
+    "luna_alt": 36.5,
+    "luna_az": 123.9,
+    "cielo_mag": 17.93,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T23:09:13.976355+00:00",
+    "etiqueta": "23:09",
+    "sol_alt": -40.7,
+    "luna_alt": 41.2,
+    "luna_az": 131.2,
+    "cielo_mag": 17.68,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-29T23:39:13.976355+00:00",
+    "etiqueta": "23:39",
+    "sol_alt": -42.2,
+    "luna_alt": 45.3,
+    "luna_az": 139.5,
+    "cielo_mag": 17.47,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T00:09:13.976355+00:00",
+    "etiqueta": "00:09",
+    "sol_alt": -42.8,
+    "luna_alt": 48.8,
+    "luna_az": 149.0,
+    "cielo_mag": 17.28,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T00:39:13.976355+00:00",
+    "etiqueta": "00:39",
+    "sol_alt": -42.3,
+    "luna_alt": 51.5,
+    "luna_az": 159.8,
+    "cielo_mag": 17.15,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T01:09:13.976355+00:00",
+    "etiqueta": "01:09",
+    "sol_alt": -40.8,
+    "luna_alt": 53.0,
+    "luna_az": 171.6,
+    "cielo_mag": 17.07,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T01:39:13.976355+00:00",
+    "etiqueta": "01:39",
+    "sol_alt": -38.4,
+    "luna_alt": 53.4,
+    "luna_az": 183.9,
+    "cielo_mag": 17.06,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T02:09:13.976355+00:00",
+    "etiqueta": "02:09",
+    "sol_alt": -35.2,
+    "luna_alt": 52.5,
+    "luna_az": 196.0,
+    "cielo_mag": 17.11,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T02:39:13.976355+00:00",
+    "etiqueta": "02:39",
+    "sol_alt": -31.4,
+    "luna_alt": 50.5,
+    "luna_az": 207.4,
+    "cielo_mag": 17.23,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T03:09:13.976355+00:00",
+    "etiqueta": "03:09",
+    "sol_alt": -27.0,
+    "luna_alt": 47.5,
+    "luna_az": 217.7,
+    "cielo_mag": 17.4,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T03:39:13.976355+00:00",
+    "etiqueta": "03:39",
+    "sol_alt": -22.2,
+    "luna_alt": 43.7,
+    "luna_az": 226.7,
+    "cielo_mag": 17.61,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T04:09:13.976355+00:00",
+    "etiqueta": "04:09",
+    "sol_alt": -17.1,
+    "luna_alt": 39.3,
+    "luna_az": 234.6,
+    "cielo_mag": 17.85,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T04:39:13.976355+00:00",
+    "etiqueta": "04:39",
+    "sol_alt": -11.7,
+    "luna_alt": 34.5,
+    "luna_az": 241.6,
+    "cielo_mag": 17.97,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T05:09:13.976355+00:00",
+    "etiqueta": "05:09",
+    "sol_alt": -6.1,
+    "luna_alt": 29.4,
+    "luna_az": 247.8,
+    "cielo_mag": 15.21,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T05:39:13.976355+00:00",
+    "etiqueta": "05:39",
+    "sol_alt": -0.4,
+    "luna_alt": 24.0,
+    "luna_az": 253.4,
+    "cielo_mag": 10.18,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T06:09:13.976355+00:00",
+    "etiqueta": "06:09",
+    "sol_alt": 5.4,
+    "luna_alt": 18.6,
+    "luna_az": 258.5,
+    "cielo_mag": 5.01,
+    "nubes": []
+   },
+   {
+    "t": "2026-08-30T06:39:13.976355+00:00",
+    "etiqueta": "06:39",
+    "sol_alt": 11.2,
+    "luna_alt": 13.0,
+    "luna_az": 263.4,
+    "cielo_mag": 3.5,
+    "nubes": []
+   }
+  ]
+ },
  "confianza": {
   "calibrado": true,
   "pares_de_entrenamiento": 33799,
