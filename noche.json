@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T16:39:56+00:00",
+ "generado_utc": "2026-08-29T16:49:17+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -152,7 +152,7 @@
       0.7,
       1.3
      ],
-     "jet_ms": 17.0,
+     "jet_ms": 18.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -1432,7 +1432,7 @@
      ],
      "limita": "ccccnnnnnlllllllllllllllllllllllllllllllllllllllll---------",
      "i_max": 15,
-     "i_min": 58,
+     "i_min": 56,
      "i_meridiano": 15
     },
     {
@@ -1641,7 +1641,7 @@
      ],
      "limita": "cccclllllllllllllllllllllllllllllllllllllllllllllll--------",
      "i_max": 18,
-     "i_min": 58,
+     "i_min": 56,
      "i_meridiano": 19
     },
     {
@@ -1829,19 +1829,19 @@
       0.0,
       0.0,
       0.0,
-      0.598,
-      0.657,
-      0.714,
-      0.77,
-      0.824,
-      0.877,
-      0.927,
-      0.975,
-      1.022,
-      1.066,
-      1.108,
-      1.223,
-      0.296,
+      0.596,
+      0.655,
+      0.713,
+      0.768,
+      0.822,
+      0.874,
+      0.925,
+      0.973,
+      1.019,
+      1.063,
+      1.105,
+      1.219,
+      0.295,
       0.0,
       0.0,
       0.0,
@@ -1849,7 +1849,7 @@
      ],
      "limita": "------------------------------------------aaaaaaaaaaanlcccc",
      "i_max": 58,
-     "i_min": 3,
+     "i_min": 28,
      "i_meridiano": 58
     },
     {
@@ -2057,7 +2057,7 @@
      ],
      "limita": "ccccaaallllllllllllll--------------------------------------",
      "i_max": 5,
-     "i_min": 58,
+     "i_min": 35,
      "i_meridiano": 5
     },
     {
@@ -2265,7 +2265,7 @@
      ],
      "limita": "ccccaallllllllllllll---------------------------------------",
      "i_max": 5,
-     "i_min": 58,
+     "i_min": 34,
      "i_meridiano": 5
     },
     {
@@ -2472,7 +2472,7 @@
      ],
      "limita": "--------------------------------------------------aaaalcccc",
      "i_max": 58,
-     "i_min": 3,
+     "i_min": 37,
      "i_meridiano": 58
     },
     {
@@ -2680,7 +2680,7 @@
      ],
      "limita": "--ccaaaaaa-------------------------------------------------",
      "i_max": 4,
-     "i_min": 58,
+     "i_min": 29,
      "i_meridiano": 4
     },
     {
@@ -2887,7 +2887,7 @@
      ],
      "limita": "-----------------------------------------------------alcccc",
      "i_max": 58,
-     "i_min": 5,
+     "i_min": 40,
      "i_meridiano": 58
     },
     {
@@ -3095,7 +3095,7 @@
      ],
      "limita": "------ccccccccccccccccccccccccccccccccccccccccccccccc------",
      "i_max": 29,
-     "i_min": 0,
+     "i_min": 1,
      "i_meridiano": 30
     },
     {
@@ -3717,7 +3717,7 @@
      ],
      "limita": "-----------------------------------------------------------",
      "i_max": 0,
-     "i_min": 42,
+     "i_min": 4,
      "i_meridiano": 0
     },
     {
@@ -3923,7 +3923,7 @@
      ],
      "limita": "cccccc-----------------------------------------------------",
      "i_max": 0,
-     "i_min": 39,
+     "i_min": 26,
      "i_meridiano": 0
     },
     {
@@ -4131,7 +4131,7 @@
      ],
      "limita": "cccccccccccccccccccccccccccc-------------------------------",
      "i_max": 1,
-     "i_min": 57,
+     "i_min": 44,
      "i_meridiano": 1
     },
     {
@@ -4337,7 +4337,7 @@
      ],
      "limita": "--cccccccccccccccccccccccccccccccccccccccccccccccc---------",
      "i_max": 23,
-     "i_min": 58,
+     "i_min": 55,
      "i_meridiano": 23
     },
     {
@@ -4545,7 +4545,7 @@
      ],
      "limita": "-ccccccccccc-----------------------------------------------",
      "i_max": 4,
-     "i_min": 58,
+     "i_min": 30,
      "i_meridiano": 4
     },
     {
@@ -4751,7 +4751,7 @@
      ],
      "limita": "---ccccccccccc---------------------------------------------",
      "i_max": 5,
-     "i_min": 58,
+     "i_min": 33,
      "i_meridiano": 6
     },
     {
@@ -4959,7 +4959,7 @@
      ],
      "limita": "cccccccccccccccccccccccccccccccccccccccccccc---------------",
      "i_max": 14,
-     "i_min": 58,
+     "i_min": 53,
      "i_meridiano": 14
     },
     {
@@ -5375,7 +5375,7 @@
      ],
      "limita": "---------------cccccccccccccccccccccccccccccccccccccccccccc",
      "i_max": 47,
-     "i_min": 0,
+     "i_min": 4,
      "i_meridiano": 47
     },
     {
@@ -5583,7 +5583,7 @@
      ],
      "limita": "---------------------------------------------------cccccccc",
      "i_max": 58,
-     "i_min": 3,
+     "i_min": 38,
      "i_meridiano": 58
     },
     {
@@ -5791,7 +5791,7 @@
      ],
      "limita": "------------------------------ccccccccccccccccccccccccccccc",
      "i_max": 55,
-     "i_min": 0,
+     "i_min": 17,
      "i_meridiano": 55
     },
     {
@@ -5999,7 +5999,7 @@
      ],
      "limita": "ccccccccccccc----------------------------------------------",
      "i_max": 0,
-     "i_min": 46,
+     "i_min": 33,
      "i_meridiano": 0
     },
     {
@@ -6207,7 +6207,7 @@
      ],
      "limita": "ccccccccccccccccccccccccccccccccccccccccc------------------",
      "i_max": 7,
-     "i_min": 58,
+     "i_min": 53,
      "i_meridiano": 7
     },
     {
@@ -6414,7 +6414,7 @@
      ],
      "limita": "cccccccccc-------------------------------------------------",
      "i_max": 0,
-     "i_min": 44,
+     "i_min": 27,
      "i_meridiano": 0
     },
     {
@@ -6621,7 +6621,7 @@
      ],
      "limita": "cccc-------------------------------------------------------",
      "i_max": 0,
-     "i_min": 43,
+     "i_min": 14,
      "i_meridiano": 0
     },
     {
@@ -6827,7 +6827,7 @@
      ],
      "limita": "-----------------------------------------------------------",
      "i_max": 0,
-     "i_min": 33,
+     "i_min": 57,
      "i_meridiano": 0
     },
     {
@@ -7033,7 +7033,7 @@
      ],
      "limita": "-----------------------------------------------------------",
      "i_max": 0,
-     "i_min": 34,
+     "i_min": 4,
      "i_meridiano": 0
     },
     {
@@ -7239,7 +7239,7 @@
      ],
      "limita": "--------------------------------------------------ccccccccc",
      "i_max": 58,
-     "i_min": 3,
+     "i_min": 37,
      "i_meridiano": 58
     },
     {
@@ -7860,7 +7860,7 @@
      ],
      "limita": "cccccccccccccccccccccccccccccccccc-------------------------",
      "i_max": 3,
-     "i_min": 58,
+     "i_min": 52,
      "i_meridiano": 3
     },
     {
@@ -8274,7 +8274,7 @@
      ],
      "limita": "-------------------------------------cccccccccccc----------",
      "i_max": 42,
-     "i_min": 0,
+     "i_min": 16,
      "i_meridiano": 43
     },
     {
@@ -8480,7 +8480,7 @@
      ],
      "limita": "---------------------------------------------------------cc",
      "i_max": 58,
-     "i_min": 22,
+     "i_min": 52,
      "i_meridiano": 58
     },
     {
@@ -8687,7 +8687,7 @@
      ],
      "limita": "cccc-------------------------------------------------------",
      "i_max": 0,
-     "i_min": 41,
+     "i_min": 14,
      "i_meridiano": 0
     },
     {
@@ -9102,7 +9102,7 @@
      ],
      "limita": "------------------ccccccccccccccccccccccc------------------",
      "i_max": 28,
-     "i_min": 58,
+     "i_min": 4,
      "i_meridiano": 29
     },
     {
@@ -9308,7 +9308,7 @@
      ],
      "limita": "-----------------cccccccccccccccccccccccccccccccccccccccccc",
      "i_max": 52,
-     "i_min": 0,
+     "i_min": 3,
      "i_meridiano": 52
     }
    ],
@@ -9564,7 +9564,7 @@
       0.8,
       1.3
      ],
-     "jet_ms": 20.0,
+     "jet_ms": 21.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -9712,26 +9712,26 @@
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T16:40:03+00:00",
-  "medido_utc": null,
-  "antiguedad_min": null,
-  "fresco": false,
-  "temperatura": null,
-  "humedad": null,
-  "punto_rocio": null,
-  "margen_rocio": null,
-  "riesgo_rocio": "desconocido",
-  "viento_ms": null,
-  "viento_dir": null,
-  "presion": null,
-  "cielo_ir": -12.82,
-  "cielo_indice": 1.6,
+  "leido_utc": "2026-08-29T16:49:22+00:00",
+  "medido_utc": "2026-08-29T16:48:08+00:00",
+  "antiguedad_min": 1.2,
+  "fresco": true,
+  "temperatura": 27.1,
+  "humedad": 29.0,
+  "punto_rocio": 7.52,
+  "margen_rocio": 19.6,
+  "riesgo_rocio": "bajo",
+  "viento_ms": 1.6666666666666667,
+  "viento_dir": 239.0,
+  "presion": 847.2,
+  "cielo_ir": -13.42,
+  "cielo_indice": 1.8,
   "cielo_fresco": true,
   "cielo_despejado": true,
   "techos_abiertos": 0,
-  "techos_total": 0,
-  "estado_seguridad": null,
-  "incompleto": "Descarga incompleta: falta estaciones meteo, estadística de horas abiertas, techos, registro de seguridad"
+  "techos_total": 18,
+  "estado_seguridad": "Unsafe",
+  "incompleto": null
  },
  "cupula": {
   "sky_tercile": "desfavorable",
