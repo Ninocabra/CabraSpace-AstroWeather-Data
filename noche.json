@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T09:23:53+00:00",
+ "generado_utc": "2026-08-29T11:47:51+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -146,7 +146,7 @@
       0.7,
       1.3
      ],
-     "jet_ms": 19.0,
+     "jet_ms": 16.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -159,7 +159,7 @@
    },
    "recomendaciones": [
     {
-     "objeto": "NGC 7000 (Norteamerica)",
+     "objeto": "NGC 7000 (Norteamérica)",
      "clase": "narrowband",
      "horas_si_despeja": 5.6,
      "horas_esperadas": 4.9,
@@ -314,7 +314,7 @@
       0.8,
       1.3
      ],
-     "jet_ms": 19.0,
+     "jet_ms": 21.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -327,7 +327,7 @@
    },
    "recomendaciones": [
     {
-     "objeto": "NGC 7000 (Norteamerica)",
+     "objeto": "NGC 7000 (Norteamérica)",
      "clase": "narrowband",
      "horas_si_despeja": 7.0,
      "horas_esperadas": 6.1,
@@ -360,7 +360,6 @@
   "modelo_calibrado": "ecmwf_ifs025",
   "curva_ajustada_el": "2026-08-28T10:32:43+00:00",
   "avisos": [
-   "AVISO: se calibro con ecmwf_ifs025 y esta noche no hay nubes de ese modelo, asi que la curva se esta aplicando a otro. La probabilidad vale menos de lo que dice el BSS.",
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos."
   ]
  }
