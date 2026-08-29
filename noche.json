@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T16:49:17+00:00",
+ "generado_utc": "2026-08-29T17:13:38+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -20,6 +20,8 @@
    "luna_iluminacion": 0.969,
    "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
+   "horas_utilizables_oscuras": 7.0,
+   "probabilidad_definicion": "Probabilidad de que haya CONDICIONES para abrir, no de que abran: el techo lo abren personas y un techo cerrado no significa mal tiempo. Por hora es la probabilidad de cielo despejado multiplicada por 0,85 por cada riesgo en vigilancia, y cero si una puerta de seguridad la bloquea. Para la noche se toma la MEJOR hora, siempre que se esperen al menos 4 h utilizables en total; si no, se penaliza en proporcion.",
    "mejor_ventana": {
     "desde": "2026-08-29T18:00:00+00:00",
     "hasta": "2026-08-30T06:00:00+00:00",
@@ -152,7 +154,7 @@
       0.7,
       1.3
      ],
-     "jet_ms": 18.0,
+     "jet_ms": 17.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -1829,19 +1831,19 @@
       0.0,
       0.0,
       0.0,
-      0.596,
-      0.655,
-      0.713,
-      0.768,
-      0.822,
-      0.874,
-      0.925,
-      0.973,
-      1.019,
-      1.063,
-      1.105,
-      1.219,
-      0.295,
+      0.599,
+      0.658,
+      0.715,
+      0.771,
+      0.826,
+      0.878,
+      0.928,
+      0.977,
+      1.023,
+      1.068,
+      1.11,
+      1.224,
+      0.297,
       0.0,
       0.0,
       0.0,
@@ -9417,7 +9419,72 @@
     ],
     "avisos": [],
     "limitante": "luna",
-    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea."
+    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea.",
+    "referencias": [
+     {
+      "tema": "Separación a la Luna",
+      "dice": "El fondo toca su mínimo alrededor de 80-90° del disco; la práctica publicada pide 40° como mínimo en banda ancha cerca de la llena.",
+      "usado_en": [
+       "rgb",
+       "luminancia",
+       "oiii"
+      ]
+     },
+     {
+      "tema": "Filtros estrechos y luz lunar",
+      "dice": "3 nm suprime la Luna bastante mejor que 7-12 nm. Hα y SII aguantan; el OIII no, porque cae en el azul donde Rayleigh va como λ⁻⁴.",
+      "usado_en": [
+       "ha",
+       "oiii",
+       "sii",
+       "dual"
+      ]
+     },
+     {
+      "tema": "Humedad y aerosol (crecimiento higroscópico)",
+      "dice": "Con humedad alta el aerosol capta agua y crece: sube la extinción por encima de la que predice un AOD seco, y cerca del 92 % la ordenación espectral llega a invertirse. También hace que la misma Luna disperse más (Mie).",
+      "usado_en": [
+       "rgb",
+       "luminancia",
+       "oiii",
+       "ir"
+      ]
+     },
+     {
+      "tema": "Vapor de agua e infrarrojo",
+      "dice": "Entre 1 y 10 mm de agua precipitable, la banda J pierde hasta un 21 % de transmisión mientras H y K se mueven menos del 5 %.",
+      "usado_en": [
+       "ir"
+      ]
+     },
+     {
+      "tema": "Seeing y viento en altura",
+      "dice": "El viento a 200 hPa (el chorro, ~12 km) es el predictor de altura habitual y correla con el empeoramiento del seeing; pero la capa de suelo domina y no se mide aquí.",
+      "usado_en": [
+       "planetaria",
+       "planetarias",
+       "ir"
+      ]
+     },
+     {
+      "tema": "Altura y masa de aire",
+      "dice": "A 30° se cruzan ~2 masas de aire y queda cerca del 81 % del flujo cenital; por debajo de 30-35° la dispersión atmosférica empieza a teñir los bordes de las estrellas.",
+      "usado_en": [
+       "galaxias",
+       "emision",
+       "reflexion",
+       "cumulos",
+       "ifn"
+      ]
+     },
+     {
+      "tema": "Rocío",
+      "dice": "Condensa cuando la óptica ALCANZA el punto de rocío; la práctica es mantener las superficies unos grados por encima. El margen que publicamos (aire − rocío) es optimista: el frontal radia al cielo.",
+      "usado_en": [
+       "rocio"
+      ]
+     }
+    ]
    }
   },
   {
@@ -9432,6 +9499,8 @@
    "luna_iluminacion": 0.922,
    "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
+   "horas_utilizables_oscuras": 7.0,
+   "probabilidad_definicion": "Probabilidad de que haya CONDICIONES para abrir, no de que abran: el techo lo abren personas y un techo cerrado no significa mal tiempo. Por hora es la probabilidad de cielo despejado multiplicada por 0,85 por cada riesgo en vigilancia, y cero si una puerta de seguridad la bloquea. Para la noche se toma la MEJOR hora, siempre que se esperen al menos 4 h utilizables en total; si no, se penaliza en proporcion.",
    "mejor_ventana": {
     "desde": "2026-08-30T18:00:00+00:00",
     "hasta": "2026-08-31T06:00:00+00:00",
@@ -9564,7 +9633,7 @@
       0.8,
       1.3
      ],
-     "jet_ms": 21.0,
+     "jet_ms": 20.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -9707,25 +9776,90 @@
     ],
     "avisos": [],
     "limitante": "luna",
-    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea."
+    "resumen": "Adelante con Hα, SII, Infrarrojo y Planetaria y lunar; apunta a nebulosas planetarias. Hoy no: RGB / color, Luminancia, OIII, Galaxias, Nebulosas de reflexión y IFN, halos y colas de marea.",
+    "referencias": [
+     {
+      "tema": "Separación a la Luna",
+      "dice": "El fondo toca su mínimo alrededor de 80-90° del disco; la práctica publicada pide 40° como mínimo en banda ancha cerca de la llena.",
+      "usado_en": [
+       "rgb",
+       "luminancia",
+       "oiii"
+      ]
+     },
+     {
+      "tema": "Filtros estrechos y luz lunar",
+      "dice": "3 nm suprime la Luna bastante mejor que 7-12 nm. Hα y SII aguantan; el OIII no, porque cae en el azul donde Rayleigh va como λ⁻⁴.",
+      "usado_en": [
+       "ha",
+       "oiii",
+       "sii",
+       "dual"
+      ]
+     },
+     {
+      "tema": "Humedad y aerosol (crecimiento higroscópico)",
+      "dice": "Con humedad alta el aerosol capta agua y crece: sube la extinción por encima de la que predice un AOD seco, y cerca del 92 % la ordenación espectral llega a invertirse. También hace que la misma Luna disperse más (Mie).",
+      "usado_en": [
+       "rgb",
+       "luminancia",
+       "oiii",
+       "ir"
+      ]
+     },
+     {
+      "tema": "Vapor de agua e infrarrojo",
+      "dice": "Entre 1 y 10 mm de agua precipitable, la banda J pierde hasta un 21 % de transmisión mientras H y K se mueven menos del 5 %.",
+      "usado_en": [
+       "ir"
+      ]
+     },
+     {
+      "tema": "Seeing y viento en altura",
+      "dice": "El viento a 200 hPa (el chorro, ~12 km) es el predictor de altura habitual y correla con el empeoramiento del seeing; pero la capa de suelo domina y no se mide aquí.",
+      "usado_en": [
+       "planetaria",
+       "planetarias",
+       "ir"
+      ]
+     },
+     {
+      "tema": "Altura y masa de aire",
+      "dice": "A 30° se cruzan ~2 masas de aire y queda cerca del 81 % del flujo cenital; por debajo de 30-35° la dispersión atmosférica empieza a teñir los bordes de las estrellas.",
+      "usado_en": [
+       "galaxias",
+       "emision",
+       "reflexion",
+       "cumulos",
+       "ifn"
+      ]
+     },
+     {
+      "tema": "Rocío",
+      "dice": "Condensa cuando la óptica ALCANZA el punto de rocío; la práctica es mantener las superficies unos grados por encima. El margen que publicamos (aire − rocío) es optimista: el frontal radia al cielo.",
+      "usado_en": [
+       "rocio"
+      ]
+     }
+    ]
    }
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T16:49:22+00:00",
-  "medido_utc": "2026-08-29T16:48:08+00:00",
-  "antiguedad_min": 1.2,
+  "leido_utc": "2026-08-29T17:13:44+00:00",
+  "medido_utc": "2026-08-29T17:12:08+00:00",
+  "antiguedad_min": 1.6,
   "fresco": true,
-  "temperatura": 27.1,
-  "humedad": 29.0,
-  "punto_rocio": 7.52,
-  "margen_rocio": 19.6,
+  "temperatura": 26.0,
+  "humedad": 30.0,
+  "punto_rocio": 7.07,
+  "margen_rocio": 18.9,
   "riesgo_rocio": "bajo",
-  "viento_ms": 1.6666666666666667,
-  "viento_dir": 239.0,
+  "viento_ms": 2.2222222222222223,
+  "viento_dir": 321.0,
   "presion": 847.2,
-  "cielo_ir": -13.42,
-  "cielo_indice": 1.8,
+  "cielo_ir": -13.65,
+  "cielo_indice": 1.5,
   "cielo_fresco": true,
   "cielo_despejado": true,
   "techos_abiertos": 0,
@@ -11384,7 +11518,7 @@
   "curva_ajustada_el": "2026-08-29T12:11:06+00:00",
   "avisos": [
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
-   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 33 horas medidas contra la estacion del sitio prevé el 56 % del viento medio real (-1.7 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
+   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 34 horas medidas contra la estacion del sitio prevé el 56 % del viento medio real (-1.6 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
   ]
  }
 }
