@@ -1,0 +1,367 @@
+{
+ "generado_utc": "2026-08-29T09:23:53+00:00",
+ "sitio": {
+  "nombre": "AstroCamp, Nerpio (Albacete)",
+  "mpc": "I79",
+  "lat": 38.16583,
+  "lon": -2.32672,
+  "altitud_m": 1650.0
+ },
+ "noches": [
+  {
+   "noche": "2026-08-29",
+   "oscuridad_astronomica_h": 7.8,
+   "luna_iluminacion": 0.969,
+   "probabilidad_de_abrir": 0.878,
+   "horas_utilizables_esperadas": 11.4,
+   "mejor_ventana": {
+    "desde": "2026-08-29T18:00:00+00:00",
+    "hasta": "2026-08-30T06:00:00+00:00",
+    "p_media": 0.878
+   },
+   "horas": [
+    {
+     "t_utc": "2026-08-29T18:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-29T19:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-29T20:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-29T21:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-29T22:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-29T23:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T00:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T01:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T02:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T03:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T04:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T05:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T06:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    }
+   ],
+   "cielo": {
+    "mag_cenit_mas_oscuro": 17.06,
+    "seeing": {
+     "tercil": "favorable",
+     "rango_arcsec": [
+      0.7,
+      1.3
+     ],
+     "jet_ms": 19.0,
+     "origen": "ecmwf",
+     "calibrado": false
+    },
+    "transparencia": {
+     "aod": 0.064,
+     "k_total": 0.204,
+     "veredicto": "noche transparente",
+     "origen": "cams"
+    }
+   },
+   "recomendaciones": [
+    {
+     "objeto": "NGC 7000 (Norteamerica)",
+     "clase": "narrowband",
+     "horas_si_despeja": 5.6,
+     "horas_esperadas": 4.9,
+     "veredicto": "recomendado",
+     "porque": "5.6 h equivalentes si despeja"
+    },
+    {
+     "objeto": "Velo (NGC 6960)",
+     "clase": "narrowband",
+     "horas_si_despeja": 3.3,
+     "horas_esperadas": 2.9,
+     "veredicto": "recomendado",
+     "porque": "3.3 h equivalentes si despeja"
+    }
+   ]
+  },
+  {
+   "noche": "2026-08-30",
+   "oscuridad_astronomica_h": 7.8,
+   "luna_iluminacion": 0.922,
+   "probabilidad_de_abrir": 0.878,
+   "horas_utilizables_esperadas": 11.4,
+   "mejor_ventana": {
+    "desde": "2026-08-30T18:00:00+00:00",
+    "hasta": "2026-08-31T06:00:00+00:00",
+    "p_media": 0.878
+   },
+   "horas": [
+    {
+     "t_utc": "2026-08-30T18:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T19:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T20:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T21:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "-",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T22:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-30T23:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T00:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T01:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T02:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T03:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T04:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T05:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    },
+    {
+     "t_utc": "2026-08-31T06:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.878,
+     "p_utilizable": 0.878,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible"
+    }
+   ],
+   "cielo": {
+    "mag_cenit_mas_oscuro": 17.05,
+    "seeing": {
+     "tercil": "favorable",
+     "rango_arcsec": [
+      0.8,
+      1.3
+     ],
+     "jet_ms": 19.0,
+     "origen": "ecmwf",
+     "calibrado": false
+    },
+    "transparencia": {
+     "aod": 0.072,
+     "k_total": 0.212,
+     "veredicto": "noche transparente",
+     "origen": "cams"
+    }
+   },
+   "recomendaciones": [
+    {
+     "objeto": "NGC 7000 (Norteamerica)",
+     "clase": "narrowband",
+     "horas_si_despeja": 7.0,
+     "horas_esperadas": 6.1,
+     "veredicto": "recomendado",
+     "porque": "7.0 h equivalentes si despeja"
+    },
+    {
+     "objeto": "Velo (NGC 6960)",
+     "clase": "narrowband",
+     "horas_si_despeja": 4.5,
+     "horas_esperadas": 3.9,
+     "veredicto": "recomendado",
+     "porque": "4.5 h equivalentes si despeja"
+    },
+    {
+     "objeto": "M57 (Anillo)",
+     "clase": "compacto_resolucion",
+     "horas_si_despeja": 0.2,
+     "horas_esperadas": 0.2,
+     "veredicto": "poco rentable",
+     "porque": "poca altura o cielo demasiado brillante para rendir"
+    }
+   ]
+  }
+ ],
+ "confianza": {
+  "calibrado": true,
+  "pares_de_entrenamiento": 33799,
+  "bss_sobre_climatologia": 0.117,
+  "modelo_calibrado": "ecmwf_ifs025",
+  "curva_ajustada_el": "2026-08-28T10:32:43+00:00",
+  "avisos": [
+   "AVISO: se calibro con ecmwf_ifs025 y esta noche no hay nubes de ese modelo, asi que la curva se esta aplicando a otro. La probabilidad vale menos de lo que dice el BSS.",
+   "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos."
+  ]
+ }
+}
