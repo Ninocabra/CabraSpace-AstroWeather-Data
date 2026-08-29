@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T17:44:57+00:00",
+ "generado_utc": "2026-08-29T19:26:18+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -154,7 +154,7 @@
       0.7,
       1.3
      ],
-     "jet_ms": 17.0,
+     "jet_ms": 18.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -2258,19 +2258,19 @@
       0.0,
       0.0,
       0.0,
-      0.599,
-      0.658,
-      0.715,
-      0.771,
-      0.826,
-      0.878,
-      0.928,
-      0.977,
-      1.023,
-      1.068,
-      1.11,
-      1.224,
-      0.297,
+      0.596,
+      0.655,
+      0.713,
+      0.768,
+      0.822,
+      0.874,
+      0.925,
+      0.973,
+      1.019,
+      1.063,
+      1.105,
+      1.219,
+      0.295,
       0.0,
       0.0,
       0.0,
@@ -12324,7 +12324,7 @@
       0.8,
       1.3
      ],
-     "jet_ms": 21.0,
+     "jet_ms": 20.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -12544,26 +12544,27 @@
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T17:45:03+00:00",
-  "medido_utc": null,
-  "antiguedad_min": null,
-  "fresco": false,
-  "temperatura": null,
-  "humedad": null,
-  "punto_rocio": null,
-  "margen_rocio": null,
-  "riesgo_rocio": "desconocido",
-  "viento_ms": null,
-  "viento_dir": null,
-  "presion": null,
-  "cielo_ir": -13.6,
-  "cielo_indice": 1.0,
+  "leido_utc": "2026-08-29T19:26:24+00:00",
+  "medido_utc": "2026-08-29T19:25:07+00:00",
+  "antiguedad_min": 1.3,
+  "fresco": true,
+  "temperatura": 19.9,
+  "humedad": 38.0,
+  "punto_rocio": 5.15,
+  "margen_rocio": 14.7,
+  "riesgo_rocio": "bajo",
+  "viento_ms": 3.3333333333333335,
+  "viento_dir": 298.0,
+  "presion": 847.6,
+  "cielo_ir": -13.47,
+  "cielo_indice": -0.4,
   "cielo_fresco": true,
   "cielo_despejado": true,
-  "techos_abiertos": 0,
-  "techos_total": 0,
-  "estado_seguridad": null,
-  "incompleto": "Descarga incompleta: falta estaciones meteo, estadística de horas abiertas, techos, registro de seguridad"
+  "techos_abiertos": 18,
+  "techos_total": 18,
+  "estado_seguridad": "Safe",
+  "incompleto": null,
+  "del_archivo": {}
  },
  "cupula": {
   "sky_tercile": "desfavorable",
@@ -12718,7 +12719,7 @@
     0.7,
     1.3
    ],
-   "jet": 18.0,
+   "jet": 17.0,
    "note": "estimacion experimental sin calibrar; un solo valor por noche, no se modela variacion intranoche"
   },
   "stars": [
@@ -13087,7 +13088,16 @@
      {
       "az": 90.0,
       "alt": 11.3,
-      "cover": 14,
+      "cover": 9,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 11.3,
+      "cover": 15,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -13095,26 +13105,8 @@
      },
      {
       "az": 90.0,
-      "alt": 6.3,
-      "cover": 6,
-      "layer": "mid",
-      "span": 18.4,
-      "distance_km": 45.0,
-      "overhead": false
-     },
-     {
-      "az": 45.0,
       "alt": 5.7,
-      "cover": 12,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     },
-     {
-      "az": 90.0,
-      "alt": 5.7,
-      "cover": 42,
+      "cover": 52,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -13123,7 +13115,7 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 61,
+      "cover": 66,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -13132,18 +13124,18 @@
      {
       "az": 180.0,
       "alt": 5.7,
-      "cover": 18,
+      "cover": 20,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 20,
-    "dew_point": -1.1,
-    "temperature": 23.0,
-    "dew_margin": 24.1,
-    "wind_ms": 3.1
+    "humidity": 22,
+    "dew_point": -0.3,
+    "temperature": 22.9,
+    "dew_margin": 23.2,
+    "wind_ms": 1.1
    },
    {
     "t": "2026-08-29T18:09:13.976355+00:00",
@@ -13158,7 +13150,16 @@
      {
       "az": 90.0,
       "alt": 11.3,
-      "cover": 14,
+      "cover": 9,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 135.0,
+      "alt": 11.3,
+      "cover": 15,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -13166,26 +13167,8 @@
      },
      {
       "az": 90.0,
-      "alt": 6.3,
-      "cover": 6,
-      "layer": "mid",
-      "span": 18.4,
-      "distance_km": 45.0,
-      "overhead": false
-     },
-     {
-      "az": 45.0,
       "alt": 5.7,
-      "cover": 12,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     },
-     {
-      "az": 90.0,
-      "alt": 5.7,
-      "cover": 42,
+      "cover": 52,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -13194,7 +13177,7 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 61,
+      "cover": 66,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -13203,18 +13186,18 @@
      {
       "az": 180.0,
       "alt": 5.7,
-      "cover": 18,
+      "cover": 20,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 20,
-    "dew_point": -1.1,
-    "temperature": 23.0,
-    "dew_margin": 24.1,
-    "wind_ms": 3.1
+    "humidity": 22,
+    "dew_point": -0.3,
+    "temperature": 22.9,
+    "dew_margin": 23.2,
+    "wind_ms": 1.1
    },
    {
     "t": "2026-08-29T18:39:13.976355+00:00",
@@ -13229,27 +13212,45 @@
      {
       "az": 90.0,
       "alt": 11.3,
-      "cover": 6,
+      "cover": 8,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
       "overhead": false
      },
      {
+      "az": 90.0,
+      "alt": 5.7,
+      "cover": 23,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 46,
+      "cover": 33,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 180.0,
+      "alt": 5.7,
+      "cover": 5,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 32,
-    "dew_point": 1.9,
-    "temperature": 19.2,
-    "dew_margin": 17.3,
-    "wind_ms": 2.6
+    "humidity": 34,
+    "dew_point": 2.8,
+    "temperature": 18.8,
+    "dew_margin": 16.0,
+    "wind_ms": 3.3
    },
    {
     "t": "2026-08-29T19:09:13.976355+00:00",
@@ -13264,27 +13265,45 @@
      {
       "az": 90.0,
       "alt": 11.3,
-      "cover": 6,
+      "cover": 8,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
       "overhead": false
      },
      {
+      "az": 90.0,
+      "alt": 5.7,
+      "cover": 23,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 46,
+      "cover": 33,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 180.0,
+      "alt": 5.7,
+      "cover": 5,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 32,
-    "dew_point": 1.9,
-    "temperature": 19.2,
-    "dew_margin": 17.3,
-    "wind_ms": 2.6
+    "humidity": 34,
+    "dew_point": 2.8,
+    "temperature": 18.8,
+    "dew_margin": 16.0,
+    "wind_ms": 3.3
    },
    {
     "t": "2026-08-29T19:39:13.976355+00:00",
@@ -13299,17 +13318,17 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 31,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 42,
-    "dew_point": 4.5,
-    "temperature": 17.5,
-    "dew_margin": 13.0,
+    "humidity": 44,
+    "dew_point": 4.9,
+    "temperature": 17.2,
+    "dew_margin": 12.3,
     "wind_ms": 3.1
    },
    {
@@ -13325,17 +13344,17 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 31,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 42,
-    "dew_point": 4.5,
-    "temperature": 17.5,
-    "dew_margin": 13.0,
+    "humidity": 44,
+    "dew_point": 4.9,
+    "temperature": 17.2,
+    "dew_margin": 12.3,
     "wind_ms": 3.1
    },
    {
@@ -13351,17 +13370,17 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 31,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 42,
-    "dew_point": 4.5,
-    "temperature": 17.5,
-    "dew_margin": 13.0,
+    "humidity": 44,
+    "dew_point": 4.9,
+    "temperature": 17.2,
+    "dew_margin": 12.3,
     "wind_ms": 3.1
    },
    {
@@ -13377,17 +13396,17 @@
      {
       "az": 135.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 31,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 42,
-    "dew_point": 4.5,
-    "temperature": 17.5,
-    "dew_margin": 13.0,
+    "humidity": 44,
+    "dew_point": 4.9,
+    "temperature": 17.2,
+    "dew_margin": 12.3,
     "wind_ms": 3.1
    },
    {
@@ -13399,12 +13418,22 @@
     "sky_mag": 19.19,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T20:49:13.976355+00:00",
@@ -13415,12 +13444,22 @@
     "sky_mag": 19.07,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T20:59:13.976355+00:00",
@@ -13431,12 +13470,22 @@
     "sky_mag": 18.95,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:09:13.976355+00:00",
@@ -13447,12 +13496,22 @@
     "sky_mag": 18.83,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:19:13.976355+00:00",
@@ -13463,12 +13522,22 @@
     "sky_mag": 18.72,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:29:13.976355+00:00",
@@ -13479,12 +13548,22 @@
     "sky_mag": 18.61,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [],
-    "humidity": 47,
+    "clouds": [
+     {
+      "az": 135.0,
+      "alt": 5.7,
+      "cover": 5,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     }
+    ],
+    "humidity": 48,
     "dew_point": 5.3,
-    "temperature": 16.5,
-    "dew_margin": 11.2,
-    "wind_ms": 2.5
+    "temperature": 16.2,
+    "dew_margin": 10.9,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:39:13.976355+00:00",
@@ -13496,11 +13575,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:49:13.976355+00:00",
@@ -13512,11 +13591,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T21:59:13.976355+00:00",
@@ -13528,11 +13607,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T22:09:13.976355+00:00",
@@ -13544,11 +13623,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T22:19:13.976355+00:00",
@@ -13560,11 +13639,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T22:29:13.976355+00:00",
@@ -13576,11 +13655,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 48,
-    "dew_point": 4.7,
-    "temperature": 15.8,
-    "dew_margin": 11.1,
-    "wind_ms": 1.9
+    "humidity": 50,
+    "dew_point": 4.8,
+    "temperature": 15.3,
+    "dew_margin": 10.5,
+    "wind_ms": 2.8
    },
    {
     "t": "2026-08-29T22:39:13.976355+00:00",
@@ -13592,11 +13671,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T22:49:13.976355+00:00",
@@ -13608,11 +13687,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T22:59:13.976355+00:00",
@@ -13624,11 +13703,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T23:09:13.976355+00:00",
@@ -13640,11 +13719,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T23:19:13.976355+00:00",
@@ -13656,11 +13735,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T23:29:13.976355+00:00",
@@ -13672,11 +13751,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 47,
-    "dew_point": 3.6,
-    "temperature": 15.0,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 49,
+    "dew_point": 3.9,
+    "temperature": 14.4,
+    "dew_margin": 10.5,
+    "wind_ms": 3.1
    },
    {
     "t": "2026-08-29T23:39:13.976355+00:00",
@@ -13688,11 +13767,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-29T23:49:13.976355+00:00",
@@ -13704,11 +13783,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-29T23:59:13.976355+00:00",
@@ -13720,11 +13799,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T00:09:13.976355+00:00",
@@ -13736,11 +13815,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T00:19:13.976355+00:00",
@@ -13752,11 +13831,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T00:29:13.976355+00:00",
@@ -13768,11 +13847,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.8,
-    "temperature": 14.4,
-    "dew_margin": 11.6,
-    "wind_ms": 2.2
+    "humidity": 48,
+    "dew_point": 3.2,
+    "temperature": 14.0,
+    "dew_margin": 10.8,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T00:39:13.976355+00:00",
@@ -13784,11 +13863,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T00:49:13.976355+00:00",
@@ -13800,11 +13879,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T00:59:13.976355+00:00",
@@ -13816,11 +13895,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T01:09:13.976355+00:00",
@@ -13832,11 +13911,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T01:19:13.976355+00:00",
@@ -13848,11 +13927,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T01:29:13.976355+00:00",
@@ -13864,11 +13943,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.2,
-    "temperature": 13.9,
-    "dew_margin": 11.7,
-    "wind_ms": 3.1
+    "humidity": 47,
+    "dew_point": 2.7,
+    "temperature": 14.0,
+    "dew_margin": 11.3,
+    "wind_ms": 1.7
    },
    {
     "t": "2026-08-30T01:39:13.976355+00:00",
@@ -13881,10 +13960,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T01:49:13.976355+00:00",
@@ -13897,10 +13976,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T01:59:13.976355+00:00",
@@ -13913,10 +13992,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T02:09:13.976355+00:00",
@@ -13929,10 +14008,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T02:19:13.976355+00:00",
@@ -13945,10 +14024,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T02:29:13.976355+00:00",
@@ -13961,10 +14040,10 @@
     "dark": true,
     "clouds": [],
     "humidity": 45,
-    "dew_point": 1.9,
-    "temperature": 13.7,
-    "dew_margin": 11.8,
-    "wind_ms": 2.6
+    "dew_point": 2.1,
+    "temperature": 13.8,
+    "dew_margin": 11.7,
+    "wind_ms": 1.4
    },
    {
     "t": "2026-08-30T02:39:13.976355+00:00",
@@ -13976,11 +14055,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T02:49:13.976355+00:00",
@@ -13992,11 +14071,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T02:59:13.976355+00:00",
@@ -14008,11 +14087,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T03:09:13.976355+00:00",
@@ -14024,11 +14103,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T03:19:13.976355+00:00",
@@ -14040,11 +14119,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T03:29:13.976355+00:00",
@@ -14056,11 +14135,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.8,
-    "temperature": 13.8,
-    "dew_margin": 12.0,
-    "wind_ms": 2.2
+    "humidity": 43,
+    "dew_point": 1.9,
+    "temperature": 14.2,
+    "dew_margin": 12.3,
+    "wind_ms": 1.6
    },
    {
     "t": "2026-08-30T03:39:13.976355+00:00",
@@ -14072,11 +14151,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.9,
-    "temperature": 13.9,
-    "dew_margin": 12.0,
-    "wind_ms": 2.0
+    "humidity": 43,
+    "dew_point": 1.8,
+    "temperature": 14.3,
+    "dew_margin": 12.5,
+    "wind_ms": 1.5
    },
    {
     "t": "2026-08-30T03:49:13.976355+00:00",
@@ -14088,11 +14167,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.9,
-    "temperature": 13.9,
-    "dew_margin": 12.0,
-    "wind_ms": 2.0
+    "humidity": 43,
+    "dew_point": 1.8,
+    "temperature": 14.3,
+    "dew_margin": 12.5,
+    "wind_ms": 1.5
    },
    {
     "t": "2026-08-30T03:59:13.976355+00:00",
@@ -14104,11 +14183,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.9,
-    "temperature": 13.9,
-    "dew_margin": 12.0,
-    "wind_ms": 2.0
+    "humidity": 43,
+    "dew_point": 1.8,
+    "temperature": 14.3,
+    "dew_margin": 12.5,
+    "wind_ms": 1.5
    },
    {
     "t": "2026-08-30T04:29:13.976355+00:00",
@@ -14120,11 +14199,11 @@
     "sky_mag_trustworthy": true,
     "dark": false,
     "clouds": [],
-    "humidity": 44,
-    "dew_point": 1.9,
-    "temperature": 13.9,
-    "dew_margin": 12.0,
-    "wind_ms": 2.0
+    "humidity": 43,
+    "dew_point": 1.8,
+    "temperature": 14.3,
+    "dew_margin": 12.5,
+    "wind_ms": 1.5
    },
    {
     "t": "2026-08-30T04:59:13.976355+00:00",
@@ -14136,11 +14215,11 @@
     "sky_mag_trustworthy": true,
     "dark": false,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.0,
-    "temperature": 13.8,
-    "dew_margin": 11.8,
-    "wind_ms": 2.0
+    "humidity": 42,
+    "dew_point": 1.6,
+    "temperature": 14.3,
+    "dew_margin": 12.7,
+    "wind_ms": 1.8
    },
    {
     "t": "2026-08-30T05:29:13.976355+00:00",
@@ -14152,11 +14231,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 45,
-    "dew_point": 2.0,
-    "temperature": 13.8,
-    "dew_margin": 11.8,
-    "wind_ms": 2.0
+    "humidity": 42,
+    "dew_point": 1.6,
+    "temperature": 14.3,
+    "dew_margin": 12.7,
+    "wind_ms": 1.8
    },
    {
     "t": "2026-08-30T05:59:13.976355+00:00",
@@ -14168,11 +14247,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.5,
-    "temperature": 13.9,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 44,
+    "dew_point": 1.9,
+    "temperature": 14.1,
+    "dew_margin": 12.2,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T06:29:13.976355+00:00",
@@ -14184,11 +14263,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 46,
-    "dew_point": 2.5,
-    "temperature": 13.9,
-    "dew_margin": 11.4,
-    "wind_ms": 1.9
+    "humidity": 44,
+    "dew_point": 1.9,
+    "temperature": 14.1,
+    "dew_margin": 12.2,
+    "wind_ms": 2.1
    },
    {
     "t": "2026-08-30T06:39:13.976355+00:00",
@@ -14200,11 +14279,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 37,
-    "dew_point": 2.9,
-    "temperature": 17.9,
-    "dew_margin": 15.0,
-    "wind_ms": 3.5
+    "humidity": 35,
+    "dew_point": 2.3,
+    "temperature": 17.8,
+    "dew_margin": 15.5,
+    "wind_ms": 3.7
    }
   ]
  },
@@ -14216,7 +14295,7 @@
   "curva_ajustada_el": "2026-08-29T12:11:06+00:00",
   "avisos": [
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
-   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 34 horas medidas contra la estacion del sitio prevé el 56 % del viento medio real (-1.7 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
+   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 36 horas medidas contra la estacion del sitio prevé el 54 % del viento medio real (-1.7 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
   ]
  }
 }
