@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T11:47:51+00:00",
+ "generado_utc": "2026-08-29T12:14:33+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -12,19 +12,19 @@
    "noche": "2026-08-29",
    "oscuridad_astronomica_h": 7.8,
    "luna_iluminacion": 0.969,
-   "probabilidad_de_abrir": 0.878,
+   "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
    "mejor_ventana": {
     "desde": "2026-08-29T18:00:00+00:00",
     "hasta": "2026-08-30T06:00:00+00:00",
-    "p_media": 0.878
+    "p_media": 0.879
    },
    "horas": [
     {
      "t_utc": "2026-08-29T18:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -32,8 +32,8 @@
     {
      "t_utc": "2026-08-29T19:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -41,8 +41,8 @@
     {
      "t_utc": "2026-08-29T20:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -50,8 +50,8 @@
     {
      "t_utc": "2026-08-29T21:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -59,8 +59,8 @@
     {
      "t_utc": "2026-08-29T22:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -68,8 +68,8 @@
     {
      "t_utc": "2026-08-29T23:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -77,8 +77,8 @@
     {
      "t_utc": "2026-08-30T00:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -86,8 +86,8 @@
     {
      "t_utc": "2026-08-30T01:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -95,8 +95,8 @@
     {
      "t_utc": "2026-08-30T02:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -104,8 +104,8 @@
     {
      "t_utc": "2026-08-30T03:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -113,8 +113,8 @@
     {
      "t_utc": "2026-08-30T04:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -122,8 +122,8 @@
     {
      "t_utc": "2026-08-30T05:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -131,8 +131,8 @@
     {
      "t_utc": "2026-08-30T06:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -146,7 +146,7 @@
       0.7,
       1.3
      ],
-     "jet_ms": 16.0,
+     "jet_ms": 17.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -180,19 +180,19 @@
    "noche": "2026-08-30",
    "oscuridad_astronomica_h": 7.8,
    "luna_iluminacion": 0.922,
-   "probabilidad_de_abrir": 0.878,
+   "probabilidad_de_abrir": 0.879,
    "horas_utilizables_esperadas": 11.4,
    "mejor_ventana": {
     "desde": "2026-08-30T18:00:00+00:00",
     "hasta": "2026-08-31T06:00:00+00:00",
-    "p_media": 0.878
+    "p_media": 0.879
    },
    "horas": [
     {
      "t_utc": "2026-08-30T18:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -200,8 +200,8 @@
     {
      "t_utc": "2026-08-30T19:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -209,8 +209,8 @@
     {
      "t_utc": "2026-08-30T20:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -218,8 +218,8 @@
     {
      "t_utc": "2026-08-30T21:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -227,8 +227,8 @@
     {
      "t_utc": "2026-08-30T22:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -236,8 +236,8 @@
     {
      "t_utc": "2026-08-30T23:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -245,8 +245,8 @@
     {
      "t_utc": "2026-08-31T00:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -254,8 +254,8 @@
     {
      "t_utc": "2026-08-31T01:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -263,8 +263,8 @@
     {
      "t_utc": "2026-08-31T02:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -272,8 +272,8 @@
     {
      "t_utc": "2026-08-31T03:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -281,8 +281,8 @@
     {
      "t_utc": "2026-08-31T04:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -290,8 +290,8 @@
     {
      "t_utc": "2026-08-31T05:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -299,8 +299,8 @@
     {
      "t_utc": "2026-08-31T06:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.878,
-     "p_utilizable": 0.878,
+     "p_despejado": 0.879,
+     "p_utilizable": 0.879,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible"
@@ -314,7 +314,7 @@
       0.8,
       1.3
      ],
-     "jet_ms": 21.0,
+     "jet_ms": 20.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -356,11 +356,12 @@
  "confianza": {
   "calibrado": true,
   "pares_de_entrenamiento": 33799,
-  "bss_sobre_climatologia": 0.117,
+  "bss_sobre_climatologia": 0.118,
   "modelo_calibrado": "ecmwf_ifs025",
-  "curva_ajustada_el": "2026-08-28T10:32:43+00:00",
+  "curva_ajustada_el": "2026-08-29T12:11:06+00:00",
   "avisos": [
-   "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos."
+   "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
+   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 29 horas medidas contra la estacion del sitio prevé el 55 % del viento medio real (-1.8 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
   ]
  }
 }
