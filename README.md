@@ -61,8 +61,15 @@ tiene sus propias condiciones:
 - **[CAMS](https://atmosphere.copernicus.eu/)** (Copernicus) — aerosol y polvo.
 - **[AEMET OpenData](https://opendata.aemet.es/)** — estaciones cercanas.
 - **AstroCamp** — sensores del sitio y estado de los techos.
-- **[STARS4ALL / TESS](https://tess.stars4all.eu/)** — fotometro de fondo de
+- **[STARS4ALL / TESS](https://tess.stars4all.eu/)** — fotómetro de fondo de
   cielo.
+- **[OpenNGC](https://github.com/mattiaverga/OpenNGC)** (Mattia Verga) — el
+  catálogo NGC/IC del que salen los objetos: posiciones, magnitudes, brillo
+  superficial y tipos. **CC BY-SA 4.0**, y ahí está el matiz: los nombres,
+  coordenadas y clasificaciones de objetos que aparecen en `noches[].objetos` y
+  `noches[].ranking` son obra derivada de OpenNGC y se redistribuyen bajo **CC
+  BY-SA 4.0**, no bajo la CC BY 4.0 del resto. Nuestra previsión —las horas de
+  SNR, las probabilidades, los consejos— sigue siendo CC BY 4.0.
 
 Los datos **en bruto de esas fuentes no se republican aqui**: lo que se publica
 es nuestra prevision. Si necesitas la serie original, ve a la fuente.
