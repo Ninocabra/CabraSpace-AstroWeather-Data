@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T13:09:20+00:00",
+ "generado_utc": "2026-08-29T13:12:11+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -191,6 +191,10 @@
      "ra": 350.2013,
      "dec": 61.2017,
      "nota": "",
+     "alias": [
+      "Bubble Nebula",
+      "Caldwell 11"
+     ],
      "horas_si_despeja": 8.7,
      "horas_esperadas": 7.6,
      "horas_sobre_minimo": 12.8,
@@ -304,6 +308,10 @@
      "ra": 324.745,
      "dec": 57.5139,
      "nota": "",
+     "alias": [
+      "Elephant's Trunk Nebula",
+      "Trompa"
+     ],
      "horas_si_despeja": 8.2,
      "horas_esperadas": 7.2,
      "horas_sobre_minimo": 12.6,
@@ -417,6 +425,11 @@
      "ra": 38.21,
      "dec": 61.4711,
      "nota": "",
+     "alias": [
+      "Heart Nebula",
+      "Corazon",
+      "Melotte 15"
+     ],
      "horas_si_despeja": 6.9,
      "horas_esperadas": 6.0,
      "horas_sobre_minimo": 9.8,
@@ -515,6 +528,11 @@
      "ra": 42.855,
      "dec": 60.4189,
      "nota": "",
+     "alias": [
+      "Soul Nebula",
+      "Alma",
+      "Westerhout 5"
+     ],
      "horas_si_despeja": 6.4,
      "horas_esperadas": 5.7,
      "horas_sobre_minimo": 9.3,
@@ -608,6 +626,11 @@
      "ra": 314.75,
      "dec": 44.52,
      "nota": "banda estrecha: aprovecha noches de Luna",
+     "alias": [
+      "North America Nebula",
+      "Norteamerica",
+      "Caldwell 20"
+     ],
      "horas_si_despeja": 5.6,
      "horas_esperadas": 4.9,
      "horas_sobre_minimo": 11.1,
@@ -716,6 +739,10 @@
      "ra": 303.0273,
      "dec": 38.3549,
      "nota": "",
+     "alias": [
+      "Crescent Nebula",
+      "Caldwell 27"
+     ],
      "horas_si_despeja": 5.0,
      "horas_esperadas": 4.4,
      "horas_sobre_minimo": 9.9,
@@ -819,6 +846,12 @@
      "ra": 311.66,
      "dec": 30.72,
      "nota": "",
+     "alias": [
+      "Veil",
+      "Veil Nebula",
+      "Witch's Broom",
+      "Escoba de Bruja"
+     ],
      "horas_si_despeja": 3.3,
      "horas_esperadas": 2.9,
      "horas_sobre_minimo": 10.1,
@@ -922,6 +955,11 @@
      "ra": 83.6324,
      "dec": 22.0174,
      "nota": "resto de supernova: Halfa y OIII",
+     "alias": [
+      "Crab Nebula",
+      "Crab",
+      "NGC 1952"
+     ],
      "horas_si_despeja": 2.5,
      "horas_esperadas": 2.2,
      "horas_sobre_minimo": 4.4,
@@ -970,6 +1008,11 @@
      "ra": 274.688,
      "dec": -13.792,
      "nota": "los Pilares piden focal larga",
+     "alias": [
+      "Eagle Nebula",
+      "Pillars of Creation",
+      "NGC 6611"
+     ],
      "horas_si_despeja": 1.7,
      "horas_esperadas": 1.5,
      "horas_sobre_minimo": 5.1,
@@ -1023,6 +1066,11 @@
      "ra": 275.1958,
      "dec": -16.1717,
      "nota": "",
+     "alias": [
+      "Omega Nebula",
+      "Swan Nebula",
+      "NGC 6618"
+     ],
      "horas_si_despeja": 1.5,
      "horas_esperadas": 1.4,
      "horas_sobre_minimo": 4.9,
@@ -1076,6 +1124,10 @@
      "ra": 85.25,
      "dec": -2.5,
      "nota": "",
+     "alias": [
+      "Horsehead Nebula",
+      "Barnard 33"
+     ],
      "horas_si_despeja": 0.9,
      "horas_esperadas": 0.8,
      "horas_sobre_minimo": 3.1,
@@ -1109,6 +1161,11 @@
      "ra": 270.9042,
      "dec": -24.3867,
      "nota": "",
+     "alias": [
+      "Lagoon Nebula",
+      "Lagoon",
+      "NGC 6523"
+     ],
      "horas_si_despeja": 0.8,
      "horas_esperadas": 0.7,
      "horas_sobre_minimo": 2.5,
@@ -1142,6 +1199,10 @@
      "ra": 97.6504,
      "dec": 4.9807,
      "nota": "",
+     "alias": [
+      "Rosette Nebula",
+      "Caldwell 49"
+     ],
      "horas_si_despeja": 0.4,
      "horas_esperadas": 0.4,
      "horas_sobre_minimo": 2.4,
@@ -1170,6 +1231,11 @@
      "ra": 340.13,
      "dec": 3.36,
      "nota": "componentes a 1.8 arcsec: solo con seeing excepcional",
+     "alias": [
+      "Einstein Cross",
+      "Huchra's Lens",
+      "Q2237"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 8.0,
@@ -1268,6 +1334,11 @@
      "ra": 148.9,
      "dec": 69.1,
      "nota": "el target mas exigente en contraste que existe: sin Luna o nada",
+     "alias": [
+      "IFN",
+      "Integrated Flux Nebula",
+      "cirros galacticos"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 5.5,
@@ -1311,6 +1382,10 @@
      "ra": 210.8024,
      "dec": 54.3488,
      "nota": "brillo superficial bajo",
+     "alias": [
+      "Pinwheel Galaxy",
+      "NGC 5457"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 4.8,
@@ -1364,6 +1439,10 @@
      "ra": 189.9976,
      "dec": -11.6231,
      "nota": "",
+     "alias": [
+      "Sombrero Galaxy",
+      "NGC 4594"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 0.0,
@@ -1381,6 +1460,9 @@
      "ra": 184.7401,
      "dec": 47.3037,
      "nota": "",
+     "alias": [
+      "NGC 4258"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 2.6,
@@ -1409,6 +1491,11 @@
      "ra": 250.42,
      "dec": 36.46,
      "nota": "poco exigente: buen plan de noche mediocre",
+     "alias": [
+      "Hercules Cluster",
+      "Great Globular",
+      "NGC 6205"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 6.3,
@@ -1477,6 +1564,9 @@
      "ra": 322.493,
      "dec": 12.167,
      "nota": "",
+     "alias": [
+      "NGC 7078"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 9.2,
@@ -1575,6 +1665,11 @@
      "ra": 270.675,
      "dec": -22.9717,
      "nota": "mezcla emision y reflexion: no es solo banda estrecha",
+     "alias": [
+      "Trifid Nebula",
+      "Trifid",
+      "NGC 6514"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 3.3,
@@ -1608,6 +1703,9 @@
      "ra": 279.0997,
      "dec": -23.9047,
      "nota": "",
+     "alias": [
+      "NGC 6656"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 2.7,
@@ -1646,6 +1744,11 @@
      "ra": 299.9,
      "dec": 22.72,
      "nota": "",
+     "alias": [
+      "Dumbbell Nebula",
+      "Pesa",
+      "NGC 6853"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 8.9,
@@ -1739,6 +1842,11 @@
      "ra": 10.68,
      "dec": 41.27,
      "nota": "",
+     "alias": [
+      "Andromeda",
+      "Andromeda Galaxy",
+      "NGC 224"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 10.3,
@@ -1842,6 +1950,11 @@
      "ra": 23.4621,
      "dec": 30.6602,
      "nota": "brillo superficial bajo: enganosa",
+     "alias": [
+      "Triangulum Galaxy",
+      "Pinwheel",
+      "NGC 598"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 8.9,
@@ -1935,6 +2048,11 @@
      "ra": 83.8201,
      "dec": -5.3876,
      "nota": "nucleo saturado: exposiciones cortas aparte",
+     "alias": [
+      "Orion Nebula",
+      "Great Orion Nebula",
+      "NGC 1976"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 2.9,
@@ -1968,6 +2086,11 @@
      "ra": 56.6008,
      "dec": 24.1139,
      "nota": "la nebulosa de reflexion es lo dificil",
+     "alias": [
+      "Pleiades",
+      "Seven Sisters",
+      "Siete Cabrillas"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 6.4,
@@ -2036,6 +2159,11 @@
      "ra": 202.47,
      "dec": 47.19,
      "nota": "el nucleo sale casi siempre; el puente, no",
+     "alias": [
+      "Whirlpool",
+      "Remolino",
+      "NGC 5194"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 3.7,
@@ -2079,6 +2207,11 @@
      "ra": 283.4,
      "dec": 33.03,
      "nota": "pequena: el seeing manda",
+     "alias": [
+      "Ring Nebula",
+      "Anillo",
+      "NGC 6720"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 8.4,
@@ -2167,6 +2300,10 @@
      "ra": 198.9553,
      "dec": 42.0294,
      "nota": "",
+     "alias": [
+      "Sunflower Galaxy",
+      "NGC 5055"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 3.2,
@@ -2205,6 +2342,10 @@
      "ra": 194.1821,
      "dec": 21.6827,
      "nota": "",
+     "alias": [
+      "Black Eye Galaxy",
+      "NGC 4826"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 1.8,
@@ -2233,6 +2374,9 @@
      "ra": 169.733,
      "dec": 13.0923,
      "nota": "",
+     "alias": [
+      "NGC 3623"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 0.0,
@@ -2250,6 +2394,9 @@
      "ra": 170.0626,
      "dec": 12.9915,
      "nota": "",
+     "alias": [
+      "NGC 3627"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 0.0,
@@ -2267,6 +2414,9 @@
      "ra": 86.6908,
      "dec": 0.0792,
      "nota": "reflexion: nada de banda estrecha",
+     "alias": [
+      "NGC 2068"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 3.1,
@@ -2300,6 +2450,11 @@
      "ra": 148.89,
      "dec": 69.07,
      "nota": "",
+     "alias": [
+      "Bode",
+      "Bode's Galaxy",
+      "NGC 3031"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 5.5,
@@ -2343,6 +2498,10 @@
      "ra": 148.9685,
      "dec": 69.6797,
      "nota": "los chorros de Halfa piden filtro",
+     "alias": [
+      "Cigar Galaxy",
+      "NGC 3034"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 5.7,
@@ -2391,6 +2550,9 @@
      "ra": 259.2808,
      "dec": 43.1359,
      "nota": "",
+     "alias": [
+      "NGC 6341"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 7.3,
@@ -2469,6 +2631,10 @@
      "ra": 168.6988,
      "dec": 55.019,
      "nota": "",
+     "alias": [
+      "Owl Nebula",
+      "NGC 3587"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 2.2,
@@ -2502,6 +2668,10 @@
      "ra": 11.8881,
      "dec": -25.2888,
      "nota": "",
+     "alias": [
+      "Sculptor Galaxy",
+      "Caldwell 65"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 2.0,
@@ -2540,6 +2710,9 @@
      "ra": 143.0421,
      "dec": 21.5008,
      "nota": "",
+     "alias": [
+      "Caldwell 39"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 0.4,
@@ -2563,6 +2736,10 @@
      "ra": 189.0867,
      "dec": 25.9874,
      "nota": "",
+     "alias": [
+      "Needle Galaxy",
+      "Caldwell 38"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 1.8,
@@ -2591,6 +2768,10 @@
      "ra": 315.4038,
      "dec": 68.1633,
      "nota": "reflexion mas polvo: banda ancha y cielo oscuro",
+     "alias": [
+      "Iris Nebula",
+      "Caldwell 4"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 13.0,
@@ -2709,6 +2890,11 @@
      "ra": 337.4106,
      "dec": -20.8372,
      "nota": "baja desde Nerpio: mira la altura",
+     "alias": [
+      "Helix Nebula",
+      "Ojo de Dios",
+      "Caldwell 63"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 3.8,
@@ -2767,6 +2953,9 @@
      "ra": 35.6371,
      "dec": 42.3483,
      "nota": "canal de polvo: pide resolucion y cielo",
+     "alias": [
+      "Caldwell 23"
+     ],
      "horas_si_despeja": 0.0,
      "horas_esperadas": 0.0,
      "horas_sobre_minimo": 8.6,
@@ -3051,10 +3240,10 @@
     "seeing": {
      "tercil": "favorable",
      "rango_arcsec": [
-      0.8,
+      0.7,
       1.3
      ],
-     "jet_ms": 20.0,
+     "jet_ms": 19.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -3161,20 +3350,20 @@
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T13:09:37+00:00",
-  "medido_utc": "2026-08-29T13:08:08+00:00",
-  "antiguedad_min": 1.5,
+  "leido_utc": "2026-08-29T13:12:18+00:00",
+  "medido_utc": "2026-08-29T13:11:08+00:00",
+  "antiguedad_min": 1.2,
   "fresco": true,
   "temperatura": 29.9,
   "humedad": 29.0,
   "punto_rocio": 9.92,
   "margen_rocio": 20.0,
   "riesgo_rocio": "bajo",
-  "viento_ms": 2.2222222222222223,
-  "viento_dir": 257.0,
-  "presion": 848.3,
-  "cielo_ir": -12.21,
-  "cielo_indice": 1.3,
+  "viento_ms": 1.9444444444444446,
+  "viento_dir": 270.0,
+  "presion": 848.1,
+  "cielo_ir": -13.09,
+  "cielo_indice": 1.5,
   "cielo_fresco": true,
   "cielo_despejado": true,
   "techos_abiertos": 0,
