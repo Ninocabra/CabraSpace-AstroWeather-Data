@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T19:36:41+00:00",
+ "generado_utc": "2026-08-29T19:59:30+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -148,6 +148,16 @@
    ],
    "cielo": {
     "mag_cenit_mas_oscuro": 17.06,
+    "mag_cenit_corregido": 17.32,
+    "calibracion_fotometro": {
+     "aplicable": true,
+     "n": 1032,
+     "ventana_dias": 180,
+     "sesgo": -0.266,
+     "mediana": -0.305,
+     "sigma": 0.342,
+     "porque": "el fotometro manda: es medida y el modelo es estimacion. Se mide sobre los ultimos meses y no sobre todo el archivo porque lo que hay no es un desfase constante sino una deriva"
+    },
     "seeing": {
      "tercil": "favorable",
      "rango_arcsec": [
@@ -12157,6 +12167,16 @@
    ],
    "cielo": {
     "mag_cenit_mas_oscuro": 17.05,
+    "mag_cenit_corregido": 17.31,
+    "calibracion_fotometro": {
+     "aplicable": true,
+     "n": 1032,
+     "ventana_dias": 180,
+     "sesgo": -0.266,
+     "mediana": -0.305,
+     "sigma": 0.342,
+     "porque": "el fotometro manda: es medida y el modelo es estimacion. Se mide sobre los ultimos meses y no sobre todo el archivo porque lo que hay no es un desfase constante sino una deriva"
+    },
     "seeing": {
      "tercil": "favorable",
      "rango_arcsec": [
@@ -12385,27 +12405,30 @@
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T19:38:14+00:00",
-  "medido_utc": "2026-08-29T19:37:08+00:00",
+  "leido_utc": "2026-08-29T20:00:10+00:00",
+  "medido_utc": "2026-08-29T19:59:07+00:00",
   "antiguedad_min": 1.1,
   "fresco": true,
-  "temperatura": 19.7,
+  "temperatura": 19.6,
   "humedad": 39.0,
-  "punto_rocio": 5.35,
+  "punto_rocio": 5.26,
   "margen_rocio": 14.3,
   "riesgo_rocio": "bajo",
-  "viento_ms": 3.055555555555556,
-  "viento_dir": 331.0,
-  "presion": 847.8,
-  "cielo_ir": -13.3,
-  "cielo_indice": -0.4,
+  "viento_ms": 3.611111111111111,
+  "viento_dir": 301.0,
+  "presion": 848.1,
+  "cielo_ir": -13.31,
+  "cielo_indice": -0.2,
   "cielo_fresco": true,
   "cielo_despejado": true,
   "techos_abiertos": 18,
   "techos_total": 18,
   "estado_seguridad": "Safe",
   "incompleto": null,
-  "del_archivo": {}
+  "del_archivo": {},
+  "cielo_mag_medido": 20.15,
+  "cielo_mag_medido_utc": "2026-08-29T19:50:17+00:00",
+  "cielo_mag_instrumento": "TESS stars289"
  },
  "cupula": {
   "sky_tercile": "desfavorable",
@@ -12560,7 +12583,7 @@
     0.7,
     1.3
    ],
-   "jet": 18.0,
+   "jet": 17.0,
    "note": "estimacion experimental sin calibrar; un solo valor por noche, no se modela variacion intranoche"
   },
   "stars": [
