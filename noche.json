@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-08-29T13:03:37+00:00",
+ "generado_utc": "2026-08-29T13:09:20+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -2856,7 +2856,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "Nada de IFN ni de halos",
-     "texto": "El contraste extremo necesita 21.3 mag/arcsec2 y esta noche el cielo se queda en 17.1. Con la Luna al 97 % no hay integracion que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
+     "texto": "El contraste extremo necesita 21.3 mag/arcsec² y esta noche el cielo se queda en 17.1. Con la Luna al 97 % no hay integración que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
     },
     {
      "clave": "oiii_luna",
@@ -2864,7 +2864,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "OIII no, aunque sea banda estrecha",
-     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa mas (Rayleigh va como lambda^-4), asi que NO se comporta como el Halfa: con la Luna al 97 % el fondo en OIII sube mucho mas que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
+     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa más (Rayleigh va como lambda^-4), así que NO se comporta como el Halfa: con la Luna al 97 % el fondo en OIII sube mucho más que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
     },
     {
      "clave": "rgb_luna_alta",
@@ -2872,7 +2872,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "Hoy no saques RGB de campo profundo",
-     "texto": "La Luna esta al 97 % y el fondo de cielo se queda en 17.1 mag/arcsec2, por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La senal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
+     "texto": "La Luna está al 97 % y el fondo de cielo se queda en 17.1 mag/arcsec², por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La señal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
     },
     {
      "clave": "nubes_bueno",
@@ -2887,8 +2887,8 @@
      "tecnica": "halfa",
      "problema": "luna",
      "severidad": "aprovecha",
-     "titulo": "Noche de Halfa: aprovechala",
-     "texto": "La Luna al 97 % es justo la noche que el Halfa esta hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, asi que el fondo que arruina el RGB aqui casi no existe. Es la noche de las nebulosas de emision."
+     "titulo": "Noche de Halfa: aprovéchala",
+     "texto": "La Luna al 97 % es justo la noche que el Halfa está hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, así que el fondo que arruina el RGB aquí casi no existe. Es la noche de las nebulosas de emisión."
     },
     {
      "clave": "planetaria_luna",
@@ -2896,15 +2896,15 @@
      "problema": "luna",
      "severidad": "aprovecha",
      "titulo": "A la Luna y a los planetas les da igual la Luna",
-     "texto": "Con la Luna al 97 % el cielo profundo esta comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
+     "texto": "Con la Luna al 97 % el cielo profundo está comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
     },
     {
      "clave": "seeing_bueno",
      "tecnica": "planetaria",
      "problema": "seeing",
      "severidad": "aprovecha",
-     "titulo": "Seeing favorable: gastalo en resolucion",
-     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequenas y de los pares cerrados. Lo extenso y debil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
+     "titulo": "Seeing favorable: gástalo en resolución",
+     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequeñas y de los pares cerrados. Lo extenso y débil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
     },
     {
      "clave": "dualband_luna",
@@ -3099,7 +3099,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "Nada de IFN ni de halos",
-     "texto": "El contraste extremo necesita 21.3 mag/arcsec2 y esta noche el cielo se queda en 17.0. Con la Luna al 92 % no hay integracion que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
+     "texto": "El contraste extremo necesita 21.3 mag/arcsec² y esta noche el cielo se queda en 17.0. Con la Luna al 92 % no hay integración que valga: el IFN, las colas de marea y los halos de galaxia piden Luna nueva o nada."
     },
     {
      "clave": "oiii_luna",
@@ -3107,7 +3107,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "OIII no, aunque sea banda estrecha",
-     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa mas (Rayleigh va como lambda^-4), asi que NO se comporta como el Halfa: con la Luna al 92 % el fondo en OIII sube mucho mas que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
+     "texto": "El OIII cae en la parte del espectro donde la Luna dispersa más (Rayleigh va como lambda^-4), así que NO se comporta como el Halfa: con la Luna al 92 % el fondo en OIII sube mucho más que en rojo. Si tienes que elegir un filtro esta noche, es el Halfa."
     },
     {
      "clave": "rgb_luna_alta",
@@ -3115,7 +3115,7 @@
      "problema": "luna",
      "severidad": "evitar",
      "titulo": "Hoy no saques RGB de campo profundo",
-     "texto": "La Luna esta al 92 % y el fondo de cielo se queda en 17.0 mag/arcsec2, por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La senal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
+     "texto": "La Luna está al 92 % y el fondo de cielo se queda en 17.0 mag/arcsec², por encima de la puerta de 20.0 que necesita la banda ancha. El ruido de fondo se come el color antes de que el objeto suba. La señal que pierdes esta noche no la recuperas apilando: apilar baja el ruido, no el fondo."
     },
     {
      "clave": "nubes_bueno",
@@ -3130,8 +3130,8 @@
      "tecnica": "halfa",
      "problema": "luna",
      "severidad": "aprovecha",
-     "titulo": "Noche de Halfa: aprovechala",
-     "texto": "La Luna al 92 % es justo la noche que el Halfa esta hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, asi que el fondo que arruina el RGB aqui casi no existe. Es la noche de las nebulosas de emision."
+     "titulo": "Noche de Halfa: aprovéchala",
+     "texto": "La Luna al 92 % es justo la noche que el Halfa está hecho para robar. El filtro deja pasar un factor 0.05 de la luz lunar, así que el fondo que arruina el RGB aquí casi no existe. Es la noche de las nebulosas de emisión."
     },
     {
      "clave": "planetaria_luna",
@@ -3139,15 +3139,15 @@
      "problema": "luna",
      "severidad": "aprovecha",
      "titulo": "A la Luna y a los planetas les da igual la Luna",
-     "texto": "Con la Luna al 92 % el cielo profundo esta comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
+     "texto": "Con la Luna al 92 % el cielo profundo está comprometido, pero la planetaria y la lunar no dependen del fondo: son objetos brillantes y lo que manda es el seeing. Noche perfecta para eso."
     },
     {
      "clave": "seeing_bueno",
      "tecnica": "planetaria",
      "problema": "seeing",
      "severidad": "aprovecha",
-     "titulo": "Seeing favorable: gastalo en resolucion",
-     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequenas y de los pares cerrados. Lo extenso y debil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
+     "titulo": "Seeing favorable: gástalo en resolución",
+     "texto": "Seeing favorable. Es la noche de la planetaria, de las planetarias pequeñas y de los pares cerrados. Lo extenso y débil da igual cuando el seeing es bueno: eso lo puedes hacer cualquier noche."
     },
     {
      "clave": "dualband_luna",
@@ -3161,20 +3161,20 @@
   }
  ],
  "sensores": {
-  "leido_utc": "2026-08-29T13:03:44+00:00",
-  "medido_utc": "2026-08-29T13:02:07+00:00",
-  "antiguedad_min": 1.6,
+  "leido_utc": "2026-08-29T13:09:37+00:00",
+  "medido_utc": "2026-08-29T13:08:08+00:00",
+  "antiguedad_min": 1.5,
   "fresco": true,
-  "temperatura": 30.1,
+  "temperatura": 29.9,
   "humedad": 29.0,
-  "punto_rocio": 10.09,
+  "punto_rocio": 9.92,
   "margen_rocio": 20.0,
   "riesgo_rocio": "bajo",
   "viento_ms": 2.2222222222222223,
   "viento_dir": 257.0,
   "presion": 848.3,
-  "cielo_ir": -12.72,
-  "cielo_indice": 1.5,
+  "cielo_ir": -12.21,
+  "cielo_indice": 1.3,
   "cielo_fresco": true,
   "cielo_despejado": true,
   "techos_abiertos": 0,
@@ -3640,7 +3640,7 @@
   "curva_ajustada_el": "2026-08-29T12:11:06+00:00",
   "avisos": [
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
-   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 29 horas medidas contra la estacion del sitio prevé el 55 % del viento medio real (-1.8 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
+   "La puerta de viento NO está calibrada y el modelo se queda CORTO: sobre 30 horas medidas contra la estacion del sitio prevé el 56 % del viento medio real (-1.7 m/s). La racha, que es la que decide, no tiene verdad terreno en ninguna fuente. Trata el veredicto de abrir como optimista en viento."
   ]
  }
 }
