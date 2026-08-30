@@ -1,0 +1,28 @@
+{
+ "leido_utc": "2026-08-30T16:40:16+00:00",
+ "sensores": {
+  "leido_utc": "2026-08-30T16:40:16+00:00",
+  "medido_utc": "2026-08-30T16:39:07+00:00",
+  "antiguedad_min": 1.2,
+  "fresco": true,
+  "temperatura": 29.1,
+  "humedad": 28.0,
+  "punto_rocio": 8.71,
+  "margen_rocio": 20.4,
+  "riesgo_rocio": "bajo",
+  "viento_ms": 2.2222222222222223,
+  "viento_dir": 253.0,
+  "presion": 846.6,
+  "cielo_ir": -11.48,
+  "cielo_indice": 1.8,
+  "cielo_fresco": true,
+  "cielo_despejado": false,
+  "techos_abiertos": 0,
+  "techos_total": 18,
+  "estado_seguridad": "Unsafe",
+  "incompleto": null,
+  "del_archivo": {},
+  "cielo_mag_medido": null,
+  "cielo_mag_medido_utc": null
+ }
+}
