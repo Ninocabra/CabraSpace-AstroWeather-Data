@@ -1,5 +1,5 @@
 {
- "leido_utc": "2026-09-01T00:31:57+00:00",
+ "leido_utc": "2026-09-01T01:02:01+00:00",
  "sensores": {
   "leido_utc": null,
   "medido_utc": null,
@@ -32,8 +32,8 @@
    "cielo_indice": "2026-08-31T10:21:52+00:00",
    "techos": "2026-08-31T10:22:36+00:00"
   },
-  "cielo_mag_medido": 17.94,
-  "cielo_mag_medido_utc": "2026-09-01T00:02:36+00:00",
+  "cielo_mag_medido": 17.37,
+  "cielo_mag_medido_utc": "2026-09-01T00:32:38+00:00",
   "cielo_mag_instrumento": "TESS stars289"
  }
 }
