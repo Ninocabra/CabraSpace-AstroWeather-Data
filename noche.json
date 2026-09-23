@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-09-23T16:01:44+00:00",
+ "generado_utc": "2026-09-23T22:15:56+00:00",
  "sitio": {
   "nombre": "AstroCamp, Nerpio (Albacete)",
   "mpc": "I79",
@@ -18,7 +18,7 @@
     "orto": "2026-09-24T06:02+00:00"
    },
    "luna_iluminacion": 0.91,
-   "probabilidad_de_abrir": 0.738,
+   "probabilidad_de_abrir": 0.747,
    "veredicto_abrir": {
     "abierto": true,
     "umbral": 0.5,
@@ -28,23 +28,23 @@
     },
     "regla": "Se dice Abierto cuando la probabilidad que va debajo llega al 50%, y Cerrado por debajo de esa cifra. Es un corte sobre ESE mismo número, no una segunda opinión, así que la palabra y el porcentaje no pueden discrepar. El número es el de la hora más floja de la mejor ventana de dos horas seguidas, y la ventana va al lado: Abierto quiere decir Abierto AHÍ."
    },
-   "horas_utilizables_esperadas": 9.5,
-   "horas_utilizables_oscuras": 6.6,
+   "horas_utilizables_esperadas": 9.6,
+   "horas_utilizables_oscuras": 6.7,
    "probabilidad_definicion": "Probabilidad de que el techo de Nerpio esté ABIERTO a esa hora dada la nube prevista, calibrada contra lo que el observatorio hizo de verdad: 31 meses de horas abiertas y las noches de techo medidas minuto a minuto. Lleva dentro sus decisiones (abren 30-60 min después de que su detector de nubes pase a despejado). Por hora se multiplica por 0,85 por cada riesgo en vigilancia, y es cero si una puerta de seguridad la bloquea. Para la noche se toma la hora más floja de la mejor ventana de DOS horas seguidas: una sola hora buena a las 03 no abre una noche.",
    "mejor_ventana": {
     "desde": "2026-09-23T19:00:00+00:00",
     "hasta": "2026-09-24T07:00:00+00:00",
-    "p_media": 0.73
+    "p_media": 0.738
    },
    "horas": [
     {
      "t_utc": "2026-09-23T18:00:00+00:00",
-     "nubes_previstas": 1.0,
-     "p_despejado": 0.732,
+     "nubes_previstas": 3.0,
+     "p_despejado": 0.726,
      "p_utilizable": 0.0,
      "limita": "viento",
      "seguro_para_abrir": false,
-     "porque": "NO abrir: rachas de 56 km/h, por encima del cierre",
+     "porque": "NO abrir: rachas de 58 km/h, por encima del cierre",
      "seeing_arcsec": 0.91,
      "seeing_tercil": "favorable",
      "aod": 0.029,
@@ -53,11 +53,11 @@
     {
      "t_utc": "2026-09-23T19:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.628,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.635,
      "limita": "viento",
      "seguro_para_abrir": true,
-     "porque": "abrible, con vigilancia: rachas de 31 km/h: el guiado sufre en focal larga",
+     "porque": "abrible, con vigilancia: rachas de 35 km/h: el guiado sufre en focal larga",
      "seeing_arcsec": 0.92,
      "seeing_tercil": "favorable",
      "aod": 0.028,
@@ -66,8 +66,8 @@
     {
      "t_utc": "2026-09-23T20:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -79,12 +79,12 @@
     {
      "t_utc": "2026-09-23T21:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.91,
+     "seeing_arcsec": 0.92,
      "seeing_tercil": "favorable",
      "aod": 0.029,
      "k_total": 0.166
@@ -92,21 +92,8 @@
     {
      "t_utc": "2026-09-23T22:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
-     "limita": "luna",
-     "seguro_para_abrir": true,
-     "porque": "abrible",
-     "seeing_arcsec": 0.91,
-     "seeing_tercil": "favorable",
-     "aod": 0.035,
-     "k_total": 0.173
-    },
-    {
-     "t_utc": "2026-09-23T23:00:00+00:00",
-     "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -116,14 +103,27 @@
      "k_total": 0.173
     },
     {
-     "t_utc": "2026-09-24T00:00:00+00:00",
+     "t_utc": "2026-09-23T23:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
      "seeing_arcsec": 0.91,
+     "seeing_tercil": "favorable",
+     "aod": 0.035,
+     "k_total": 0.173
+    },
+    {
+     "t_utc": "2026-09-24T00:00:00+00:00",
+     "nubes_previstas": 0.0,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible",
+     "seeing_arcsec": 0.92,
      "seeing_tercil": "favorable",
      "aod": 0.029,
      "k_total": 0.166
@@ -131,8 +131,8 @@
     {
      "t_utc": "2026-09-24T01:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -144,12 +144,12 @@
     {
      "t_utc": "2026-09-24T02:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.92,
+     "seeing_arcsec": 0.93,
      "seeing_tercil": "favorable",
      "aod": 0.028,
      "k_total": 0.165
@@ -157,8 +157,8 @@
     {
      "t_utc": "2026-09-24T03:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -170,8 +170,8 @@
     {
      "t_utc": "2026-09-24T04:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -183,12 +183,12 @@
     {
      "t_utc": "2026-09-24T05:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.94,
+     "seeing_arcsec": 0.93,
      "seeing_tercil": "favorable",
      "aod": 0.035,
      "k_total": 0.173
@@ -196,8 +196,8 @@
     {
      "t_utc": "2026-09-24T06:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -209,12 +209,12 @@
     {
      "t_utc": "2026-09-24T07:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.94,
+     "seeing_arcsec": 0.95,
      "seeing_tercil": "favorable",
      "aod": 0.028,
      "k_total": 0.165
@@ -227,10 +227,10 @@
     "mag_cenit_tipico_corregido": 18.7,
     "calibracion_fotometro": {
      "aplicable": true,
-     "n": 1063,
+     "n": 1064,
      "ventana_dias": 180,
      "sesgo": -0.078,
-     "mediana": -0.069,
+     "mediana": -0.068,
      "sigma": 0.322,
      "porque": "el fotometro manda: es medida y el modelo es estimacion. Se mide sobre los ultimos meses y no sobre todo el archivo porque lo que hay no es un desfase constante sino una deriva"
     },
@@ -240,7 +240,7 @@
       0.7,
       1.2
      ],
-     "jet_ms": 8.0,
+     "jet_ms": 9.0,
      "origen": "ecmwf",
      "calibrado": false
     },
@@ -258,7 +258,7 @@
      "objeto": "NGC 7635 (Burbuja)",
      "clase": "narrowband",
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "veredicto": "recomendado",
      "porque": "9.5 h equivalentes si despeja"
     },
@@ -266,7 +266,7 @@
      "objeto": "IC 1470",
      "clase": "narrowband",
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "veredicto": "recomendado",
      "porque": "9.5 h equivalentes si despeja"
     },
@@ -274,7 +274,7 @@
      "objeto": "NGC 7129",
      "clase": "narrowband",
      "horas_si_despeja": 9.3,
-     "horas_esperadas": 6.7,
+     "horas_esperadas": 6.8,
      "veredicto": "recomendado",
      "porque": "9.3 h equivalentes si despeja"
     }
@@ -292,7 +292,7 @@
       "Caldwell 11"
      ],
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "horas_sobre_minimo": 13.6,
      "altura_maxima": 66.8,
      "separacion_luna": 73.7,
@@ -584,7 +584,7 @@
       "IC 1470"
      ],
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "horas_sobre_minimo": 13.1,
      "altura_maxima": 67.8,
      "separacion_luna": 72.2,
@@ -876,7 +876,7 @@
       "NGC 7129"
      ],
      "horas_si_despeja": 9.3,
-     "horas_esperadas": 6.7,
+     "horas_esperadas": 6.8,
      "horas_sobre_minimo": 12.6,
      "altura_maxima": 61.9,
      "separacion_luna": 77.5,
@@ -1461,7 +1461,7 @@
       "Melotte 15"
      ],
      "horas_si_despeja": 8.9,
-     "horas_esperadas": 6.5,
+     "horas_esperadas": 6.6,
      "horas_sobre_minimo": 11.8,
      "altura_maxima": 66.6,
      "separacion_luna": 88.6,
@@ -1757,7 +1757,7 @@
      "horas_sobre_minimo": 8.3,
      "altura_maxima": 82.7,
      "separacion_luna": 95.2,
-     "mejor_hora": "2026-09-24T04:00+00:00",
+     "mejor_hora": "2026-09-24T04:10+00:00",
      "veredicto": "recomendado",
      "porque": "8.7 h equivalentes si despeja",
      "alt": [
@@ -1920,42 +1920,42 @@
       0.0,
       0.0,
       0.0,
-      0.623,
-      0.704,
+      0.624,
+      0.705,
       0.786,
-      0.858,
-      0.915,
-      0.97,
-      1.022,
-      1.073,
-      1.118,
-      1.161,
-      1.203,
-      1.242,
-      1.279,
-      1.314,
-      1.35,
-      1.384,
-      1.416,
-      1.446,
-      1.475,
-      1.501,
-      1.522,
-      1.542,
-      1.559,
-      1.575,
-      1.588,
-      1.599,
+      0.857,
+      0.912,
+      0.965,
+      1.015,
+      1.064,
+      1.111,
+      1.155,
+      1.198,
+      1.239,
+      1.278,
+      1.315,
+      1.349,
+      1.381,
+      1.411,
+      1.439,
+      1.465,
+      1.489,
+      1.512,
+      1.533,
+      1.553,
+      1.57,
+      1.586,
+      1.6,
       1.611,
-      1.619,
-      1.625,
-      1.63,
-      1.633,
-      1.634,
-      1.633,
+      1.62,
+      1.627,
       1.632,
-      1.614,
-      0.258,
+      1.636,
+      1.637,
+      1.638,
+      1.636,
+      1.621,
+      0.26,
       0.0,
       0.0,
       0.0,
@@ -2338,7 +2338,7 @@
       "Trompa"
      ],
      "horas_si_despeja": 8.1,
-     "horas_esperadas": 5.9,
+     "horas_esperadas": 6.0,
      "horas_sobre_minimo": 11.6,
      "altura_maxima": 70.5,
      "separacion_luna": 69.0,
@@ -2631,7 +2631,7 @@
       "IC143"
      ],
      "horas_si_despeja": 7.1,
-     "horas_esperadas": 5.2,
+     "horas_esperadas": 5.3,
      "horas_sobre_minimo": 10.8,
      "altura_maxima": 82.7,
      "separacion_luna": 64.2,
@@ -2923,7 +2923,7 @@
       "NGC 1333"
      ],
      "horas_si_despeja": 6.5,
-     "horas_esperadas": 4.8,
+     "horas_esperadas": 4.9,
      "horas_sobre_minimo": 8.9,
      "altura_maxima": 83.3,
      "separacion_luna": 86.9,
@@ -3801,7 +3801,7 @@
       "NGC 1952"
      ],
      "horas_si_despeja": 5.7,
-     "horas_esperadas": 4.2,
+     "horas_esperadas": 4.3,
      "horas_sobre_minimo": 6.4,
      "altura_maxima": 73.6,
      "separacion_luna": 113.2,
@@ -3979,31 +3979,31 @@
       0.0,
       0.0,
       0.0,
-      0.586,
-      0.673,
+      0.585,
+      0.672,
       0.765,
-      0.865,
-      0.927,
-      0.98,
-      1.031,
-      1.081,
-      1.127,
-      1.17,
-      1.211,
-      1.249,
-      1.285,
-      1.318,
-      1.349,
+      0.864,
+      0.924,
+      0.976,
+      1.026,
+      1.073,
+      1.118,
+      1.163,
+      1.204,
+      1.244,
+      1.281,
+      1.316,
+      1.35,
       1.38,
-      1.407,
-      1.432,
-      1.456,
-      1.477,
-      1.497,
-      1.514,
-      1.53,
-      1.564,
-      0.258,
+      1.408,
+      1.434,
+      1.458,
+      1.48,
+      1.5,
+      1.518,
+      1.534,
+      1.571,
+      0.259,
       0.0,
       0.0,
       0.0,
@@ -4093,7 +4093,7 @@
       "IC 2067"
      ],
      "horas_si_despeja": 5.7,
-     "horas_esperadas": 4.2,
+     "horas_esperadas": 4.3,
      "horas_sobre_minimo": 8.1,
      "altura_maxima": 86.8,
      "separacion_luna": 100.3,
@@ -4972,7 +4972,7 @@
       "NGC 1931"
      ],
      "horas_si_despeja": 4.6,
-     "horas_esperadas": 3.4,
+     "horas_esperadas": 3.5,
      "horas_sobre_minimo": 7.1,
      "altura_maxima": 85.6,
      "separacion_luna": 112.7,
@@ -6423,6 +6423,298 @@
      "i_meridiano": 62
     },
     {
+     "nombre": "NGC 2371",
+     "tipo": "nebulosa planetaria",
+     "clase": "narrowband",
+     "ra": 111.3944,
+     "dec": 29.4906,
+     "nota": "",
+     "alias": [
+      "NGC2371",
+      "NGC 2371"
+     ],
+     "horas_si_despeja": 3.4,
+     "horas_esperadas": 2.5,
+     "horas_sobre_minimo": 4.9,
+     "altura_maxima": 80.0,
+     "separacion_luna": 137.3,
+     "mejor_hora": "2026-09-24T04:50+00:00",
+     "veredicto": "recomendado",
+     "porque": "3.4 h equivalentes si despeja",
+     "alt": [
+      -14.3,
+      -17.2,
+      -19.5,
+      -21.2,
+      -22.1,
+      -22.4,
+      -22.3,
+      -22.1,
+      -21.9,
+      -21.6,
+      -21.2,
+      -20.7,
+      -20.2,
+      -19.5,
+      -18.8,
+      -18.1,
+      -17.3,
+      -16.4,
+      -15.4,
+      -14.4,
+      -13.3,
+      -12.2,
+      -11.0,
+      -9.7,
+      -8.5,
+      -7.1,
+      -5.8,
+      -4.4,
+      -2.9,
+      -1.4,
+      0.1,
+      1.7,
+      3.3,
+      4.9,
+      6.5,
+      8.2,
+      9.9,
+      11.6,
+      13.4,
+      15.1,
+      16.9,
+      18.7,
+      20.5,
+      22.4,
+      24.2,
+      26.1,
+      28.0,
+      29.9,
+      31.8,
+      33.7,
+      35.6,
+      37.5,
+      39.5,
+      41.4,
+      43.4,
+      45.3,
+      47.3,
+      49.3,
+      51.2,
+      57.1,
+      63.0,
+      68.8,
+      74.2,
+      78.9,
+      80.0
+     ],
+     "az": [
+      327.8,
+      333.9,
+      340.3,
+      347.1,
+      354.0,
+      1.1,
+      3.5,
+      5.8,
+      8.2,
+      10.5,
+      12.8,
+      15.1,
+      17.3,
+      19.6,
+      21.8,
+      23.9,
+      26.0,
+      28.1,
+      30.1,
+      32.1,
+      34.1,
+      36.0,
+      37.9,
+      39.7,
+      41.5,
+      43.2,
+      45.0,
+      46.6,
+      48.3,
+      49.9,
+      51.4,
+      53.0,
+      54.5,
+      55.9,
+      57.4,
+      58.8,
+      60.2,
+      61.5,
+      62.9,
+      64.2,
+      65.5,
+      66.8,
+      68.1,
+      69.4,
+      70.6,
+      71.9,
+      73.1,
+      74.4,
+      75.6,
+      76.9,
+      78.1,
+      79.4,
+      80.6,
+      81.9,
+      83.3,
+      84.6,
+      86.0,
+      87.4,
+      88.9,
+      93.7,
+      99.6,
+      107.3,
+      118.9,
+      139.1,
+      149.2
+     ],
+     "rend": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.571,
+      0.67,
+      0.78,
+      0.857,
+      0.91,
+      0.962,
+      1.011,
+      1.058,
+      1.104,
+      1.147,
+      1.189,
+      1.228,
+      1.266,
+      1.302,
+      1.4,
+      0.242,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "limita": "---------------------------------------------aaaaaaaaaannnnnfcccc",
+     "sep_luna": [
+      143.7,
+      143.4,
+      143.2,
+      143.0,
+      142.8,
+      142.6,
+      142.6,
+      142.5,
+      142.5,
+      142.4,
+      142.3,
+      142.3,
+      142.2,
+      142.1,
+      142.1,
+      142.0,
+      142.0,
+      141.9,
+      141.8,
+      141.8,
+      141.7,
+      141.7,
+      141.6,
+      141.5,
+      141.5,
+      141.4,
+      141.4,
+      141.3,
+      141.2,
+      141.2,
+      141.1,
+      141.0,
+      141.0,
+      140.9,
+      140.8,
+      140.8,
+      140.7,
+      140.6,
+      140.5,
+      140.5,
+      140.4,
+      140.3,
+      140.3,
+      140.2,
+      140.1,
+      140.0,
+      139.9,
+      139.9,
+      139.8,
+      139.7,
+      139.6,
+      139.5,
+      139.4,
+      139.4,
+      139.3,
+      139.2,
+      139.1,
+      139.0,
+      138.9,
+      138.6,
+      138.3,
+      138.0,
+      137.7,
+      137.4,
+      137.3
+     ],
+     "i_max": 64,
+     "i_min": 30,
+     "i_meridiano": 64
+    },
+    {
      "nombre": "IC 0443 (Gem A)",
      "tipo": "resto de supernova",
      "clase": "narrowband",
@@ -6715,298 +7007,6 @@
      "i_max": 62,
      "i_min": 26,
      "i_meridiano": 62
-    },
-    {
-     "nombre": "NGC 2371",
-     "tipo": "nebulosa planetaria",
-     "clase": "narrowband",
-     "ra": 111.3944,
-     "dec": 29.4906,
-     "nota": "",
-     "alias": [
-      "NGC2371",
-      "NGC 2371"
-     ],
-     "horas_si_despeja": 3.4,
-     "horas_esperadas": 2.5,
-     "horas_sobre_minimo": 4.9,
-     "altura_maxima": 80.0,
-     "separacion_luna": 137.3,
-     "mejor_hora": "2026-09-24T04:50+00:00",
-     "veredicto": "recomendado",
-     "porque": "3.4 h equivalentes si despeja",
-     "alt": [
-      -14.3,
-      -17.2,
-      -19.5,
-      -21.2,
-      -22.1,
-      -22.4,
-      -22.3,
-      -22.1,
-      -21.9,
-      -21.6,
-      -21.2,
-      -20.7,
-      -20.2,
-      -19.5,
-      -18.8,
-      -18.1,
-      -17.3,
-      -16.4,
-      -15.4,
-      -14.4,
-      -13.3,
-      -12.2,
-      -11.0,
-      -9.7,
-      -8.5,
-      -7.1,
-      -5.8,
-      -4.4,
-      -2.9,
-      -1.4,
-      0.1,
-      1.7,
-      3.3,
-      4.9,
-      6.5,
-      8.2,
-      9.9,
-      11.6,
-      13.4,
-      15.1,
-      16.9,
-      18.7,
-      20.5,
-      22.4,
-      24.2,
-      26.1,
-      28.0,
-      29.9,
-      31.8,
-      33.7,
-      35.6,
-      37.5,
-      39.5,
-      41.4,
-      43.4,
-      45.3,
-      47.3,
-      49.3,
-      51.2,
-      57.1,
-      63.0,
-      68.8,
-      74.2,
-      78.9,
-      80.0
-     ],
-     "az": [
-      327.8,
-      333.9,
-      340.3,
-      347.1,
-      354.0,
-      1.1,
-      3.5,
-      5.8,
-      8.2,
-      10.5,
-      12.8,
-      15.1,
-      17.3,
-      19.6,
-      21.8,
-      23.9,
-      26.0,
-      28.1,
-      30.1,
-      32.1,
-      34.1,
-      36.0,
-      37.9,
-      39.7,
-      41.5,
-      43.2,
-      45.0,
-      46.6,
-      48.3,
-      49.9,
-      51.4,
-      53.0,
-      54.5,
-      55.9,
-      57.4,
-      58.8,
-      60.2,
-      61.5,
-      62.9,
-      64.2,
-      65.5,
-      66.8,
-      68.1,
-      69.4,
-      70.6,
-      71.9,
-      73.1,
-      74.4,
-      75.6,
-      76.9,
-      78.1,
-      79.4,
-      80.6,
-      81.9,
-      83.3,
-      84.6,
-      86.0,
-      87.4,
-      88.9,
-      93.7,
-      99.6,
-      107.3,
-      118.9,
-      139.1,
-      149.2
-     ],
-     "rend": [
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.575,
-      0.673,
-      0.783,
-      0.859,
-      0.911,
-      0.961,
-      1.011,
-      1.057,
-      1.102,
-      1.146,
-      1.187,
-      1.226,
-      1.263,
-      1.299,
-      1.394,
-      0.241,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "limita": "---------------------------------------------aaaaaaaaaannnnnfcccc",
-     "sep_luna": [
-      143.7,
-      143.4,
-      143.2,
-      143.0,
-      142.8,
-      142.6,
-      142.6,
-      142.5,
-      142.5,
-      142.4,
-      142.3,
-      142.3,
-      142.2,
-      142.1,
-      142.1,
-      142.0,
-      142.0,
-      141.9,
-      141.8,
-      141.8,
-      141.7,
-      141.7,
-      141.6,
-      141.5,
-      141.5,
-      141.4,
-      141.4,
-      141.3,
-      141.2,
-      141.2,
-      141.1,
-      141.0,
-      141.0,
-      140.9,
-      140.8,
-      140.8,
-      140.7,
-      140.6,
-      140.5,
-      140.5,
-      140.4,
-      140.3,
-      140.3,
-      140.2,
-      140.1,
-      140.0,
-      139.9,
-      139.9,
-      139.8,
-      139.7,
-      139.6,
-      139.5,
-      139.4,
-      139.4,
-      139.3,
-      139.2,
-      139.1,
-      139.0,
-      138.9,
-      138.6,
-      138.3,
-      138.0,
-      137.7,
-      137.4,
-      137.3
-     ],
-     "i_max": 64,
-     "i_min": 30,
-     "i_meridiano": 64
     },
     {
      "nombre": "NGC 6888 (Creciente)",
@@ -9656,7 +9656,7 @@
       "NGC 1980"
      ],
      "horas_si_despeja": 2.5,
-     "horas_esperadas": 1.8,
+     "horas_esperadas": 1.9,
      "horas_sobre_minimo": 4.9,
      "altura_maxima": 45.8,
      "separacion_luna": 109.2,
@@ -11414,7 +11414,7 @@
       "IC351"
      ],
      "horas_si_despeja": 2.1,
-     "horas_esperadas": 1.5,
+     "horas_esperadas": 1.6,
      "horas_sobre_minimo": 8.8,
      "altura_maxima": 86.9,
      "separacion_luna": 91.5,
@@ -11589,7 +11589,7 @@
       0.0,
       0.002,
       0.006,
-      0.016,
+      0.015,
       0.029,
       0.045,
       0.063,
@@ -11867,7 +11867,7 @@
       0.005,
       0.009,
       0.014,
-      0.021,
+      0.02,
       0.028,
       0.032,
       0.036,
@@ -11999,7 +11999,7 @@
       "Caldwell 11"
      ],
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "altura_maxima": 67.0,
      "separacion_luna": 74.0,
      "veredicto": "recomendado",
@@ -12016,7 +12016,7 @@
       "IC 1470"
      ],
      "horas_si_despeja": 9.5,
-     "horas_esperadas": 6.9,
+     "horas_esperadas": 7.0,
      "altura_maxima": 68.0,
      "separacion_luna": 72.0,
      "veredicto": "recomendado",
@@ -12033,7 +12033,7 @@
       "NGC 7129"
      ],
      "horas_si_despeja": 9.3,
-     "horas_esperadas": 6.7,
+     "horas_esperadas": 6.8,
      "altura_maxima": 62.0,
      "separacion_luna": 77.0,
      "veredicto": "recomendado",
@@ -12068,7 +12068,7 @@
       "Melotte 15"
      ],
      "horas_si_despeja": 8.9,
-     "horas_esperadas": 6.5,
+     "horas_esperadas": 6.6,
      "altura_maxima": 67.0,
      "separacion_luna": 89.0,
      "veredicto": "recomendado",
@@ -12120,7 +12120,7 @@
       "Trompa"
      ],
      "horas_si_despeja": 8.1,
-     "horas_esperadas": 5.9,
+     "horas_esperadas": 6.0,
      "altura_maxima": 71.0,
      "separacion_luna": 69.0,
      "veredicto": "recomendado",
@@ -12138,7 +12138,7 @@
       "IC143"
      ],
      "horas_si_despeja": 7.1,
-     "horas_esperadas": 5.2,
+     "horas_esperadas": 5.3,
      "altura_maxima": 83.0,
      "separacion_luna": 64.0,
      "veredicto": "recomendado",
@@ -12155,7 +12155,7 @@
       "NGC 1333"
      ],
      "horas_si_despeja": 6.5,
-     "horas_esperadas": 4.8,
+     "horas_esperadas": 4.9,
      "altura_maxima": 83.0,
      "separacion_luna": 87.0,
      "veredicto": "recomendado",
@@ -12208,7 +12208,7 @@
       "NGC 1952"
      ],
      "horas_si_despeja": 5.7,
-     "horas_esperadas": 4.2,
+     "horas_esperadas": 4.3,
      "altura_maxima": 74.0,
      "separacion_luna": 113.0,
      "veredicto": "recomendado",
@@ -12225,7 +12225,7 @@
       "IC 2067"
      ],
      "horas_si_despeja": 5.7,
-     "horas_esperadas": 4.2,
+     "horas_esperadas": 4.3,
      "altura_maxima": 87.0,
      "separacion_luna": 100.0,
      "veredicto": "recomendado",
@@ -12279,7 +12279,7 @@
       "NGC 1931"
      ],
      "horas_si_despeja": 4.6,
-     "horas_esperadas": 3.4,
+     "horas_esperadas": 3.5,
      "altura_maxima": 86.0,
      "separacion_luna": 113.0,
      "veredicto": "recomendado",
@@ -12356,6 +12356,23 @@
      "porque": "3.4 h equivalentes si despeja"
     },
     {
+     "nombre": "NGC 2371",
+     "tipo": "nebulosa planetaria",
+     "clase": "narrowband",
+     "ra": 111.3944,
+     "dec": 29.4906,
+     "alias": [
+      "NGC2371",
+      "NGC 2371"
+     ],
+     "horas_si_despeja": 3.4,
+     "horas_esperadas": 2.5,
+     "altura_maxima": 80.0,
+     "separacion_luna": 137.0,
+     "veredicto": "recomendado",
+     "porque": "3.4 h equivalentes si despeja"
+    },
+    {
      "nombre": "IC 0443 (Gem A)",
      "tipo": "resto de supernova",
      "clase": "narrowband",
@@ -12371,23 +12388,6 @@
      "horas_esperadas": 2.5,
      "altura_maxima": 74.0,
      "separacion_luna": 123.0,
-     "veredicto": "recomendado",
-     "porque": "3.4 h equivalentes si despeja"
-    },
-    {
-     "nombre": "NGC 2371",
-     "tipo": "nebulosa planetaria",
-     "clase": "narrowband",
-     "ra": 111.3944,
-     "dec": 29.4906,
-     "alias": [
-      "NGC2371",
-      "NGC 2371"
-     ],
-     "horas_si_despeja": 3.4,
-     "horas_esperadas": 2.5,
-     "altura_maxima": 80.0,
-     "separacion_luna": 137.0,
      "veredicto": "recomendado",
      "porque": "3.4 h equivalentes si despeja"
     },
@@ -12563,7 +12563,7 @@
       "NGC 1980"
      ],
      "horas_si_despeja": 2.5,
-     "horas_esperadas": 1.8,
+     "horas_esperadas": 1.9,
      "altura_maxima": 46.0,
      "separacion_luna": 109.0,
      "veredicto": "recomendado",
@@ -12671,7 +12671,7 @@
       "IC351"
      ],
      "horas_si_despeja": 2.1,
-     "horas_esperadas": 1.5,
+     "horas_esperadas": 1.6,
      "altura_maxima": 87.0,
      "separacion_luna": 92.0,
      "veredicto": "recomendado",
@@ -12781,7 +12781,7 @@
       "NGC40"
      ],
      "horas_si_despeja": 2.0,
-     "horas_esperadas": 1.4,
+     "horas_esperadas": 1.5,
      "altura_maxima": 55.0,
      "separacion_luna": 86.0,
      "veredicto": "posible",
@@ -12799,7 +12799,7 @@
       "NGC 2282"
      ],
      "horas_si_despeja": 1.8,
-     "horas_esperadas": 1.3,
+     "horas_esperadas": 1.4,
      "altura_maxima": 53.0,
      "separacion_luna": 128.0,
      "veredicto": "posible",
@@ -12833,7 +12833,7 @@
       "NGC 6823"
      ],
      "horas_si_despeja": 1.7,
-     "horas_esperadas": 1.2,
+     "horas_esperadas": 1.3,
      "altura_maxima": 75.0,
      "separacion_luna": 49.0,
      "veredicto": "posible",
@@ -12903,12 +12903,12 @@
       "NGC1003",
       "NGC 1003"
      ],
-     "horas_si_despeja": 1.4,
+     "horas_si_despeja": 1.5,
      "horas_esperadas": 1.1,
      "altura_maxima": 87.0,
      "separacion_luna": 81.0,
      "veredicto": "posible",
-     "porque": "1.4 h equivalentes si despeja"
+     "porque": "1.5 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 1058",
@@ -13180,7 +13180,7 @@
       "NGC 1545"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 78.0,
      "separacion_luna": 100.0,
      "veredicto": "posible",
@@ -13198,7 +13198,7 @@
       "NGC744"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 73.0,
      "separacion_luna": 82.0,
      "veredicto": "posible",
@@ -13217,7 +13217,7 @@
       "NGC884"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 71.0,
      "separacion_luna": 85.0,
      "veredicto": "posible",
@@ -13236,7 +13236,7 @@
       "NGC869"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 71.0,
      "separacion_luna": 85.0,
      "veredicto": "posible",
@@ -13254,7 +13254,7 @@
       "NGC957"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 70.0,
      "separacion_luna": 87.0,
      "veredicto": "posible",
@@ -13271,7 +13271,7 @@
       "NGC 1883"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 82.0,
      "separacion_luna": 111.0,
      "veredicto": "posible",
@@ -13289,7 +13289,7 @@
       "NGC752"
      ],
      "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
+     "horas_esperadas": 1.0,
      "altura_maxima": 89.0,
      "separacion_luna": 72.0,
      "veredicto": "posible",
@@ -13382,23 +13382,6 @@
      "porque": "1.3 h equivalentes si despeja"
     },
     {
-     "nombre": "NGC 1161",
-     "tipo": "galaxia",
-     "clase": "bajo_contraste",
-     "ra": 45.3089,
-     "dec": 44.8973,
-     "alias": [
-      "NGC1161",
-      "NGC 1161"
-     ],
-     "horas_si_despeja": 1.3,
-     "horas_esperadas": 0.9,
-     "altura_maxima": 83.0,
-     "separacion_luna": 86.0,
-     "veredicto": "posible",
-     "porque": "1.3 h equivalentes si despeja"
-    },
-    {
      "nombre": "NGC 1535",
      "tipo": "nebulosa planetaria",
      "clase": "compacto_resolucion",
@@ -13416,6 +13399,23 @@
      "porque": "1.3 h equivalentes si despeja"
     },
     {
+     "nombre": "NGC 1161",
+     "tipo": "galaxia",
+     "clase": "bajo_contraste",
+     "ra": 45.3089,
+     "dec": 44.8973,
+     "alias": [
+      "NGC1161",
+      "NGC 1161"
+     ],
+     "horas_si_despeja": 1.3,
+     "horas_esperadas": 0.9,
+     "altura_maxima": 83.0,
+     "separacion_luna": 86.0,
+     "veredicto": "posible",
+     "porque": "1.3 h equivalentes si despeja"
+    },
+    {
      "nombre": "IC 0239",
      "tipo": "galaxia",
      "clase": "bajo_contraste",
@@ -13426,12 +13426,12 @@
       "IC 239",
       "IC239"
      ],
-     "horas_si_despeja": 1.2,
+     "horas_si_despeja": 1.3,
      "horas_esperadas": 0.9,
      "altura_maxima": 89.0,
      "separacion_luna": 79.0,
      "veredicto": "posible",
-     "porque": "1.2 h equivalentes si despeja"
+     "porque": "1.3 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 1169",
@@ -13989,7 +13989,7 @@
       "NGC609"
      ],
      "horas_si_despeja": 1.1,
-     "horas_esperadas": 0.8,
+     "horas_esperadas": 0.9,
      "altura_maxima": 63.0,
      "separacion_luna": 85.0,
      "veredicto": "posible",
@@ -14008,7 +14008,7 @@
       "NGC457"
      ],
      "horas_si_despeja": 1.1,
-     "horas_esperadas": 0.8,
+     "horas_esperadas": 0.9,
      "altura_maxima": 70.0,
      "separacion_luna": 79.0,
      "veredicto": "posible",
@@ -14028,7 +14028,7 @@
       "NGC 1960"
      ],
      "horas_si_despeja": 1.1,
-     "horas_esperadas": 0.8,
+     "horas_esperadas": 0.9,
      "altura_maxima": 85.0,
      "separacion_luna": 114.0,
      "veredicto": "posible",
@@ -14045,7 +14045,7 @@
       "NGC 2281"
      ],
      "horas_si_despeja": 1.1,
-     "horas_esperadas": 0.8,
+     "horas_esperadas": 0.9,
      "altura_maxima": 87.0,
      "separacion_luna": 126.0,
      "veredicto": "posible",
@@ -14750,7 +14750,7 @@
       "NGC 2268"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 44.0,
      "separacion_luna": 105.0,
      "veredicto": "posible",
@@ -14767,7 +14767,7 @@
       "NGC 1653"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 49.0,
      "separacion_luna": 98.0,
      "veredicto": "posible",
@@ -14785,7 +14785,7 @@
       "NGC 224"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 87.0,
      "separacion_luna": 63.0,
      "veredicto": "posible",
@@ -14805,7 +14805,7 @@
       "NGC 1068"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 52.0,
      "separacion_luna": 68.0,
      "veredicto": "posible",
@@ -14826,7 +14826,7 @@
       "NGC221"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 87.0,
      "separacion_luna": 63.0,
      "veredicto": "posible",
@@ -14843,9 +14843,27 @@
       "NGC 2419"
      ],
      "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
+     "horas_esperadas": 0.8,
      "altura_maxima": 83.0,
      "separacion_luna": 136.0,
+     "veredicto": "posible",
+     "porque": "1.0 h equivalentes si despeja"
+    },
+    {
+     "nombre": "IC 0418",
+     "tipo": "nebulosa planetaria",
+     "clase": "compacto_resolucion",
+     "ra": 81.8675,
+     "dec": -12.6973,
+     "alias": [
+      "IC0418",
+      "IC 418",
+      "IC418"
+     ],
+     "horas_si_despeja": 1.0,
+     "horas_esperadas": 0.7,
+     "altura_maxima": 39.0,
+     "separacion_luna": 106.0,
      "veredicto": "posible",
      "porque": "1.0 h equivalentes si despeja"
     },
@@ -14903,24 +14921,6 @@
      "porque": "1.0 h equivalentes si despeja"
     },
     {
-     "nombre": "IC 0418",
-     "tipo": "nebulosa planetaria",
-     "clase": "compacto_resolucion",
-     "ra": 81.8675,
-     "dec": -12.6973,
-     "alias": [
-      "IC0418",
-      "IC 418",
-      "IC418"
-     ],
-     "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
-     "altura_maxima": 39.0,
-     "separacion_luna": 106.0,
-     "veredicto": "posible",
-     "porque": "1.0 h equivalentes si despeja"
-    },
-    {
      "nombre": "NGC 0188",
      "tipo": "cumulo abierto",
      "clase": "normal",
@@ -14974,6 +14974,23 @@
      "porque": "1.0 h equivalentes si despeja"
     },
     {
+     "nombre": "NGC 1253",
+     "tipo": "galaxia",
+     "clase": "bajo_contraste",
+     "ra": 48.5377,
+     "dec": -2.8229,
+     "alias": [
+      "NGC1253",
+      "NGC 1253"
+     ],
+     "horas_si_despeja": 1.0,
+     "horas_esperadas": 0.7,
+     "altura_maxima": 49.0,
+     "separacion_luna": 75.0,
+     "veredicto": "posible",
+     "porque": "1.0 h equivalentes si despeja"
+    },
+    {
      "nombre": "NGC 0129",
      "tipo": "cumulo abierto",
      "clase": "normal",
@@ -14988,23 +15005,6 @@
      "horas_esperadas": 0.7,
      "altura_maxima": 68.0,
      "separacion_luna": 77.0,
-     "veredicto": "posible",
-     "porque": "1.0 h equivalentes si despeja"
-    },
-    {
-     "nombre": "NGC 1253",
-     "tipo": "galaxia",
-     "clase": "bajo_contraste",
-     "ra": 48.5377,
-     "dec": -2.8229,
-     "alias": [
-      "NGC1253",
-      "NGC 1253"
-     ],
-     "horas_si_despeja": 1.0,
-     "horas_esperadas": 0.7,
-     "altura_maxima": 49.0,
-     "separacion_luna": 75.0,
      "veredicto": "posible",
      "porque": "1.0 h equivalentes si despeja"
     },
@@ -15989,7 +15989,7 @@
       "NGC 2976"
      ],
      "horas_si_despeja": 0.9,
-     "horas_esperadas": 0.6,
+     "horas_esperadas": 0.7,
      "altura_maxima": 53.0,
      "separacion_luna": 123.0,
      "veredicto": "posible",
@@ -16007,7 +16007,7 @@
       "NGC955"
      ],
      "horas_si_despeja": 0.9,
-     "horas_esperadas": 0.6,
+     "horas_esperadas": 0.7,
      "altura_maxima": 51.0,
      "separacion_luna": 65.0,
      "veredicto": "posible",
@@ -16025,7 +16025,7 @@
       "IC342"
      ],
      "horas_si_despeja": 0.9,
-     "horas_esperadas": 0.6,
+     "horas_esperadas": 0.7,
      "altura_maxima": 60.0,
      "separacion_luna": 98.0,
      "veredicto": "posible",
@@ -16042,7 +16042,7 @@
       "NGC 3034"
      ],
      "horas_si_despeja": 0.9,
-     "horas_esperadas": 0.6,
+     "horas_esperadas": 0.7,
      "altura_maxima": 51.0,
      "separacion_luna": 121.0,
      "veredicto": "posible",
@@ -16815,24 +16815,6 @@
      "porque": "0.8 h equivalentes si despeja"
     },
     {
-     "nombre": "NGC 0185",
-     "tipo": "galaxia",
-     "clase": "extremo_contraste",
-     "ra": 9.7415,
-     "dec": 48.3374,
-     "alias": [
-      "NGC0185",
-      "NGC 185",
-      "NGC185"
-     ],
-     "horas_si_despeja": 0.8,
-     "horas_esperadas": 0.6,
-     "altura_maxima": 80.0,
-     "separacion_luna": 68.0,
-     "veredicto": "posible",
-     "porque": "0.8 h equivalentes si despeja"
-    },
-    {
      "nombre": "NGC 0524",
      "tipo": "galaxia",
      "clase": "normal",
@@ -16847,6 +16829,24 @@
      "horas_esperadas": 0.6,
      "altura_maxima": 62.0,
      "separacion_luna": 52.0,
+     "veredicto": "posible",
+     "porque": "0.8 h equivalentes si despeja"
+    },
+    {
+     "nombre": "NGC 0185",
+     "tipo": "galaxia",
+     "clase": "extremo_contraste",
+     "ra": 9.7415,
+     "dec": 48.3374,
+     "alias": [
+      "NGC0185",
+      "NGC 185",
+      "NGC185"
+     ],
+     "horas_si_despeja": 0.8,
+     "horas_esperadas": 0.6,
+     "altura_maxima": 80.0,
+     "separacion_luna": 68.0,
      "veredicto": "posible",
      "porque": "0.8 h equivalentes si despeja"
     },
@@ -16929,12 +16929,12 @@
       "NGC1452",
       "NGC 1452"
      ],
-     "horas_si_despeja": 0.7,
+     "horas_si_despeja": 0.8,
      "horas_esperadas": 0.6,
      "altura_maxima": 33.0,
      "separacion_luna": 80.0,
      "veredicto": "posible",
-     "porque": "0.7 h equivalentes si despeja"
+     "porque": "0.8 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 1518",
@@ -16981,7 +16981,7 @@
       "NGC 1407"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 33.0,
      "separacion_luna": 79.0,
      "veredicto": "posible",
@@ -16998,7 +16998,7 @@
       "NGC 1172"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 37.0,
      "separacion_luna": 70.0,
      "veredicto": "posible",
@@ -17015,7 +17015,7 @@
       "NGC 2269"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 56.0,
      "separacion_luna": 128.0,
      "veredicto": "posible",
@@ -17033,7 +17033,7 @@
       "NGC 2261"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 60.0,
      "separacion_luna": 128.0,
      "veredicto": "posible",
@@ -17050,7 +17050,7 @@
       "NGC 1400"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 33.0,
      "separacion_luna": 79.0,
      "veredicto": "posible",
@@ -17068,7 +17068,7 @@
       "NGC16"
      ],
      "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
+     "horas_esperadas": 0.6,
      "altura_maxima": 80.0,
      "separacion_luna": 48.0,
      "veredicto": "posible",
@@ -17265,23 +17265,6 @@
      "porque": "0.7 h equivalentes si despeja"
     },
     {
-     "nombre": "NGC 4291",
-     "tipo": "galaxia",
-     "clase": "normal",
-     "ra": 185.0758,
-     "dec": 75.3708,
-     "alias": [
-      "NGC4291",
-      "NGC 4291"
-     ],
-     "horas_si_despeja": 0.7,
-     "horas_esperadas": 0.5,
-     "altura_maxima": 42.0,
-     "separacion_luna": 113.0,
-     "veredicto": "posible",
-     "porque": "0.7 h equivalentes si despeja"
-    },
-    {
      "nombre": "NGC 2346",
      "tipo": "nebulosa planetaria",
      "clase": "compacto_resolucion",
@@ -17295,6 +17278,23 @@
      "horas_esperadas": 0.5,
      "altura_maxima": 51.0,
      "separacion_luna": 133.0,
+     "veredicto": "posible",
+     "porque": "0.7 h equivalentes si despeja"
+    },
+    {
+     "nombre": "NGC 4291",
+     "tipo": "galaxia",
+     "clase": "normal",
+     "ra": 185.0758,
+     "dec": 75.3708,
+     "alias": [
+      "NGC4291",
+      "NGC 4291"
+     ],
+     "horas_si_despeja": 0.7,
+     "horas_esperadas": 0.5,
+     "altura_maxima": 42.0,
+     "separacion_luna": 113.0,
      "veredicto": "posible",
      "porque": "0.7 h equivalentes si despeja"
     },
@@ -17449,7 +17449,7 @@
      "horas_esperadas": 0.5,
      "altura_maxima": 57.0,
      "separacion_luna": 50.0,
-     "veredicto": "poco rentable",
+     "veredicto": "posible",
      "porque": "0.7 h equivalentes si despeja"
     },
     {
@@ -17467,7 +17467,7 @@
      "horas_esperadas": 0.5,
      "altura_maxima": 56.0,
      "separacion_luna": 50.0,
-     "veredicto": "poco rentable",
+     "veredicto": "posible",
      "porque": "0.7 h equivalentes si despeja"
     },
     {
@@ -17484,7 +17484,7 @@
      "horas_esperadas": 0.5,
      "altura_maxima": 29.0,
      "separacion_luna": 78.0,
-     "veredicto": "poco rentable",
+     "veredicto": "posible",
      "porque": "0.7 h equivalentes si despeja"
     },
     {
@@ -17501,7 +17501,7 @@
      "horas_esperadas": 0.5,
      "altura_maxima": 30.0,
      "separacion_luna": 80.0,
-     "veredicto": "poco rentable",
+     "veredicto": "posible",
      "porque": "0.7 h equivalentes si despeja"
     },
     {
@@ -17669,12 +17669,12 @@
       "NGC2324",
       "NGC 2324"
      ],
-     "horas_si_despeja": 0.6,
+     "horas_si_despeja": 0.7,
      "horas_esperadas": 0.5,
      "altura_maxima": 53.0,
      "separacion_luna": 132.0,
      "veredicto": "poco rentable",
-     "porque": "0.6 h equivalentes si despeja"
+     "porque": "0.7 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 4648",
@@ -17686,12 +17686,12 @@
       "NGC4648",
       "NGC 4648"
      ],
-     "horas_si_despeja": 0.6,
+     "horas_si_despeja": 0.7,
      "horas_esperadas": 0.5,
      "altura_maxima": 43.0,
      "separacion_luna": 113.0,
      "veredicto": "poco rentable",
-     "porque": "0.6 h equivalentes si despeja"
+     "porque": "0.7 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 0521",
@@ -17949,7 +17949,7 @@
       "NGC596"
      ],
      "horas_si_despeja": 0.6,
-     "horas_esperadas": 0.4,
+     "horas_esperadas": 0.5,
      "altura_maxima": 45.0,
      "separacion_luna": 50.0,
      "veredicto": "poco rentable",
@@ -18227,12 +18227,12 @@
       "NGC7226",
       "NGC 7226"
      ],
-     "horas_si_despeja": 0.5,
+     "horas_si_despeja": 0.6,
      "horas_esperadas": 0.4,
      "altura_maxima": 73.0,
      "separacion_luna": 67.0,
      "veredicto": "poco rentable",
-     "porque": "0.5 h equivalentes si despeja"
+     "porque": "0.6 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 2832",
@@ -18384,12 +18384,12 @@
       "NGC1367",
       "NGC 1367"
      ],
-     "horas_si_despeja": 0.4,
+     "horas_si_despeja": 0.5,
      "horas_esperadas": 0.3,
      "altura_maxima": 27.0,
      "separacion_luna": 77.0,
      "veredicto": "poco rentable",
-     "porque": "0.4 h equivalentes si despeja"
+     "porque": "0.5 h equivalentes si despeja"
     },
     {
      "nombre": "M50 / NGC 2323",
@@ -18682,7 +18682,7 @@
       "NGC 7457"
      ],
      "horas_si_despeja": 0.3,
-     "horas_esperadas": 0.2,
+     "horas_esperadas": 0.3,
      "altura_maxima": 82.0,
      "separacion_luna": 43.0,
      "veredicto": "poco rentable",
@@ -18702,7 +18702,7 @@
       "NGC 1904"
      ],
      "horas_si_despeja": 0.3,
-     "horas_esperadas": 0.2,
+     "horas_esperadas": 0.3,
      "altura_maxima": 27.0,
      "separacion_luna": 101.0,
      "veredicto": "poco rentable",
@@ -18758,7 +18758,7 @@
      "altura_maxima": 53.0,
      "separacion_luna": 146.0,
      "veredicto": "poco rentable",
-     "porque": "poca altura o cielo demasiado brillante para rendir"
+     "porque": "0.3 h equivalentes si despeja"
     },
     {
      "nombre": "NGC 2353",
@@ -18846,23 +18846,6 @@
      "porque": "poca altura o cielo demasiado brillante para rendir"
     },
     {
-     "nombre": "NGC 1398",
-     "tipo": "galaxia",
-     "clase": "bajo_contraste",
-     "ra": 54.7172,
-     "dec": -26.3378,
-     "alias": [
-      "NGC1398",
-      "NGC 1398"
-     ],
-     "horas_si_despeja": 0.3,
-     "horas_esperadas": 0.2,
-     "altura_maxima": 26.0,
-     "separacion_luna": 78.0,
-     "veredicto": "poco rentable",
-     "porque": "poca altura o cielo demasiado brillante para rendir"
-    },
-    {
      "nombre": "NGC 3003",
      "tipo": "galaxia",
      "clase": "bajo_contraste",
@@ -18876,6 +18859,23 @@
      "horas_esperadas": 0.2,
      "altura_maxima": 56.0,
      "separacion_luna": 157.0,
+     "veredicto": "poco rentable",
+     "porque": "poca altura o cielo demasiado brillante para rendir"
+    },
+    {
+     "nombre": "NGC 1398",
+     "tipo": "galaxia",
+     "clase": "bajo_contraste",
+     "ra": 54.7172,
+     "dec": -26.3378,
+     "alias": [
+      "NGC1398",
+      "NGC 1398"
+     ],
+     "horas_si_despeja": 0.3,
+     "horas_esperadas": 0.2,
+     "altura_maxima": 26.0,
+     "separacion_luna": 78.0,
      "veredicto": "poco rentable",
      "porque": "poca altura o cielo demasiado brillante para rendir"
     },
@@ -19662,23 +19662,6 @@
      "porque": "poca altura o cielo demasiado brillante para rendir"
     },
     {
-     "nombre": "NGC 6210",
-     "tipo": "nebulosa planetaria",
-     "clase": "compacto_resolucion",
-     "ra": 251.123,
-     "dec": 23.7998,
-     "alias": [
-      "NGC6210",
-      "NGC 6210"
-     ],
-     "horas_si_despeja": 0.1,
-     "horas_esperadas": 0.1,
-     "altura_maxima": 75.0,
-     "separacion_luna": 84.0,
-     "veredicto": "poco rentable",
-     "porque": "poca altura o cielo demasiado brillante para rendir"
-    },
-    {
      "nombre": "M8 (Laguna)",
      "tipo": "nebula",
      "clase": "narrowband",
@@ -19693,6 +19676,23 @@
      "horas_esperadas": 0.1,
      "altura_maxima": 27.0,
      "separacion_luna": 54.0,
+     "veredicto": "poco rentable",
+     "porque": "poca altura o cielo demasiado brillante para rendir"
+    },
+    {
+     "nombre": "NGC 6210",
+     "tipo": "nebulosa planetaria",
+     "clase": "compacto_resolucion",
+     "ra": 251.123,
+     "dec": 23.7998,
+     "alias": [
+      "NGC6210",
+      "NGC 6210"
+     ],
+     "horas_si_despeja": 0.1,
+     "horas_esperadas": 0.1,
+     "altura_maxima": 75.0,
+     "separacion_luna": 84.0,
      "veredicto": "poco rentable",
      "porque": "poca altura o cielo demasiado brillante para rendir"
     },
@@ -28674,7 +28674,7 @@
     "orto": "2026-09-25T06:03+00:00"
    },
    "luna_iluminacion": 0.96,
-   "probabilidad_de_abrir": 0.738,
+   "probabilidad_de_abrir": 0.747,
    "veredicto_abrir": {
     "abierto": true,
     "umbral": 0.5,
@@ -28684,37 +28684,37 @@
     },
     "regla": "Se dice Abierto cuando la probabilidad que va debajo llega al 50%, y Cerrado por debajo de esa cifra. Es un corte sobre ESE mismo número, no una segunda opinión, así que la palabra y el porcentaje no pueden discrepar. El número es el de la hora más floja de la mejor ventana de dos horas seguidas, y la ventana va al lado: Abierto quiere decir Abierto AHÍ."
    },
-   "horas_utilizables_esperadas": 9.5,
-   "horas_utilizables_oscuras": 6.6,
+   "horas_utilizables_esperadas": 9.4,
+   "horas_utilizables_oscuras": 6.4,
    "probabilidad_definicion": "Probabilidad de que el techo de Nerpio esté ABIERTO a esa hora dada la nube prevista, calibrada contra lo que el observatorio hizo de verdad: 31 meses de horas abiertas y las noches de techo medidas minuto a minuto. Lleva dentro sus decisiones (abren 30-60 min después de que su detector de nubes pase a despejado). Por hora se multiplica por 0,85 por cada riesgo en vigilancia, y es cero si una puerta de seguridad la bloquea. Para la noche se toma la hora más floja de la mejor ventana de DOS horas seguidas: una sola hora buena a las 03 no abre una noche.",
    "mejor_ventana": {
     "desde": "2026-09-24T19:00:00+00:00",
     "hasta": "2026-09-25T07:00:00+00:00",
-    "p_media": 0.732
+    "p_media": 0.721
    },
    "horas": [
     {
      "t_utc": "2026-09-24T17:00:00+00:00",
-     "nubes_previstas": 3.0,
-     "p_despejado": 0.718,
+     "nubes_previstas": 2.0,
+     "p_despejado": 0.733,
      "p_utilizable": 0.0,
      "limita": "viento",
      "seguro_para_abrir": false,
      "porque": "NO abrir: rachas de 48 km/h, por encima del cierre",
-     "seeing_arcsec": 0.97,
+     "seeing_arcsec": 0.96,
      "seeing_tercil": "favorable",
      "aod": 0.043,
      "k_total": 0.18
     },
     {
      "t_utc": "2026-09-24T18:00:00+00:00",
-     "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
+     "nubes_previstas": 1.0,
+     "p_despejado": 0.74,
      "p_utilizable": 0.0,
      "limita": "viento",
      "seguro_para_abrir": false,
-     "porque": "NO abrir: rachas de 47 km/h, por encima del cierre",
-     "seeing_arcsec": 0.96,
+     "porque": "NO abrir: rachas de 46 km/h, por encima del cierre",
+     "seeing_arcsec": 0.94,
      "seeing_tercil": "favorable",
      "aod": 0.043,
      "k_total": 0.181
@@ -28722,8 +28722,8 @@
     {
      "t_utc": "2026-09-24T19:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28735,8 +28735,8 @@
     {
      "t_utc": "2026-09-24T20:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28748,32 +28748,19 @@
     {
      "t_utc": "2026-09-24T21:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
-     "limita": "luna",
-     "seguro_para_abrir": true,
-     "porque": "abrible",
-     "seeing_arcsec": 0.96,
-     "seeing_tercil": "favorable",
-     "aod": 0.043,
-     "k_total": 0.181
-    },
-    {
-     "t_utc": "2026-09-24T22:00:00+00:00",
-     "nubes_previstas": 1.0,
-     "p_despejado": 0.732,
-     "p_utilizable": 0.732,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
      "seeing_arcsec": 0.93,
      "seeing_tercil": "favorable",
      "aod": 0.043,
-     "k_total": 0.18
+     "k_total": 0.181
     },
     {
-     "t_utc": "2026-09-24T23:00:00+00:00",
-     "nubes_previstas": 3.0,
+     "t_utc": "2026-09-24T22:00:00+00:00",
+     "nubes_previstas": 4.0,
      "p_despejado": 0.718,
      "p_utilizable": 0.718,
      "limita": "luna",
@@ -28785,21 +28772,47 @@
      "k_total": 0.18
     },
     {
-     "t_utc": "2026-09-25T00:00:00+00:00",
-     "nubes_previstas": 4.0,
-     "p_despejado": 0.711,
-     "p_utilizable": 0.711,
+     "t_utc": "2026-09-24T23:00:00+00:00",
+     "nubes_previstas": 10.0,
+     "p_despejado": 0.673,
+     "p_utilizable": 0.673,
      "limita": "luna",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.94,
+     "seeing_arcsec": 0.92,
+     "seeing_tercil": "favorable",
+     "aod": 0.043,
+     "k_total": 0.18
+    },
+    {
+     "t_utc": "2026-09-25T00:00:00+00:00",
+     "nubes_previstas": 13.0,
+     "p_despejado": 0.648,
+     "p_utilizable": 0.648,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible",
+     "seeing_arcsec": 0.93,
      "seeing_tercil": "favorable",
      "aod": 0.043,
      "k_total": 0.181
     },
     {
      "t_utc": "2026-09-25T01:00:00+00:00",
-     "nubes_previstas": 3.0,
+     "nubes_previstas": 10.0,
+     "p_despejado": 0.673,
+     "p_utilizable": 0.673,
+     "limita": "luna",
+     "seguro_para_abrir": true,
+     "porque": "abrible",
+     "seeing_arcsec": 0.94,
+     "seeing_tercil": "favorable",
+     "aod": 0.035,
+     "k_total": 0.173
+    },
+    {
+     "t_utc": "2026-09-25T02:00:00+00:00",
+     "nubes_previstas": 4.0,
      "p_despejado": 0.718,
      "p_utilizable": 0.718,
      "limita": "luna",
@@ -28811,23 +28824,10 @@
      "k_total": 0.173
     },
     {
-     "t_utc": "2026-09-25T02:00:00+00:00",
-     "nubes_previstas": 1.0,
-     "p_despejado": 0.732,
-     "p_utilizable": 0.732,
-     "limita": "luna",
-     "seguro_para_abrir": true,
-     "porque": "abrible",
-     "seeing_arcsec": 0.91,
-     "seeing_tercil": "favorable",
-     "aod": 0.035,
-     "k_total": 0.173
-    },
-    {
      "t_utc": "2026-09-25T03:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28839,8 +28839,8 @@
     {
      "t_utc": "2026-09-25T04:00:00+00:00",
      "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "p_despejado": 0.747,
+     "p_utilizable": 0.747,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28851,9 +28851,9 @@
     },
     {
      "t_utc": "2026-09-25T05:00:00+00:00",
-     "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "nubes_previstas": 1.0,
+     "p_despejado": 0.74,
+     "p_utilizable": 0.74,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28864,9 +28864,9 @@
     },
     {
      "t_utc": "2026-09-25T06:00:00+00:00",
-     "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "nubes_previstas": 2.0,
+     "p_despejado": 0.733,
+     "p_utilizable": 0.733,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
@@ -28877,13 +28877,13 @@
     },
     {
      "t_utc": "2026-09-25T07:00:00+00:00",
-     "nubes_previstas": 0.0,
-     "p_despejado": 0.738,
-     "p_utilizable": 0.738,
+     "nubes_previstas": 2.0,
+     "p_despejado": 0.733,
+     "p_utilizable": 0.733,
      "limita": "-",
      "seguro_para_abrir": true,
      "porque": "abrible",
-     "seeing_arcsec": 0.91,
+     "seeing_arcsec": 0.9,
      "seeing_tercil": "favorable",
      "aod": 0.035,
      "k_total": 0.173
@@ -28896,10 +28896,10 @@
     "mag_cenit_tipico_corregido": 18.12,
     "calibracion_fotometro": {
      "aplicable": true,
-     "n": 1063,
+     "n": 1064,
      "ventana_dias": 180,
      "sesgo": -0.078,
-     "mediana": -0.069,
+     "mediana": -0.068,
      "sigma": 0.322,
      "porque": "el fotometro manda: es medida y el modelo es estimacion. Se mide sobre los ultimos meses y no sobre todo el archivo porque lo que hay no es un desfase constante sino una deriva"
     },
@@ -28927,7 +28927,7 @@
      "objeto": "IC 1805 (Corazon)",
      "clase": "narrowband",
      "horas_si_despeja": 8.3,
-     "horas_esperadas": 6.1,
+     "horas_esperadas": 5.9,
      "veredicto": "recomendado",
      "porque": "8.3 h equivalentes si despeja"
     },
@@ -28935,7 +28935,7 @@
      "objeto": "IC 1848 (Alma)",
      "clase": "narrowband",
      "horas_si_despeja": 8.2,
-     "horas_esperadas": 6.0,
+     "horas_esperadas": 5.8,
      "veredicto": "recomendado",
      "porque": "8.2 h equivalentes si despeja"
     },
@@ -28943,7 +28943,7 @@
      "objeto": "NGC 7635 (Burbuja)",
      "clase": "narrowband",
      "horas_si_despeja": 6.2,
-     "horas_esperadas": 4.4,
+     "horas_esperadas": 4.3,
      "veredicto": "recomendado",
      "porque": "6.2 h equivalentes si despeja"
     }
@@ -29193,30 +29193,31 @@
   }
  ],
  "sensores": {
-  "allsky_utc": "2026-09-23T16:02:55+00:00",
-  "leido_utc": "2026-09-23T16:03:08+00:00",
-  "medido_utc": "2026-09-23T16:02:09+00:00",
-  "antiguedad_min": 1.0,
+  "allsky_utc": "2026-09-23T22:17:04+00:00",
+  "leido_utc": "2026-09-23T22:17:22+00:00",
+  "medido_utc": "2026-09-23T22:16:08+00:00",
+  "antiguedad_min": 1.2,
   "fresco": true,
-  "temperatura": 27.3,
-  "humedad": 32.0,
-  "punto_rocio": 9.14,
-  "margen_rocio": 18.2,
+  "temperatura": 17.9,
+  "humedad": 50.0,
+  "punto_rocio": 7.33,
+  "margen_rocio": 10.6,
   "riesgo_rocio": "bajo",
   "viento_ms": 3.055555555555556,
-  "viento_dir": 286.0,
-  "presion": 849.9,
-  "cielo_ir": -14.05,
-  "cielo_indice": 1.7,
+  "viento_dir": 312.0,
+  "presion": 851.8,
+  "cielo_ir": -13.54,
+  "cielo_indice": -0.3,
   "cielo_fresco": true,
   "cielo_despejado": true,
-  "techos_abiertos": 0,
+  "techos_abiertos": 18,
   "techos_total": 18,
-  "estado_seguridad": "Unsafe",
+  "estado_seguridad": "Safe",
   "incompleto": null,
   "del_archivo": {},
-  "cielo_mag_medido": null,
-  "cielo_mag_medido_utc": null
+  "cielo_mag_medido": 18.14,
+  "cielo_mag_medido_utc": "2026-09-23T22:01:26+00:00",
+  "cielo_mag_instrumento": "TESS stars289"
  },
  "cupula": {
   "clouds_available": true,
@@ -29386,7 +29387,7 @@
     0.7,
     1.2
    ],
-   "jet": 8.0,
+   "jet": 9.0,
    "note": "estimacion experimental sin calibrar; el tercil y la banda resumen la noche, el modelo puntua con el jet de cada hora"
   },
   "stars": [
@@ -29754,8 +29755,17 @@
     "clouds": [
      {
       "az": 0.0,
+      "alt": 90.0,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 0.0,
+      "overhead": true
+     },
+     {
+      "az": 0.0,
       "alt": 77.5,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 2.0,
@@ -29764,7 +29774,16 @@
      {
       "az": 45.0,
       "alt": 77.5,
-      "cover": 5,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 2.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 77.5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 2.0,
@@ -29773,7 +29792,7 @@
      {
       "az": 135.0,
       "alt": 77.5,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 2.0,
@@ -29782,7 +29801,7 @@
      {
       "az": 180.0,
       "alt": 77.5,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 2.0,
@@ -29791,7 +29810,25 @@
      {
       "az": 225.0,
       "alt": 77.5,
-      "cover": 5,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 2.0,
+      "overhead": false
+     },
+     {
+      "az": 270.0,
+      "alt": 77.5,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 2.0,
+      "overhead": false
+     },
+     {
+      "az": 315.0,
+      "alt": 77.5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 2.0,
@@ -29800,7 +29837,7 @@
      {
       "az": 0.0,
       "alt": 60.9,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 5.0,
@@ -29809,7 +29846,7 @@
      {
       "az": 45.0,
       "alt": 60.9,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 5.0,
@@ -29818,16 +29855,70 @@
      {
       "az": 90.0,
       "alt": 60.9,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 60.0,
       "distance_km": 5.0,
       "overhead": false
      },
      {
+      "az": 135.0,
+      "alt": 60.9,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 5.0,
+      "overhead": false
+     },
+     {
+      "az": 180.0,
+      "alt": 60.9,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 5.0,
+      "overhead": false
+     },
+     {
+      "az": 225.0,
+      "alt": 60.9,
+      "cover": 16,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 5.0,
+      "overhead": false
+     },
+     {
+      "az": 270.0,
+      "alt": 60.9,
+      "cover": 10,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 5.0,
+      "overhead": false
+     },
+     {
+      "az": 315.0,
+      "alt": 60.9,
+      "cover": 13,
+      "layer": "high",
+      "span": 60.0,
+      "distance_km": 5.0,
+      "overhead": false
+     },
+     {
+      "az": 0.0,
+      "alt": 42.0,
+      "cover": 12,
+      "layer": "high",
+      "span": 56.3,
+      "distance_km": 10.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 42.0,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
       "span": 56.3,
       "distance_km": 10.0,
@@ -29836,7 +29927,7 @@
      {
       "az": 90.0,
       "alt": 42.0,
-      "cover": 5,
+      "cover": 15,
       "layer": "high",
       "span": 56.3,
       "distance_km": 10.0,
@@ -29845,7 +29936,7 @@
      {
       "az": 135.0,
       "alt": 42.0,
-      "cover": 9,
+      "cover": 13,
       "layer": "high",
       "span": 56.3,
       "distance_km": 10.0,
@@ -29854,16 +29945,52 @@
      {
       "az": 180.0,
       "alt": 42.0,
-      "cover": 5,
+      "cover": 15,
       "layer": "high",
       "span": 56.3,
       "distance_km": 10.0,
       "overhead": false
      },
      {
+      "az": 225.0,
+      "alt": 42.0,
+      "cover": 10,
+      "layer": "high",
+      "span": 56.3,
+      "distance_km": 10.0,
+      "overhead": false
+     },
+     {
+      "az": 270.0,
+      "alt": 42.0,
+      "cover": 10,
+      "layer": "high",
+      "span": 56.3,
+      "distance_km": 10.0,
+      "overhead": false
+     },
+     {
+      "az": 315.0,
+      "alt": 42.0,
+      "cover": 13,
+      "layer": "high",
+      "span": 56.3,
+      "distance_km": 10.0,
+      "overhead": false
+     },
+     {
+      "az": 0.0,
+      "alt": 24.2,
+      "cover": 9,
+      "layer": "high",
+      "span": 36.9,
+      "distance_km": 20.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 24.2,
-      "cover": 5,
+      "cover": 13,
       "layer": "high",
       "span": 36.9,
       "distance_km": 20.0,
@@ -29881,7 +30008,7 @@
      {
       "az": 135.0,
       "alt": 24.2,
-      "cover": 9,
+      "cover": 13,
       "layer": "high",
       "span": 36.9,
       "distance_km": 20.0,
@@ -29890,16 +30017,43 @@
      {
       "az": 180.0,
       "alt": 24.2,
-      "cover": 7,
+      "cover": 16,
       "layer": "high",
       "span": 36.9,
       "distance_km": 20.0,
       "overhead": false
      },
      {
-      "az": 90.0,
+      "az": 225.0,
+      "alt": 24.2,
+      "cover": 6,
+      "layer": "high",
+      "span": 36.9,
+      "distance_km": 20.0,
+      "overhead": false
+     },
+     {
+      "az": 270.0,
+      "alt": 24.2,
+      "cover": 6,
+      "layer": "high",
+      "span": 36.9,
+      "distance_km": 20.0,
+      "overhead": false
+     },
+     {
+      "az": 315.0,
+      "alt": 24.2,
+      "cover": 10,
+      "layer": "high",
+      "span": 36.9,
+      "distance_km": 20.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
       "alt": 11.3,
-      "cover": 5,
+      "cover": 6,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -29908,7 +30062,16 @@
      {
       "az": 180.0,
       "alt": 11.3,
-      "cover": 11,
+      "cover": 13,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 225.0,
+      "alt": 11.3,
+      "cover": 5,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -29916,10 +30079,10 @@
      }
     ],
     "humidity": 31,
-    "dew_point": 3.6,
-    "temperature": 21.4,
-    "dew_margin": 17.8,
-    "wind_ms": 10.5
+    "dew_point": 3.8,
+    "temperature": 21.5,
+    "dew_margin": 17.7,
+    "wind_ms": 10.7
    },
    {
     "t": "2026-09-23T17:30:39.898544+00:00",
@@ -29931,11 +30094,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 43,
-    "dew_point": 5.7,
-    "temperature": 18.5,
-    "dew_margin": 12.8,
-    "wind_ms": 7.2
+    "humidity": 45,
+    "dew_point": 6.6,
+    "temperature": 18.7,
+    "dew_margin": 12.1,
+    "wind_ms": 7.9
    },
    {
     "t": "2026-09-23T18:00:39.898544+00:00",
@@ -29947,11 +30110,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 43,
-    "dew_point": 5.7,
-    "temperature": 18.5,
-    "dew_margin": 12.8,
-    "wind_ms": 7.2
+    "humidity": 45,
+    "dew_point": 6.6,
+    "temperature": 18.7,
+    "dew_margin": 12.1,
+    "wind_ms": 7.9
    },
    {
     "t": "2026-09-23T18:30:39.898544+00:00",
@@ -29963,11 +30126,11 @@
     "sky_mag_trustworthy": false,
     "dark": false,
     "clouds": [],
-    "humidity": 56,
-    "dew_point": 7.4,
-    "temperature": 16.3,
-    "dew_margin": 8.9,
-    "wind_ms": 4.2
+    "humidity": 59,
+    "dew_point": 8.3,
+    "temperature": 16.4,
+    "dew_margin": 8.1,
+    "wind_ms": 4.5
    },
    {
     "t": "2026-09-23T19:00:39.898544+00:00",
@@ -29979,11 +30142,11 @@
     "sky_mag_trustworthy": true,
     "dark": false,
     "clouds": [],
-    "humidity": 56,
-    "dew_point": 7.4,
-    "temperature": 16.3,
-    "dew_margin": 8.9,
-    "wind_ms": 4.2
+    "humidity": 59,
+    "dew_point": 8.3,
+    "temperature": 16.4,
+    "dew_margin": 8.1,
+    "wind_ms": 4.5
    },
    {
     "t": "2026-09-23T19:30:39.898544+00:00",
@@ -29995,11 +30158,11 @@
     "sky_mag_trustworthy": true,
     "dark": false,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T19:40:39.898544+00:00",
@@ -30011,11 +30174,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T19:50:39.898544+00:00",
@@ -30027,11 +30190,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T20:00:39.898544+00:00",
@@ -30043,11 +30206,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T20:10:39.898544+00:00",
@@ -30059,11 +30222,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T20:20:39.898544+00:00",
@@ -30075,11 +30238,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 64,
-    "dew_point": 8.3,
-    "temperature": 15.0,
-    "dew_margin": 6.7,
-    "wind_ms": 3.8
+    "humidity": 68,
+    "dew_point": 9.2,
+    "temperature": 15.1,
+    "dew_margin": 5.9,
+    "wind_ms": 4.1
    },
    {
     "t": "2026-09-23T20:30:39.898544+00:00",
@@ -30091,10 +30254,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30107,10 +30270,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30123,10 +30286,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30139,10 +30302,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30155,10 +30318,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30171,10 +30334,10 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 70,
-    "dew_point": 8.8,
+    "humidity": 74,
+    "dew_point": 9.5,
     "temperature": 14.1,
-    "dew_margin": 5.3,
+    "dew_margin": 4.6,
     "wind_ms": 4.0
    },
    {
@@ -30186,22 +30349,12 @@
     "sky_mag": 18.18,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T21:40:39.898544+00:00",
@@ -30212,22 +30365,12 @@
     "sky_mag": 18.17,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T21:50:39.898544+00:00",
@@ -30238,22 +30381,12 @@
     "sky_mag": 18.16,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T22:00:39.898544+00:00",
@@ -30264,22 +30397,12 @@
     "sky_mag": 18.16,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T22:10:39.898544+00:00",
@@ -30290,22 +30413,12 @@
     "sky_mag": 18.16,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T22:20:39.898544+00:00",
@@ -30316,22 +30429,12 @@
     "sky_mag": 18.17,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 45.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
-    "humidity": 75,
-    "dew_point": 9.0,
-    "temperature": 13.3,
-    "dew_margin": 4.3,
-    "wind_ms": 4.1
+    "clouds": [],
+    "humidity": 77,
+    "dew_point": 9.5,
+    "temperature": 13.5,
+    "dew_margin": 4.0,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-23T22:30:39.898544+00:00",
@@ -30342,22 +30445,12 @@
     "sky_mag": 18.18,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T22:40:39.898544+00:00",
@@ -30368,22 +30461,12 @@
     "sky_mag": 18.2,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T22:50:39.898544+00:00",
@@ -30394,22 +30477,12 @@
     "sky_mag": 18.22,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:00:39.898544+00:00",
@@ -30420,22 +30493,12 @@
     "sky_mag": 18.25,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:10:39.898544+00:00",
@@ -30446,22 +30509,12 @@
     "sky_mag": 18.28,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:20:39.898544+00:00",
@@ -30472,22 +30525,12 @@
     "sky_mag": 18.32,
     "sky_mag_trustworthy": true,
     "dark": true,
-    "clouds": [
-     {
-      "az": 0.0,
-      "alt": 5.7,
-      "cover": 5,
-      "layer": "high",
-      "span": 9.5,
-      "distance_km": 90.0,
-      "overhead": false
-     }
-    ],
+    "clouds": [],
     "humidity": 78,
-    "dew_point": 9.2,
-    "temperature": 12.9,
+    "dew_point": 9.5,
+    "temperature": 13.2,
     "dew_margin": 3.7,
-    "wind_ms": 4.7
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:30:39.898544+00:00",
@@ -30499,11 +30542,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:40:39.898544+00:00",
@@ -30515,11 +30558,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-23T23:50:39.898544+00:00",
@@ -30531,11 +30574,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-24T00:00:39.898544+00:00",
@@ -30547,11 +30590,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-24T00:10:39.898544+00:00",
@@ -30563,11 +30606,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-24T00:20:39.898544+00:00",
@@ -30579,11 +30622,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 78,
+    "humidity": 76,
     "dew_point": 8.8,
-    "temperature": 12.6,
-    "dew_margin": 3.8,
-    "wind_ms": 4.4
+    "temperature": 12.9,
+    "dew_margin": 4.1,
+    "wind_ms": 4.6
    },
    {
     "t": "2026-09-24T00:30:39.898544+00:00",
@@ -30595,11 +30638,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T00:40:39.898544+00:00",
@@ -30611,11 +30654,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T00:50:39.898544+00:00",
@@ -30627,11 +30670,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:00:39.898544+00:00",
@@ -30643,11 +30686,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:10:39.898544+00:00",
@@ -30659,11 +30702,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:20:39.898544+00:00",
@@ -30675,11 +30718,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 71,
-    "dew_point": 7.4,
-    "temperature": 12.5,
-    "dew_margin": 5.1,
-    "wind_ms": 3.6
+    "humidity": 69,
+    "dew_point": 7.2,
+    "temperature": 12.8,
+    "dew_margin": 5.6,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:30:39.898544+00:00",
@@ -30691,11 +30734,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:40:39.898544+00:00",
@@ -30707,11 +30750,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T01:50:39.898544+00:00",
@@ -30723,11 +30766,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T02:00:39.898544+00:00",
@@ -30739,11 +30782,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T02:10:39.898544+00:00",
@@ -30755,11 +30798,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T02:20:39.898544+00:00",
@@ -30771,11 +30814,11 @@
     "sky_mag_trustworthy": true,
     "dark": true,
     "clouds": [],
-    "humidity": 63,
-    "dew_point": 5.6,
-    "temperature": 12.4,
-    "dew_margin": 6.8,
-    "wind_ms": 3.4
+    "humidity": 62,
+    "dew_point": 5.5,
+    "temperature": 12.7,
+    "dew_margin": 7.2,
+    "wind_ms": 4.2
    },
    {
     "t": "2026-09-24T02:30:39.898544+00:00",
@@ -30790,8 +30833,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30799,9 +30860,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T02:40:39.898544+00:00",
@@ -30816,8 +30877,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30825,9 +30904,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T02:50:39.898544+00:00",
@@ -30842,8 +30921,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30851,9 +30948,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T03:00:39.898544+00:00",
@@ -30868,8 +30965,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30877,9 +30992,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T03:10:39.898544+00:00",
@@ -30894,8 +31009,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30903,9 +31036,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T03:20:39.898544+00:00",
@@ -30920,8 +31053,26 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 16,
       "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 13,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 1.0,
+      "cover": 7,
+      "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
@@ -30929,9 +31080,9 @@
     ],
     "humidity": 58,
     "dew_point": 4.3,
-    "temperature": 12.2,
-    "dew_margin": 7.9,
-    "wind_ms": 3.4
+    "temperature": 12.5,
+    "dew_margin": 8.2,
+    "wind_ms": 3.5
    },
    {
     "t": "2026-09-24T03:30:39.898544+00:00",
@@ -30944,20 +31095,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T03:40:39.898544+00:00",
@@ -30970,20 +31139,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T03:50:39.898544+00:00",
@@ -30996,20 +31183,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T04:00:39.898544+00:00",
@@ -31022,20 +31227,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T04:10:39.898544+00:00",
@@ -31048,20 +31271,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T04:20:39.898544+00:00",
@@ -31074,20 +31315,38 @@
     "dark": true,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 28,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 18,
+      "cover": 19,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
       "overhead": false
      }
     ],
-    "humidity": 54,
-    "dew_point": 3.2,
-    "temperature": 12.4,
+    "humidity": 53,
+    "dew_point": 3.4,
+    "temperature": 12.6,
     "dew_margin": 9.2,
-    "wind_ms": 3.3
+    "wind_ms": 2.6
    },
    {
     "t": "2026-09-24T04:50:39.898544+00:00",
@@ -31100,9 +31359,18 @@
     "dark": false,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 13,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31111,7 +31379,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 31,
+      "cover": 30,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31119,10 +31387,10 @@
      }
     ],
     "humidity": 51,
-    "dew_point": 2.6,
-    "temperature": 12.4,
+    "dew_point": 2.8,
+    "temperature": 12.6,
     "dew_margin": 9.8,
-    "wind_ms": 3.0
+    "wind_ms": 2.3
    },
    {
     "t": "2026-09-24T05:20:39.898544+00:00",
@@ -31135,9 +31403,18 @@
     "dark": false,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 5.7,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 5.7,
-      "cover": 7,
+      "cover": 13,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31146,7 +31423,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 31,
+      "cover": 30,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31154,10 +31431,10 @@
      }
     ],
     "humidity": 51,
-    "dew_point": 2.6,
-    "temperature": 12.4,
+    "dew_point": 2.8,
+    "temperature": 12.6,
     "dew_margin": 9.8,
-    "wind_ms": 3.0
+    "wind_ms": 2.3
    },
    {
     "t": "2026-09-24T05:50:39.898544+00:00",
@@ -31170,9 +31447,18 @@
     "dark": false,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 11.3,
+      "cover": 8,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 11.3,
-      "cover": 11,
+      "cover": 10,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -31181,7 +31467,16 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 16,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31190,7 +31485,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 30,
+      "cover": 93,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31198,10 +31493,10 @@
      }
     ],
     "humidity": 51,
-    "dew_point": 2.3,
-    "temperature": 12.2,
+    "dew_point": 2.5,
+    "temperature": 12.4,
     "dew_margin": 9.9,
-    "wind_ms": 3.9
+    "wind_ms": 3.3
    },
    {
     "t": "2026-09-24T06:20:39.898544+00:00",
@@ -31214,9 +31509,18 @@
     "dark": false,
     "clouds": [
      {
+      "az": 0.0,
+      "alt": 11.3,
+      "cover": 8,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
       "az": 45.0,
       "alt": 11.3,
-      "cover": 11,
+      "cover": 10,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -31225,7 +31529,16 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 5,
+      "cover": 8,
+      "layer": "high",
+      "span": 9.5,
+      "distance_km": 90.0,
+      "overhead": false
+     },
+     {
+      "az": 45.0,
+      "alt": 5.7,
+      "cover": 16,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31234,7 +31547,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 30,
+      "cover": 93,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31242,10 +31555,10 @@
      }
     ],
     "humidity": 51,
-    "dew_point": 2.3,
-    "temperature": 12.2,
+    "dew_point": 2.5,
+    "temperature": 12.4,
     "dew_margin": 9.9,
-    "wind_ms": 3.9
+    "wind_ms": 3.3
    },
    {
     "t": "2026-09-24T06:50:39.898544+00:00",
@@ -31260,7 +31573,16 @@
      {
       "az": 45.0,
       "alt": 11.3,
-      "cover": 12,
+      "cover": 18,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 23,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -31269,7 +31591,7 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 23,
+      "cover": 20,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31278,7 +31600,7 @@
      {
       "az": 45.0,
       "alt": 5.7,
-      "cover": 11,
+      "cover": 16,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31287,7 +31609,7 @@
      {
       "az": 90.0,
       "alt": 5.7,
-      "cover": 12,
+      "cover": 8,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31296,7 +31618,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 14,
+      "cover": 54,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31304,10 +31626,10 @@
      }
     ],
     "humidity": 44,
-    "dew_point": 2.7,
-    "temperature": 14.9,
-    "dew_margin": 12.2,
-    "wind_ms": 3.8
+    "dew_point": 2.9,
+    "temperature": 15.0,
+    "dew_margin": 12.1,
+    "wind_ms": 3.2
    },
    {
     "t": "2026-09-24T07:00:39.898544+00:00",
@@ -31322,7 +31644,16 @@
      {
       "az": 45.0,
       "alt": 11.3,
-      "cover": 12,
+      "cover": 18,
+      "layer": "high",
+      "span": 18.4,
+      "distance_km": 45.0,
+      "overhead": false
+     },
+     {
+      "az": 90.0,
+      "alt": 11.3,
+      "cover": 23,
       "layer": "high",
       "span": 18.4,
       "distance_km": 45.0,
@@ -31331,7 +31662,7 @@
      {
       "az": 0.0,
       "alt": 5.7,
-      "cover": 23,
+      "cover": 20,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31340,7 +31671,7 @@
      {
       "az": 45.0,
       "alt": 5.7,
-      "cover": 11,
+      "cover": 16,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31349,7 +31680,7 @@
      {
       "az": 90.0,
       "alt": 5.7,
-      "cover": 12,
+      "cover": 8,
       "layer": "high",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31358,7 +31689,7 @@
      {
       "az": 90.0,
       "alt": 1.0,
-      "cover": 14,
+      "cover": 54,
       "layer": "low",
       "span": 9.5,
       "distance_km": 90.0,
@@ -31366,10 +31697,10 @@
      }
     ],
     "humidity": 44,
-    "dew_point": 2.7,
-    "temperature": 14.9,
-    "dew_margin": 12.2,
-    "wind_ms": 3.8
+    "dew_point": 2.9,
+    "temperature": 15.0,
+    "dew_margin": 12.1,
+    "wind_ms": 3.2
    }
   ]
  },
@@ -31379,22 +31710,22 @@
   "curva_techo": {
    "metodo": "cruce mensual + pendiente horaria",
    "cruce_nube": 0.3,
-   "pendiente": -3.46,
+   "pendiente": -3.6,
    "pendiente_p10_p90": [
-    -5.77,
-    -1.89
+    -5.91,
+    -1.96
    ],
    "meses": 31,
-   "noches": 23,
+   "noches": 24,
    "noches_objetivo": 60,
-   "mae_mensual": 0.122,
+   "mae_mensual": 0.12,
    "mae_mensual_climatologia": 0.182,
    "mae_fuera_de_muestra": 0.12
   },
-  "pares_de_entrenamiento": 255,
-  "bss_sobre_climatologia": 0.565,
+  "pares_de_entrenamiento": 266,
+  "bss_sobre_climatologia": 0.578,
   "modelo_calibrado": "ecmwf_ifs025",
-  "curva_ajustada_el": "2026-09-22T16:03:34+00:00",
+  "curva_ajustada_el": "2026-09-23T16:33:02+00:00",
   "suelo_cielo": {
    "en_uso": 22.377,
    "constante": 21.71,
@@ -31404,7 +31735,7 @@
    "ajustado_el": "2026-09-22T23:33:48+00:00"
   },
   "avisos": [
-   "La curva del techo tiene el cruce (30% de nube) de 31 meses y la pendiente de solo 23 noches (intervalo -5.8 a -1.9): faltan 37 noches para reajustarla entera por horas. Ese día hay que COMPROBAR que el cruce horario siga cerca del mensual.",
+   "La curva del techo tiene el cruce (30% de nube) de 31 meses y la pendiente de solo 24 noches (intervalo -5.9 a -2.0): faltan 36 noches para reajustarla entera por horas. Ese día hay que COMPROBAR que el cruce horario siga cerca del mensual.",
    "El seeing es experimental y sin calibrar con FWHM local: se publica en terciles, nunca en arcosegundos sueltos.",
    "La racha, el CAPE y la lluvia salen de ecmwf_ifs, no de la malla con la que se calibró la nube (ecmwf_ifs025): son umbrales físicos y no la curva, así que la malla no los invalida."
   ]
