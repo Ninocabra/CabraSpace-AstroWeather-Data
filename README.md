@@ -32,9 +32,10 @@ reescribir sin dejar rastro no se puede verificar.
 | `sitio` | Coordenadas y cota del observatorio |
 | `noches[]` | Una entrada por noche, etiquetada por el dia en que EMPIEZA |
 | `noches[].probabilidad_de_abrir` | Probabilidad calibrada de que la noche sea utilizable |
-| `noches[].horas[]` | Hora a hora: nubes previstas, probabilidad, que limita y si es seguro abrir |
+| `noches[].horas[]` | Hora a hora: nubes previstas (`null` si salen de WeatherNext), probabilidad, que limita y si es seguro abrir |
 | `noches[].cielo` | Fondo de cielo, seeing en terciles y transparencia, cada uno con su origen |
 | `noches[].recomendaciones[]` | Objetos del catalogo, con horas equivalentes de SNR si despeja y esperadas |
+| `atribucion` | Las citas que exigen las fuentes con términos propios (hoy, WeatherNext) |
 | `confianza` | Con que se calibro, sobre cuantos pares, que BSS saca sobre climatologia, y los avisos vivos |
 
 ## La regla que no se salta
@@ -58,6 +59,16 @@ tiene sus propias condiciones:
 - **[Open-Meteo](https://open-meteo.com/)** — modelos deterministas y el
   ensemble de 51 miembros del ECMWF. Datos bajo CC BY 4.0, derivados de
   servicios meteorologicos nacionales.
+- **WeatherNext 3** (Google DeepMind), accedido a través de **Google Earth
+  Engine** — la probabilidad de cielo despejado de las noches siguientes a la
+  de hoy y, cuando su pasada es la más reciente, la lluvia de las puertas de
+  seguridad. Sus términos de uso no permiten republicar sus valores, así que en
+  esas horas `nubes_previstas` va a `null` y solo se publica lo derivado
+  (probabilidad y veredicto). Cada noche dice de qué modelo sale en
+  `modelo_nubes` y contra qué se calibró en `verdad_terreno`. Cita obligatoria:
+
+  > © 2024-6 Google LLC, whose machine learning models were used to create the experimental data made available under the following licence terms https://storage.googleapis.com/weathernext-public/terms-of-use.pdf. This data is intended for experimental modelling only and is not intended, validated, or approved for real world use.
+
 - **[CAMS](https://atmosphere.copernicus.eu/)** (Copernicus) — aerosol y polvo.
 - **[AEMET OpenData](https://opendata.aemet.es/)** — estaciones cercanas.
 - **AstroCamp** — sensores del sitio y estado de los techos.
