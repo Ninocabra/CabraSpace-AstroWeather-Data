@@ -1,20 +1,20 @@
 {
- "leido_utc": "2026-09-25T18:31:53+00:00",
+ "leido_utc": "2026-09-25T19:01:50+00:00",
  "sensores": {
-  "allsky_utc": "2026-09-25T18:31:47+00:00",
-  "leido_utc": "2026-09-25T18:31:53+00:00",
-  "medido_utc": "2026-09-25T18:30:17+00:00",
+  "allsky_utc": "2026-09-25T19:01:40+00:00",
+  "leido_utc": "2026-09-25T19:01:50+00:00",
+  "medido_utc": "2026-09-25T19:00:17+00:00",
   "antiguedad_min": 1.6,
   "fresco": true,
-  "temperatura": 22.6,
-  "humedad": 34.0,
-  "punto_rocio": 5.93,
-  "margen_rocio": 16.7,
+  "temperatura": 22.1,
+  "humedad": 36.0,
+  "punto_rocio": 6.32,
+  "margen_rocio": 15.8,
   "riesgo_rocio": "bajo",
-  "viento_ms": 3.3333333333333335,
-  "viento_dir": 317.0,
-  "presion": 849.2,
-  "cielo_ir": -11.91,
+  "viento_ms": 3.611111111111111,
+  "viento_dir": 310.0,
+  "presion": 849.3,
+  "cielo_ir": -11.78,
   "cielo_indice": 0.0,
   "cielo_fresco": true,
   "cielo_despejado": true,
@@ -23,7 +23,8 @@
   "estado_seguridad": "Safe",
   "incompleto": null,
   "del_archivo": {},
-  "cielo_mag_medido": null,
-  "cielo_mag_medido_utc": null
+  "cielo_mag_medido": 14.56,
+  "cielo_mag_medido_utc": "2026-09-25T18:31:20+00:00",
+  "cielo_mag_instrumento": "TESS stars289"
  }
 }
