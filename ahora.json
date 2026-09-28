@@ -1,21 +1,21 @@
 {
- "leido_utc": "2026-09-28T22:02:02+00:00",
+ "leido_utc": "2026-09-28T22:35:01+00:00",
  "sensores": {
-  "allsky_utc": "2026-09-28T22:01:37+00:00",
-  "leido_utc": "2026-09-28T22:02:02+00:00",
+  "allsky_utc": "2026-09-28T22:34:46+00:00",
+  "leido_utc": "2026-09-28T22:35:01+00:00",
   "medido_utc": null,
   "antiguedad_min": null,
   "fresco": false,
-  "temperatura": 13.199999809265137,
+  "temperatura": 15.609999656677246,
   "humedad": 80.0,
   "punto_rocio": 9.819999694824219,
-  "margen_rocio": 3.4,
+  "margen_rocio": null,
   "riesgo_rocio": "desconocido",
   "viento_ms": 2.222222328186035,
   "viento_dir": null,
-  "presion": 846.5999755859375,
-  "cielo_ir": 2.01,
-  "cielo_indice": 0.3,
+  "presion": 846.5,
+  "cielo_ir": 3.91,
+  "cielo_indice": 0.5,
   "cielo_fresco": true,
   "cielo_despejado": false,
   "techos_abiertos": null,
@@ -24,15 +24,15 @@
   "incompleto": "Descarga incompleta: falta estaciones meteo, estadística de horas abiertas, techos, registro de seguridad",
   "techos_estado_archivo": false,
   "del_archivo": {
-   "temperatura": "2026-09-28T22:00:17+00:00",
-   "humedad": "2026-09-28T22:00:17+00:00",
-   "viento_ms": "2026-09-28T22:00:17+00:00",
-   "presion": "2026-09-28T22:00:17+00:00",
-   "punto_rocio": "2026-09-28T22:00:17+00:00",
-   "techos": "2026-09-28T22:02:00+00:00"
+   "temperatura": "2026-09-28T22:30:30+00:00",
+   "humedad": "2026-09-28T22:30:18+00:00",
+   "viento_ms": "2026-09-28T22:30:18+00:00",
+   "presion": "2026-09-28T22:30:18+00:00",
+   "punto_rocio": "2026-09-28T22:30:18+00:00",
+   "techos": "2026-09-28T22:31:23+00:00"
   },
-  "cielo_mag_medido": 18.61,
-  "cielo_mag_medido_utc": "2026-09-28T21:30:46+00:00",
+  "cielo_mag_medido": 18.28,
+  "cielo_mag_medido_utc": "2026-09-28T22:01:48+00:00",
   "cielo_mag_instrumento": "TESS stars289"
  }
 }
