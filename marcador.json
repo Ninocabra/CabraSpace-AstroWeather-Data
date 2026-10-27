@@ -1,195 +1,168 @@
 {
- "generado_utc": "2026-10-26T23:32:07+00:00",
+ "generado_utc": "2026-10-27T00:01:51+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-26T23:32:07+00:00",
+  "calculado_utc": "2026-10-27T00:01:51+00:00",
   "nota": {
    "nivel": "ok",
-   "motivo": "BSS +0.37 y acierto 0.86 contra 0.71",
+   "motivo": "BSS +0.39 y acierto 0.85 contra 0.69",
    "ventana_noches": 14,
    "d0": {
-    "desde": "2026-10-12",
-    "hasta": "2026-10-25",
-    "noches": 14,
-    "aciertos": 8,
+    "desde": "2026-10-13",
+    "hasta": "2026-10-26",
+    "noches": 13,
+    "aciertos": 7,
     "falsas_alarmas": 0,
     "sorpresas": 2,
     "cierres_bien": 4,
-    "acierto": 0.857,
-    "acierto_climatologia": 0.714,
-    "brier": 0.148,
-    "brier_climatologia": 0.233,
-    "bss": 0.366,
+    "acierto": 0.846,
+    "acierto_climatologia": 0.692,
+    "brier": 0.153,
+    "brier_climatologia": 0.252,
+    "bss": 0.391,
     "bss_ic90": [
-     -1.185,
-     0.74
+     -1.056,
+     0.767
     ],
-    "climatologia_p": 0.886,
-    "climatologia_fuente": "noches anteriores a la ventana (n=35)",
-    "p_media": 0.484,
-    "abrio_frac": 0.714,
+    "climatologia_p": 0.889,
+    "climatologia_fuente": "noches anteriores a la ventana (n=36)",
+    "p_media": 0.466,
+    "abrio_frac": 0.692,
     "nivel": "ok",
-    "motivo": "BSS +0.37 y acierto 0.86 contra 0.71"
+    "motivo": "BSS +0.39 y acierto 0.85 contra 0.69"
    },
    "dm1": {
-    "desde": "2026-10-12",
-    "hasta": "2026-10-25",
-    "noches": 14,
-    "aciertos": 10,
+    "desde": "2026-10-13",
+    "hasta": "2026-10-26",
+    "noches": 13,
+    "aciertos": 9,
     "falsas_alarmas": 1,
     "sorpresas": 0,
     "cierres_bien": 3,
-    "acierto": 0.929,
-    "acierto_climatologia": 0.714,
-    "brier": 0.08,
-    "brier_climatologia": 0.232,
-    "bss": 0.656,
+    "acierto": 0.923,
+    "acierto_climatologia": 0.692,
+    "brier": 0.086,
+    "brier_climatologia": 0.25,
+    "bss": 0.657,
     "bss_ic90": [
-     0.376,
-     0.856
+     0.36,
+     0.858
     ],
-    "climatologia_p": 0.882,
-    "climatologia_fuente": "noches anteriores a la ventana (n=34)",
-    "p_media": 0.773,
-    "abrio_frac": 0.714,
+    "climatologia_p": 0.886,
+    "climatologia_fuente": "noches anteriores a la ventana (n=35)",
+    "p_media": 0.758,
+    "abrio_frac": 0.692,
     "nivel": "ok",
-    "motivo": "BSS +0.66 y acierto 0.93 contra 0.71"
+    "motivo": "BSS +0.66 y acierto 0.92 contra 0.69"
    }
   },
   "sensores": {
    "techo": {
-    "nivel": "rojo",
-    "motivo": "4 lecturas el 25-10 de 36 esperadas (11%)",
-    "ultima_utc": "2026-10-26T23:31:26+00:00",
+    "nivel": "aviso",
+    "motivo": "9 lecturas el 26-10 de 36 esperadas (25%)",
+    "ultima_utc": "2026-10-27T00:01:44+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 4,
+    "lecturas_ayer": 9,
     "esperadas_dia": 36,
-    "fraccion": 0.11,
+    "fraccion": 0.25,
     "ultimos_dias": {
-     "2026-10-19": 3,
      "2026-10-20": 4,
      "2026-10-21": 4,
      "2026-10-22": 3,
      "2026-10-23": 4,
      "2026-10-24": 4,
-     "2026-10-25": 4
+     "2026-10-25": 4,
+     "2026-10-26": 9
     }
    },
    "cloudwatcher": {
-    "nivel": "rojo",
-    "motivo": "4 lecturas el 25-10 de 34 esperadas (12%)",
-    "ultima_utc": "2026-10-26T23:30:49+00:00",
+    "nivel": "aviso",
+    "motivo": "9 lecturas el 26-10 de 34 esperadas (26%)",
+    "ultima_utc": "2026-10-27T00:00:20+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 4,
+    "lecturas_ayer": 9,
     "esperadas_dia": 34,
-    "fraccion": 0.12,
+    "fraccion": 0.26,
     "ultimos_dias": {
-     "2026-10-19": 1,
      "2026-10-20": 3,
      "2026-10-21": 4,
      "2026-10-22": 4,
      "2026-10-23": 4,
      "2026-10-24": 4,
-     "2026-10-25": 4
+     "2026-10-25": 4,
+     "2026-10-26": 9
     }
    },
    "estacion": {
-    "nivel": "rojo",
-    "motivo": "4 lecturas el 25-10 de 36 esperadas (11%)",
-    "ultima_utc": "2026-10-26T23:30:08+00:00",
+    "nivel": "aviso",
+    "motivo": "9 lecturas el 26-10 de 36 esperadas (25%)",
+    "ultima_utc": "2026-10-27T00:00:07+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 4,
+    "lecturas_ayer": 9,
     "esperadas_dia": 36,
-    "fraccion": 0.11,
+    "fraccion": 0.25,
     "ultimos_dias": {
-     "2026-10-19": 3,
      "2026-10-20": 4,
      "2026-10-21": 4,
      "2026-10-22": 3,
      "2026-10-23": 4,
      "2026-10-24": 4,
-     "2026-10-25": 4
+     "2026-10-25": 4,
+     "2026-10-26": 9
     }
    },
    "fotometro": {
     "nivel": "aviso",
-    "motivo": "205 lecturas el 25-10 de 600 esperadas (34%)",
-    "ultima_utc": "2026-10-26T23:30:53+00:00",
+    "motivo": "439 lecturas el 26-10 de 600 esperadas (73%)",
+    "ultima_utc": "2026-10-27T00:00:55+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 205,
+    "lecturas_ayer": 439,
     "esperadas_dia": 600,
-    "fraccion": 0.34,
+    "fraccion": 0.73,
     "ultimos_dias": {
-     "2026-10-19": 722,
      "2026-10-20": 716,
      "2026-10-21": 719,
      "2026-10-22": 710,
      "2026-10-23": 446,
      "2026-10-24": 178,
-     "2026-10-25": 205
+     "2026-10-25": 205,
+     "2026-10-26": 439
     }
    },
    "allsky": {
     "nivel": "aviso",
-    "motivo": "3414 lecturas el 25-10 de 4800 esperadas (71%)",
+    "motivo": "2818 lecturas el 26-10 de 4800 esperadas (59%)",
     "ultima_utc": "2026-10-26T19:36:54+00:00",
-    "edad_h": 3.9,
-    "lecturas_ayer": 3414,
+    "edad_h": 4.4,
+    "lecturas_ayer": 2818,
     "esperadas_dia": 4800,
-    "fraccion": 0.71,
+    "fraccion": 0.59,
     "ultimos_dias": {
-     "2026-10-19": 1809,
      "2026-10-20": 3566,
      "2026-10-21": 3593,
      "2026-10-22": 3657,
      "2026-10-23": 3645,
      "2026-10-24": 4390,
-     "2026-10-25": 3414
+     "2026-10-25": 3414,
+     "2026-10-26": 2818
     }
    }
   },
   "allsky_corte": {
    "nivel": "ok",
-   "noches_miradas": 7,
+   "noches_miradas": 6,
    "noches_con_corte": 2,
    "hora_corte_utc": 3,
-   "motivo": "sin estrellas (<5 % de lo anterior) desde las 03 UTC en 2 de 7 noches con cielo visto antes"
+   "motivo": "sin estrellas (<5 % de lo anterior) desde las 03 UTC en 2 de 6 noches con cielo visto antes"
   },
   "curva_techo": {
    "nivel": "aviso",
    "motivo": "aun no hay ninguna decision registrada"
   },
-  "nivel": "rojo"
+  "nivel": "aviso"
  },
  "ultimas_noches": [
-  {
-   "noche": "2026-10-12",
-   "techo_abrio": true,
-   "techo_horas": 12.8,
-   "techo_fuente": "tabla aprox",
-   "techo_horas_oscuras": null,
-   "d0": {
-    "p_abrir": 0.719,
-    "abierto": true,
-    "resultado": "acierto",
-    "brier": 0.079,
-    "error_horas": -3.4
-   },
-   "dm1": {
-    "p_abrir": 0.971,
-    "abierto": true,
-    "resultado": "acierto",
-    "brier": 0.001
-   },
-   "despejado": {
-    "fotometro": 1.0,
-    "cloudwatcher": 1.0,
-    "allsky": 1.0,
-    "consenso": 1.0
-   },
-   "voto": "despejada"
-  },
   {
    "noche": "2026-10-13",
    "techo_abrio": true,
