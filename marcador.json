@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-10-27T00:31:35+00:00",
+ "generado_utc": "2026-10-27T20:32:52+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-27T00:31:35+00:00",
+  "calculado_utc": "2026-10-27T20:32:52+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.39 y acierto 0.85 contra 0.69",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "aviso",
     "motivo": "9 lecturas el 26-10 de 36 esperadas (25%)",
-    "ultima_utc": "2026-10-27T00:31:27+00:00",
+    "ultima_utc": "2026-10-27T20:31:33+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 9,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "aviso",
     "motivo": "9 lecturas el 26-10 de 34 esperadas (26%)",
-    "ultima_utc": "2026-10-27T00:30:26+00:00",
+    "ultima_utc": "2026-10-27T20:30:58+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 9,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "aviso",
     "motivo": "9 lecturas el 26-10 de 36 esperadas (25%)",
-    "ultima_utc": "2026-10-27T00:30:08+00:00",
+    "ultima_utc": "2026-10-27T20:30:08+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 9,
     "esperadas_dia": 36,
@@ -113,28 +113,28 @@
     }
    },
    "fotometro": {
-    "nivel": "aviso",
-    "motivo": "439 lecturas el 26-10 de 600 esperadas (73%)",
-    "ultima_utc": "2026-10-27T00:30:57+00:00",
+    "nivel": "ok",
+    "motivo": "al dia",
+    "ultima_utc": "2026-10-27T20:32:32+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 439,
+    "lecturas_ayer": 721,
     "esperadas_dia": 600,
-    "fraccion": 0.73,
+    "fraccion": 1.2,
     "ultimos_dias": {
      "2026-10-20": 716,
      "2026-10-21": 719,
      "2026-10-22": 710,
-     "2026-10-23": 446,
-     "2026-10-24": 178,
-     "2026-10-25": 205,
-     "2026-10-26": 439
+     "2026-10-23": 722,
+     "2026-10-24": 726,
+     "2026-10-25": 717,
+     "2026-10-26": 721
     }
    },
    "allsky": {
     "nivel": "aviso",
     "motivo": "3408 lecturas el 26-10 de 4800 esperadas (71%)",
-    "ultima_utc": "2026-10-26T23:31:26+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-10-27T17:01:42+00:00",
+    "edad_h": 3.5,
     "lecturas_ayer": 3408,
     "esperadas_dia": 4800,
     "fraccion": 0.71,
