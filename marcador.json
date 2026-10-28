@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-10-28T02:31:43+00:00",
+ "generado_utc": "2026-10-28T22:36:45+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-28T02:31:43+00:00",
+  "calculado_utc": "2026-10-28T22:36:45+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.39 y acierto 0.85 contra 0.69",
@@ -61,8 +61,8 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T02:31:33+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-10-28T22:31:29+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 38,
     "esperadas_dia": 36,
     "fraccion": 1.06,
@@ -79,8 +79,8 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T02:30:52+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-10-28T22:30:34+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 38,
     "esperadas_dia": 34,
     "fraccion": 1.12,
@@ -97,8 +97,8 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T02:30:08+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-10-28T22:30:09+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 38,
     "esperadas_dia": 36,
     "fraccion": 1.06,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T02:31:22+00:00",
+    "ultima_utc": "2026-10-28T22:33:49+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 729,
     "esperadas_dia": 600,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T01:31:29+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-10-28T19:32:13+00:00",
+    "edad_h": 3.1,
     "lecturas_ayer": 4626,
     "esperadas_dia": 4800,
     "fraccion": 0.96,
@@ -160,7 +160,7 @@
   "curva_techo": {
    "nivel": "ok",
    "motivo": "la aspirante no gana por el margen: diferencia -0.000 de Brier en 14 noches (hace falta <= -0.020)",
-   "fecha_utc": "2026-10-27T22:34:08+00:00",
+   "fecha_utc": "2026-10-28T22:36:27+00:00",
    "decision": "se_queda",
    "razon": "la aspirante no gana por el margen: diferencia -0.000 de Brier en 14 noches (hace falta <= -0.020)",
    "k_noches": 14,
