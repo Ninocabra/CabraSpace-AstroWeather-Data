@@ -1,161 +1,161 @@
 {
- "generado_utc": "2026-10-28T22:36:45+00:00",
+ "generado_utc": "2026-10-29T00:01:56+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-28T22:36:45+00:00",
+  "calculado_utc": "2026-10-29T00:01:56+00:00",
   "nota": {
    "nivel": "ok",
-   "motivo": "BSS +0.39 y acierto 0.85 contra 0.69",
+   "motivo": "BSS +0.50 y acierto 0.92 contra 0.67",
    "ventana_noches": 14,
    "d0": {
-    "desde": "2026-10-14",
-    "hasta": "2026-10-27",
-    "noches": 13,
+    "desde": "2026-10-15",
+    "hasta": "2026-10-28",
+    "noches": 12,
     "aciertos": 7,
     "falsas_alarmas": 0,
-    "sorpresas": 2,
+    "sorpresas": 1,
     "cierres_bien": 4,
-    "acierto": 0.846,
-    "acierto_climatologia": 0.692,
-    "brier": 0.153,
-    "brier_climatologia": 0.253,
-    "bss": 0.395,
+    "acierto": 0.917,
+    "acierto_climatologia": 0.667,
+    "brier": 0.136,
+    "brier_climatologia": 0.274,
+    "bss": 0.503,
     "bss_ic90": [
-     -0.903,
-     0.774
+     -0.581,
+     0.817
     ],
-    "climatologia_p": 0.892,
-    "climatologia_fuente": "noches anteriores a la ventana (n=37)",
-    "p_media": 0.466,
-    "abrio_frac": 0.692,
+    "climatologia_p": 0.895,
+    "climatologia_fuente": "noches anteriores a la ventana (n=38)",
+    "p_media": 0.471,
+    "abrio_frac": 0.667,
     "nivel": "ok",
-    "motivo": "BSS +0.39 y acierto 0.85 contra 0.69"
+    "motivo": "BSS +0.50 y acierto 0.92 contra 0.67"
    },
    "dm1": {
-    "desde": "2026-10-14",
-    "hasta": "2026-10-27",
-    "noches": 13,
-    "aciertos": 9,
+    "desde": "2026-10-15",
+    "hasta": "2026-10-28",
+    "noches": 12,
+    "aciertos": 8,
     "falsas_alarmas": 1,
     "sorpresas": 0,
     "cierres_bien": 3,
-    "acierto": 0.923,
-    "acierto_climatologia": 0.692,
-    "brier": 0.086,
-    "brier_climatologia": 0.252,
-    "bss": 0.658,
+    "acierto": 0.917,
+    "acierto_climatologia": 0.667,
+    "brier": 0.092,
+    "brier_climatologia": 0.273,
+    "bss": 0.663,
     "bss_ic90": [
-     0.369,
-     0.863
+     0.387,
+     0.868
     ],
-    "climatologia_p": 0.889,
-    "climatologia_fuente": "noches anteriores a la ventana (n=36)",
-    "p_media": 0.758,
-    "abrio_frac": 0.692,
+    "climatologia_p": 0.892,
+    "climatologia_fuente": "noches anteriores a la ventana (n=37)",
+    "p_media": 0.748,
+    "abrio_frac": 0.667,
     "nivel": "ok",
-    "motivo": "BSS +0.66 y acierto 0.92 contra 0.69"
+    "motivo": "BSS +0.66 y acierto 0.92 contra 0.67"
    }
   },
   "sensores": {
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T22:31:29+00:00",
-    "edad_h": 0.1,
-    "lecturas_ayer": 38,
+    "ultima_utc": "2026-10-29T00:01:49+00:00",
+    "edad_h": 0.0,
+    "lecturas_ayer": 37,
     "esperadas_dia": 36,
-    "fraccion": 1.06,
+    "fraccion": 1.03,
     "ultimos_dias": {
-     "2026-10-21": 4,
      "2026-10-22": 3,
      "2026-10-23": 4,
      "2026-10-24": 4,
      "2026-10-25": 4,
      "2026-10-26": 9,
-     "2026-10-27": 38
+     "2026-10-27": 38,
+     "2026-10-28": 37
     }
    },
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T22:30:34+00:00",
-    "edad_h": 0.1,
-    "lecturas_ayer": 38,
+    "ultima_utc": "2026-10-29T00:00:26+00:00",
+    "edad_h": 0.0,
+    "lecturas_ayer": 37,
     "esperadas_dia": 34,
-    "fraccion": 1.12,
+    "fraccion": 1.09,
     "ultimos_dias": {
-     "2026-10-21": 4,
      "2026-10-22": 4,
      "2026-10-23": 4,
      "2026-10-24": 4,
      "2026-10-25": 4,
      "2026-10-26": 9,
-     "2026-10-27": 38
+     "2026-10-27": 38,
+     "2026-10-28": 37
     }
    },
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T22:30:09+00:00",
-    "edad_h": 0.1,
-    "lecturas_ayer": 38,
+    "ultima_utc": "2026-10-29T00:00:10+00:00",
+    "edad_h": 0.0,
+    "lecturas_ayer": 37,
     "esperadas_dia": 36,
-    "fraccion": 1.06,
+    "fraccion": 1.03,
     "ultimos_dias": {
-     "2026-10-21": 4,
      "2026-10-22": 3,
      "2026-10-23": 4,
      "2026-10-24": 4,
      "2026-10-25": 4,
      "2026-10-26": 9,
-     "2026-10-27": 38
+     "2026-10-27": 38,
+     "2026-10-28": 37
     }
    },
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-28T22:33:49+00:00",
+    "ultima_utc": "2026-10-29T00:01:14+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 729,
+    "lecturas_ayer": 734,
     "esperadas_dia": 600,
     "fraccion": 1.22,
     "ultimos_dias": {
-     "2026-10-21": 719,
      "2026-10-22": 710,
      "2026-10-23": 722,
      "2026-10-24": 726,
      "2026-10-25": 717,
      "2026-10-26": 721,
-     "2026-10-27": 729
+     "2026-10-27": 729,
+     "2026-10-28": 734
     }
    },
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
     "ultima_utc": "2026-10-28T19:32:13+00:00",
-    "edad_h": 3.1,
-    "lecturas_ayer": 4626,
+    "edad_h": 4.5,
+    "lecturas_ayer": 3761,
     "esperadas_dia": 4800,
-    "fraccion": 0.96,
+    "fraccion": 0.78,
     "ultimos_dias": {
-     "2026-10-21": 3593,
      "2026-10-22": 3657,
      "2026-10-23": 3645,
      "2026-10-24": 4390,
      "2026-10-25": 3414,
      "2026-10-26": 3408,
-     "2026-10-27": 4626
+     "2026-10-27": 4626,
+     "2026-10-28": 3761
     }
    }
   },
   "allsky_corte": {
    "nivel": "ok",
    "noches_miradas": 6,
-   "noches_con_corte": 2,
+   "noches_con_corte": 1,
    "noches_con_corte_temprano": 0,
    "hora_corte_local": 5,
-   "motivo": "corte habitual de la camara hacia las 05 locales en 2 de 6 noches, fuera de la ventana de verdad"
+   "motivo": "corte habitual de la camara hacia las 05 locales en 1 de 6 noches, fuera de la ventana de verdad"
   },
   "curva_techo": {
    "nivel": "ok",
@@ -180,33 +180,6 @@
   "nivel": "ok"
  },
  "ultimas_noches": [
-  {
-   "noche": "2026-10-14",
-   "techo_abrio": true,
-   "techo_horas": 13.0,
-   "techo_fuente": "tabla limpio",
-   "techo_horas_oscuras": null,
-   "d0": {
-    "p_abrir": 0.405,
-    "abierto": false,
-    "resultado": "sorpresa",
-    "brier": 0.354,
-    "error_horas": -9.3
-   },
-   "dm1": {
-    "p_abrir": 0.882,
-    "abierto": true,
-    "resultado": "acierto",
-    "brier": 0.014
-   },
-   "despejado": {
-    "fotometro": 1.0,
-    "cloudwatcher": 1.0,
-    "allsky": 1.0,
-    "consenso": 1.0
-   },
-   "voto": "despejada"
-  },
   {
    "noche": "2026-10-15",
    "techo_abrio": true,
