@@ -1,67 +1,67 @@
 {
- "generado_utc": "2026-10-29T01:01:48+00:00",
+ "generado_utc": "2026-10-29T10:02:21+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-29T01:01:48+00:00",
+  "calculado_utc": "2026-10-29T10:02:21+00:00",
   "nota": {
    "nivel": "ok",
-   "motivo": "BSS +0.50 y acierto 0.92 contra 0.67",
+   "motivo": "BSS +0.50 y acierto 0.93 contra 0.71",
    "ventana_noches": 14,
    "d0": {
     "desde": "2026-10-15",
     "hasta": "2026-10-28",
-    "noches": 12,
-    "aciertos": 7,
+    "noches": 14,
+    "aciertos": 9,
     "falsas_alarmas": 0,
     "sorpresas": 1,
     "cierres_bien": 4,
-    "acierto": 0.917,
-    "acierto_climatologia": 0.667,
-    "brier": 0.136,
-    "brier_climatologia": 0.274,
-    "bss": 0.503,
+    "acierto": 0.929,
+    "acierto_climatologia": 0.714,
+    "brier": 0.119,
+    "brier_climatologia": 0.237,
+    "bss": 0.497,
     "bss_ic90": [
-     -0.581,
-     0.817
+     -0.692,
+     0.824
     ],
     "climatologia_p": 0.895,
     "climatologia_fuente": "noches anteriores a la ventana (n=38)",
-    "p_media": 0.471,
-    "abrio_frac": 0.667,
+    "p_media": 0.529,
+    "abrio_frac": 0.714,
     "nivel": "ok",
-    "motivo": "BSS +0.50 y acierto 0.92 contra 0.67"
+    "motivo": "BSS +0.50 y acierto 0.93 contra 0.71"
    },
    "dm1": {
     "desde": "2026-10-15",
     "hasta": "2026-10-28",
-    "noches": 12,
-    "aciertos": 8,
+    "noches": 14,
+    "aciertos": 10,
     "falsas_alarmas": 1,
     "sorpresas": 0,
     "cierres_bien": 3,
-    "acierto": 0.917,
-    "acierto_climatologia": 0.667,
-    "brier": 0.092,
-    "brier_climatologia": 0.273,
-    "bss": 0.663,
+    "acierto": 0.929,
+    "acierto_climatologia": 0.714,
+    "brier": 0.08,
+    "brier_climatologia": 0.236,
+    "bss": 0.662,
     "bss_ic90": [
-     0.387,
-     0.868
+     0.373,
+     0.861
     ],
     "climatologia_p": 0.892,
     "climatologia_fuente": "noches anteriores a la ventana (n=37)",
-    "p_media": 0.748,
-    "abrio_frac": 0.667,
+    "p_media": 0.774,
+    "abrio_frac": 0.714,
     "nivel": "ok",
-    "motivo": "BSS +0.66 y acierto 0.92 contra 0.67"
+    "motivo": "BSS +0.66 y acierto 0.93 contra 0.71"
    }
   },
   "sensores": {
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-29T01:01:38+00:00",
+    "ultima_utc": "2026-10-29T10:01:45+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-29T01:00:43+00:00",
+    "ultima_utc": "2026-10-29T10:00:44+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-29T01:00:09+00:00",
+    "ultima_utc": "2026-10-29T10:00:09+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
@@ -115,8 +115,8 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-29T01:01:18+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-10-29T06:03:15+00:00",
+    "edad_h": 4.0,
     "lecturas_ayer": 734,
     "esperadas_dia": 600,
     "fraccion": 1.22,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-29T00:01:34+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-10-29T05:05:00+00:00",
+    "edad_h": 5.0,
     "lecturas_ayer": 4129,
     "esperadas_dia": 4800,
     "fraccion": 0.86,
@@ -499,6 +499,60 @@
    "despejado": {
     "fotometro": 1.0,
     "cloudwatcher": 0.78,
+    "allsky": 1.0,
+    "consenso": 1.0
+   },
+   "voto": "despejada"
+  },
+  {
+   "noche": "2026-10-27",
+   "techo_abrio": true,
+   "techo_horas": 11.3,
+   "techo_fuente": "tabla aprox",
+   "techo_horas_oscuras": 6.2,
+   "d0": {
+    "p_abrir": 0.894,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.011,
+    "error_horas": -4.7
+   },
+   "dm1": {
+    "p_abrir": 0.924,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.006
+   },
+   "despejado": {
+    "fotometro": 0.5,
+    "cloudwatcher": 0.7,
+    "allsky": 0.78,
+    "consenso": 0.7
+   },
+   "voto": "despejada"
+  },
+  {
+   "noche": "2026-10-28",
+   "techo_abrio": true,
+   "techo_horas": 14.0,
+   "techo_fuente": "tabla aprox",
+   "techo_horas_oscuras": 10.3,
+   "d0": {
+    "p_abrir": 0.86,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.02,
+    "error_horas": -7.0
+   },
+   "dm1": {
+    "p_abrir": 0.931,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.005
+   },
+   "despejado": {
+    "fotometro": 0.78,
+    "cloudwatcher": 1.0,
     "allsky": 1.0,
     "consenso": 1.0
    },
