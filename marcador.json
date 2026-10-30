@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-10-30T02:31:50+00:00",
+ "generado_utc": "2026-10-30T03:02:01+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-30T02:31:50+00:00",
+  "calculado_utc": "2026-10-30T03:02:01+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.70 y acierto 1.00 contra 0.69",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-30T02:31:32+00:00",
+    "ultima_utc": "2026-10-30T03:01:52+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 39,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-30T02:30:57+00:00",
+    "ultima_utc": "2026-10-30T03:00:11+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 39,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-30T02:30:09+00:00",
+    "ultima_utc": "2026-10-30T03:00:10+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 39,
     "esperadas_dia": 36,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-30T02:30:53+00:00",
+    "ultima_utc": "2026-10-30T03:00:54+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 734,
     "esperadas_dia": 600,
@@ -131,13 +131,13 @@
     }
    },
    "allsky": {
-    "nivel": "aviso",
-    "motivo": "3516 lecturas el 29-10 de 4800 esperadas (73%); ultima lectura hace 9.0 h (aviso > 6 h)",
-    "ultima_utc": "2026-10-29T17:31:19+00:00",
-    "edad_h": 9.0,
-    "lecturas_ayer": 3516,
+    "nivel": "ok",
+    "motivo": "al dia",
+    "ultima_utc": "2026-10-30T02:01:41+00:00",
+    "edad_h": 1.0,
+    "lecturas_ayer": 3864,
     "esperadas_dia": 4800,
-    "fraccion": 0.73,
+    "fraccion": 0.81,
     "ultimos_dias": {
      "2026-10-23": 3645,
      "2026-10-24": 4390,
@@ -145,7 +145,7 @@
      "2026-10-26": 3408,
      "2026-10-27": 4626,
      "2026-10-28": 4129,
-     "2026-10-29": 3516
+     "2026-10-29": 3864
     }
    }
   },
@@ -177,7 +177,7 @@
    "auc_aspirante": 0.95,
    "curva_vigente_ajustada": "2026-10-26T22:04:30+00:00"
   },
-  "nivel": "aviso"
+  "nivel": "ok"
  },
  "ultimas_noches": [
   {
