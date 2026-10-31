@@ -1,67 +1,67 @@
 {
- "generado_utc": "2026-10-31T00:32:00+00:00",
+ "generado_utc": "2026-10-31T10:32:05+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-10-31T00:32:00+00:00",
+  "calculado_utc": "2026-10-31T10:32:05+00:00",
   "nota": {
    "nivel": "ok",
-   "motivo": "BSS +0.62 y acierto 0.92 contra 0.69",
+   "motivo": "BSS +0.62 y acierto 0.93 contra 0.71",
    "ventana_noches": 14,
    "d0": {
     "desde": "2026-10-17",
     "hasta": "2026-10-30",
-    "noches": 13,
-    "aciertos": 8,
+    "noches": 14,
+    "aciertos": 9,
     "falsas_alarmas": 0,
     "sorpresas": 1,
     "cierres_bien": 4,
-    "acierto": 0.923,
-    "acierto_climatologia": 0.692,
-    "brier": 0.097,
-    "brier_climatologia": 0.256,
-    "bss": 0.622,
+    "acierto": 0.929,
+    "acierto_climatologia": 0.714,
+    "brier": 0.091,
+    "brier_climatologia": 0.239,
+    "bss": 0.617,
     "bss_ic90": [
-     -0.151,
-     0.84
+     -0.208,
+     0.846
     ],
     "climatologia_p": 0.9,
     "climatologia_fuente": "noches anteriores a la ventana (n=40)",
-    "p_media": 0.536,
-    "abrio_frac": 0.692,
+    "p_media": 0.559,
+    "abrio_frac": 0.714,
     "nivel": "ok",
-    "motivo": "BSS +0.62 y acierto 0.92 contra 0.69"
+    "motivo": "BSS +0.62 y acierto 0.93 contra 0.71"
    },
    "dm1": {
     "desde": "2026-10-17",
     "hasta": "2026-10-30",
-    "noches": 13,
-    "aciertos": 9,
+    "noches": 14,
+    "aciertos": 10,
     "falsas_alarmas": 1,
     "sorpresas": 0,
     "cierres_bien": 3,
-    "acierto": 0.923,
-    "acierto_climatologia": 0.692,
-    "brier": 0.082,
-    "brier_climatologia": 0.255,
+    "acierto": 0.929,
+    "acierto_climatologia": 0.714,
+    "brier": 0.076,
+    "brier_climatologia": 0.238,
     "bss": 0.68,
     "bss_ic90": [
-     0.416,
-     0.881
+     0.452,
+     0.886
     ],
     "climatologia_p": 0.897,
     "climatologia_fuente": "noches anteriores a la ventana (n=39)",
-    "p_media": 0.769,
-    "abrio_frac": 0.692,
+    "p_media": 0.782,
+    "abrio_frac": 0.714,
     "nivel": "ok",
-    "motivo": "BSS +0.68 y acierto 0.92 contra 0.69"
+    "motivo": "BSS +0.68 y acierto 0.93 contra 0.71"
    }
   },
   "sensores": {
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-31T00:31:40+00:00",
+    "ultima_utc": "2026-10-31T10:31:38+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-31T00:30:23+00:00",
+    "ultima_utc": "2026-10-31T10:30:44+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-31T00:30:07+00:00",
+    "ultima_utc": "2026-10-31T10:30:07+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
@@ -115,8 +115,8 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-31T00:30:51+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-10-31T06:03:18+00:00",
+    "edad_h": 4.5,
     "lecturas_ayer": 740,
     "esperadas_dia": 600,
     "fraccion": 1.23,
@@ -133,7 +133,7 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-10-30T23:31:28+00:00",
+    "ultima_utc": "2026-10-31T09:31:39+00:00",
     "edad_h": 1.0,
     "lecturas_ayer": 5232,
     "esperadas_dia": 4800,
@@ -530,6 +530,33 @@
     "consenso": 0.33
    },
    "voto": "nublada"
+  },
+  {
+   "noche": "2026-10-30",
+   "techo_abrio": true,
+   "techo_horas": 7.0,
+   "techo_fuente": "tabla limpio",
+   "techo_horas_oscuras": 6.0,
+   "d0": {
+    "p_abrir": 0.867,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.018,
+    "error_horas": 0.8
+   },
+   "dm1": {
+    "p_abrir": 0.955,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.002
+   },
+   "despejado": {
+    "fotometro": 0.7,
+    "cloudwatcher": 0.8,
+    "allsky": 0.78,
+    "consenso": 0.78
+   },
+   "voto": "despejada"
   }
  ]
 }
