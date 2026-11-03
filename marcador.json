@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-03T02:31:40+00:00",
+ "generado_utc": "2026-11-03T10:04:12+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-03T02:31:40+00:00",
+  "calculado_utc": "2026-11-03T10:04:12+00:00",
   "nota": {
    "nivel": "rojo",
    "motivo": "Brier 0.087 peor que la climatologia 0.078 en 13 noches",
@@ -59,10 +59,10 @@
   },
   "sensores": {
    "techo": {
-    "nivel": "ok",
-    "motivo": "al dia",
-    "ultima_utc": "2026-11-03T02:31:25+00:00",
-    "edad_h": 0.0,
+    "nivel": "aviso",
+    "motivo": "ultima lectura hace 2.2 h (aviso > 2 h)",
+    "ultima_utc": "2026-11-03T07:53:24+00:00",
+    "edad_h": 2.2,
     "lecturas_ayer": 36,
     "esperadas_dia": 36,
     "fraccion": 1.0,
@@ -77,10 +77,10 @@
     }
    },
    "cloudwatcher": {
-    "nivel": "ok",
-    "motivo": "al dia",
-    "ultima_utc": "2026-11-03T02:30:11+00:00",
-    "edad_h": 0.0,
+    "nivel": "aviso",
+    "motivo": "ultima lectura hace 2.2 h (aviso > 2 h)",
+    "ultima_utc": "2026-11-03T07:52:54+00:00",
+    "edad_h": 2.2,
     "lecturas_ayer": 38,
     "esperadas_dia": 34,
     "fraccion": 1.12,
@@ -95,10 +95,10 @@
     }
    },
    "estacion": {
-    "nivel": "ok",
-    "motivo": "al dia",
-    "ultima_utc": "2026-11-03T02:30:08+00:00",
-    "edad_h": 0.0,
+    "nivel": "aviso",
+    "motivo": "ultima lectura hace 2.2 h (aviso > 2 h)",
+    "ultima_utc": "2026-11-03T07:52:07+00:00",
+    "edad_h": 2.2,
     "lecturas_ayer": 36,
     "esperadas_dia": 36,
     "fraccion": 1.0,
@@ -115,8 +115,8 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-03T02:31:27+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-03T06:05:59+00:00",
+    "edad_h": 4.0,
     "lecturas_ayer": 739,
     "esperadas_dia": 600,
     "fraccion": 1.23,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-03T01:30:57+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-11-03T05:31:34+00:00",
+    "edad_h": 4.5,
     "lecturas_ayer": 4067,
     "esperadas_dia": 4800,
     "fraccion": 0.85,
