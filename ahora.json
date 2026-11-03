@@ -1,7 +1,7 @@
 {
- "leido_utc": "2026-11-03T08:32:16+00:00",
+ "leido_utc": "2026-11-03T10:02:33+00:00",
  "sensores": {
-  "allsky_utc": "2026-11-03T08:32:55+00:00",
+  "allsky_utc": "2026-11-03T10:03:10+00:00",
   "leido_utc": null,
   "medido_utc": null,
   "antiguedad_min": null,
@@ -33,8 +33,7 @@
    "cielo_indice": "2026-11-03T07:52:54+00:00",
    "techos": "2026-11-03T07:53:24+00:00"
   },
-  "cielo_mag_medido": 14.2,
-  "cielo_mag_medido_utc": "2026-11-03T06:05:59+00:00",
-  "cielo_mag_instrumento": "TESS stars289"
+  "cielo_mag_medido": null,
+  "cielo_mag_medido_utc": null
  }
 }
