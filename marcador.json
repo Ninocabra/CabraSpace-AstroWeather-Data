@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-07T00:01:48+00:00",
+ "generado_utc": "2026-11-07T01:01:51+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-07T00:01:48+00:00",
+  "calculado_utc": "2026-11-07T01:01:51+00:00",
   "nota": {
    "nivel": "rojo",
    "motivo": "Brier 0.088 peor que la climatologia 0.029 en 13 noches",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-07T00:01:41+00:00",
+    "ultima_utc": "2026-11-07T01:01:41+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 36,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-07T00:00:40+00:00",
+    "ultima_utc": "2026-11-07T01:00:25+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 36,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-07T00:00:08+00:00",
+    "ultima_utc": "2026-11-07T01:00:09+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 36,
     "esperadas_dia": 36,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-07T00:00:59+00:00",
+    "ultima_utc": "2026-11-07T01:01:28+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 748,
     "esperadas_dia": 600,
@@ -133,11 +133,11 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-06T22:02:22+00:00",
-    "edad_h": 2.0,
-    "lecturas_ayer": 4868,
+    "ultima_utc": "2026-11-07T00:01:40+00:00",
+    "edad_h": 1.0,
+    "lecturas_ayer": 5235,
     "esperadas_dia": 4800,
-    "fraccion": 1.01,
+    "fraccion": 1.09,
     "ultimos_dias": {
      "2026-10-31": 4158,
      "2026-11-01": 4062,
@@ -145,7 +145,7 @@
      "2026-11-03": 4286,
      "2026-11-04": 4628,
      "2026-11-05": 4045,
-     "2026-11-06": 4868
+     "2026-11-06": 5235
     }
    }
   },
