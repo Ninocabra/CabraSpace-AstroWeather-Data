@@ -1,151 +1,151 @@
 {
- "generado_utc": "2026-11-08T14:32:11+00:00",
+ "generado_utc": "2026-11-09T00:01:46+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-08T14:32:11+00:00",
+  "calculado_utc": "2026-11-09T00:01:46+00:00",
   "nota": {
    "nivel": "rojo",
-   "motivo": "Brier 0.097 peor que la climatologia 0.028 en 14 noches",
+   "motivo": "Brier 0.098 peor que la climatologia 0.027 en 13 noches",
    "ventana_noches": 14,
    "d0": {
-    "desde": "2026-10-25",
-    "hasta": "2026-11-07",
-    "noches": 14,
-    "aciertos": 12,
+    "desde": "2026-10-26",
+    "hasta": "2026-11-08",
+    "noches": 13,
+    "aciertos": 11,
     "falsas_alarmas": 0,
     "sorpresas": 2,
     "cierres_bien": 0,
-    "acierto": 0.857,
+    "acierto": 0.846,
     "acierto_climatologia": 1.0,
-    "brier": 0.097,
-    "brier_climatologia": 0.028,
-    "bss": -2.478,
+    "brier": 0.098,
+    "brier_climatologia": 0.027,
+    "bss": -2.679,
     "bss_ic90": [
-     -4.349,
-     -0.799
+     -4.768,
+     -0.802
     ],
-    "climatologia_p": 0.833,
-    "climatologia_fuente": "noches anteriores a la ventana (n=48)",
-    "p_media": 0.734,
+    "climatologia_p": 0.837,
+    "climatologia_fuente": "noches anteriores a la ventana (n=49)",
+    "p_media": 0.735,
     "abrio_frac": 1.0,
     "nivel": "rojo",
-    "motivo": "Brier 0.097 peor que la climatologia 0.028 en 14 noches"
+    "motivo": "Brier 0.098 peor que la climatologia 0.027 en 13 noches"
    },
    "dm1": {
-    "desde": "2026-10-25",
-    "hasta": "2026-11-07",
-    "noches": 14,
-    "aciertos": 13,
+    "desde": "2026-10-26",
+    "hasta": "2026-11-08",
+    "noches": 13,
+    "aciertos": 12,
     "falsas_alarmas": 0,
     "sorpresas": 1,
     "cierres_bien": 0,
-    "acierto": 0.929,
+    "acierto": 0.923,
     "acierto_climatologia": 1.0,
-    "brier": 0.103,
-    "brier_climatologia": 0.029,
-    "bss": -2.565,
+    "brier": 0.111,
+    "brier_climatologia": 0.028,
+    "bss": -3.002,
     "bss_ic90": [
-     -7.379,
-     0.231
+     -8.291,
+     0.084
     ],
-    "climatologia_p": 0.83,
-    "climatologia_fuente": "noches anteriores a la ventana (n=47)",
-    "p_media": 0.795,
+    "climatologia_p": 0.833,
+    "climatologia_fuente": "noches anteriores a la ventana (n=48)",
+    "p_media": 0.781,
     "abrio_frac": 1.0,
     "nivel": "rojo",
-    "motivo": "Brier 0.103 peor que la climatologia 0.029 en 14 noches"
+    "motivo": "Brier 0.111 peor que la climatologia 0.028 en 13 noches"
    }
   },
   "sensores": {
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-08T14:31:29+00:00",
+    "ultima_utc": "2026-11-09T00:01:40+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 38,
+    "lecturas_ayer": 39,
     "esperadas_dia": 36,
-    "fraccion": 1.06,
+    "fraccion": 1.08,
     "ultimos_dias": {
-     "2026-11-01": 38,
      "2026-11-02": 36,
      "2026-11-03": 26,
      "2026-11-04": 36,
      "2026-11-05": 35,
      "2026-11-06": 36,
-     "2026-11-07": 38
+     "2026-11-07": 38,
+     "2026-11-08": 39
     }
    },
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-08T14:30:24+00:00",
+    "ultima_utc": "2026-11-09T00:00:52+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 38,
+    "lecturas_ayer": 39,
     "esperadas_dia": 34,
-    "fraccion": 1.12,
+    "fraccion": 1.15,
     "ultimos_dias": {
-     "2026-11-01": 38,
      "2026-11-02": 38,
      "2026-11-03": 27,
      "2026-11-04": 36,
      "2026-11-05": 35,
      "2026-11-06": 36,
-     "2026-11-07": 38
+     "2026-11-07": 38,
+     "2026-11-08": 39
     }
    },
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-08T14:30:06+00:00",
+    "ultima_utc": "2026-11-09T00:00:09+00:00",
     "edad_h": 0.0,
-    "lecturas_ayer": 38,
+    "lecturas_ayer": 39,
     "esperadas_dia": 36,
-    "fraccion": 1.06,
+    "fraccion": 1.08,
     "ultimos_dias": {
-     "2026-11-01": 38,
      "2026-11-02": 36,
      "2026-11-03": 26,
      "2026-11-04": 36,
      "2026-11-05": 35,
      "2026-11-06": 36,
-     "2026-11-07": 38
+     "2026-11-07": 38,
+     "2026-11-08": 39
     }
    },
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-08T06:13:22+00:00",
-    "edad_h": 8.3,
-    "lecturas_ayer": 745,
+    "ultima_utc": "2026-11-09T00:01:23+00:00",
+    "edad_h": 0.0,
+    "lecturas_ayer": 757,
     "esperadas_dia": 600,
-    "fraccion": 1.24,
+    "fraccion": 1.26,
     "ultimos_dias": {
-     "2026-11-01": 742,
      "2026-11-02": 739,
      "2026-11-03": 744,
      "2026-11-04": 362,
      "2026-11-05": 382,
      "2026-11-06": 748,
-     "2026-11-07": 745
+     "2026-11-07": 745,
+     "2026-11-08": 757
     }
    },
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-08T11:01:36+00:00",
-    "edad_h": 3.5,
-    "lecturas_ayer": 4002,
+    "ultima_utc": "2026-11-08T22:01:28+00:00",
+    "edad_h": 2.0,
+    "lecturas_ayer": 4622,
     "esperadas_dia": 4800,
-    "fraccion": 0.83,
+    "fraccion": 0.96,
     "ultimos_dias": {
-     "2026-11-01": 4062,
      "2026-11-02": 4067,
      "2026-11-03": 4286,
      "2026-11-04": 4628,
      "2026-11-05": 4045,
      "2026-11-06": 5235,
-     "2026-11-07": 4002
+     "2026-11-07": 4002,
+     "2026-11-08": 4622
     }
    }
   },
@@ -180,33 +180,6 @@
   "nivel": "rojo"
  },
  "ultimas_noches": [
-  {
-   "noche": "2026-10-25",
-   "techo_abrio": true,
-   "techo_horas": 11.0,
-   "techo_fuente": "tabla limpio",
-   "techo_horas_oscuras": null,
-   "d0": {
-    "p_abrir": 0.721,
-    "abierto": true,
-    "resultado": "acierto",
-    "brier": 0.078,
-    "error_horas": -3.3
-   },
-   "dm1": {
-    "p_abrir": 0.973,
-    "abierto": true,
-    "resultado": "acierto",
-    "brier": 0.001
-   },
-   "despejado": {
-    "fotometro": 1.0,
-    "cloudwatcher": 1.0,
-    "allsky": 1.0,
-    "consenso": 1.0
-   },
-   "voto": "despejada"
-  },
   {
    "noche": "2026-10-26",
    "techo_abrio": true,
