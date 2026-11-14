@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-14T16:05:27+00:00",
+ "generado_utc": "2026-11-14T16:31:43+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-14T16:05:27+00:00",
+  "calculado_utc": "2026-11-14T16:31:43+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.42 y acierto 0.85 contra 0.77",
@@ -61,8 +61,8 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-14T16:01:50+00:00",
-    "edad_h": 0.1,
+    "ultima_utc": "2026-11-14T16:31:34+00:00",
+    "edad_h": 0.0,
     "lecturas_ayer": 35,
     "esperadas_dia": 36,
     "fraccion": 0.97,
@@ -78,9 +78,9 @@
    },
    "cloudwatcher": {
     "nivel": "rojo",
-    "motivo": "10 lecturas el 13-11 de 34 esperadas (29%); ultima lectura hace 35.6 h (aviso > 2 h)",
+    "motivo": "10 lecturas el 13-11 de 34 esperadas (29%); ultima lectura hace 36.0 h (aviso > 2 h)",
     "ultima_utc": "2026-11-13T04:30:19+00:00",
-    "edad_h": 35.6,
+    "edad_h": 36.0,
     "lecturas_ayer": 10,
     "esperadas_dia": 34,
     "fraccion": 0.29,
@@ -97,8 +97,8 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-14T16:00:08+00:00",
-    "edad_h": 0.1,
+    "ultima_utc": "2026-11-14T16:30:07+00:00",
+    "edad_h": 0.0,
     "lecturas_ayer": 35,
     "esperadas_dia": 36,
     "fraccion": 0.97,
@@ -114,9 +114,9 @@
    },
    "fotometro": {
     "nivel": "rojo",
-    "motivo": "0 lecturas el 13-11 de 600 esperadas (0%); ultima lectura hace 81.8 h (aviso > 16 h)",
+    "motivo": "0 lecturas el 13-11 de 600 esperadas (0%); ultima lectura hace 82.2 h (aviso > 16 h)",
     "ultima_utc": "2026-11-11T06:18:54+00:00",
-    "edad_h": 81.8,
+    "edad_h": 82.2,
     "lecturas_ayer": 0,
     "esperadas_dia": 600,
     "fraccion": 0.0,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-14T11:01:58+00:00",
-    "edad_h": 5.1,
+    "ultima_utc": "2026-11-14T15:31:29+00:00",
+    "edad_h": 1.0,
     "lecturas_ayer": 4759,
     "esperadas_dia": 4800,
     "fraccion": 0.99,
