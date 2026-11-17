@@ -1,67 +1,67 @@
 {
- "generado_utc": "2026-11-17T01:02:01+00:00",
+ "generado_utc": "2026-11-17T17:32:19+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-17T01:02:01+00:00",
+  "calculado_utc": "2026-11-17T17:32:19+00:00",
   "nota": {
    "nivel": "ok",
-   "motivo": "BSS +0.61 y acierto 0.77 contra 0.54",
+   "motivo": "BSS +0.60 y acierto 0.79 contra 0.57",
    "ventana_noches": 14,
    "d0": {
     "desde": "2026-11-03",
     "hasta": "2026-11-16",
-    "noches": 13,
-    "aciertos": 5,
+    "noches": 14,
+    "aciertos": 6,
     "falsas_alarmas": 1,
     "sorpresas": 2,
     "cierres_bien": 5,
-    "acierto": 0.769,
-    "acierto_climatologia": 0.538,
-    "brier": 0.137,
-    "brier_climatologia": 0.352,
-    "bss": 0.61,
+    "acierto": 0.786,
+    "acierto_climatologia": 0.571,
+    "brier": 0.132,
+    "brier_climatologia": 0.328,
+    "bss": 0.598,
     "bss_ic90": [
-     0.116,
-     0.859
+     0.067,
+     0.863
     ],
     "climatologia_p": 0.86,
     "climatologia_fuente": "noches anteriores a la ventana (n=57)",
-    "p_media": 0.436,
-    "abrio_frac": 0.538,
+    "p_media": 0.458,
+    "abrio_frac": 0.571,
     "nivel": "ok",
-    "motivo": "BSS +0.61 y acierto 0.77 contra 0.54"
+    "motivo": "BSS +0.60 y acierto 0.79 contra 0.57"
    },
    "dm1": {
     "desde": "2026-11-03",
     "hasta": "2026-11-16",
-    "noches": 13,
-    "aciertos": 5,
+    "noches": 14,
+    "aciertos": 6,
     "falsas_alarmas": 1,
     "sorpresas": 2,
     "cierres_bien": 5,
-    "acierto": 0.769,
-    "acierto_climatologia": 0.538,
-    "brier": 0.245,
-    "brier_climatologia": 0.35,
+    "acierto": 0.786,
+    "acierto_climatologia": 0.571,
+    "brier": 0.229,
+    "brier_climatologia": 0.327,
     "bss": 0.299,
     "bss_ic90": [
-     -0.676,
-     0.798
+     -0.732,
+     0.757
     ],
     "climatologia_p": 0.857,
     "climatologia_fuente": "noches anteriores a la ventana (n=56)",
-    "p_media": 0.383,
-    "abrio_frac": 0.538,
+    "p_media": 0.419,
+    "abrio_frac": 0.571,
     "nivel": "ok",
-    "motivo": "BSS +0.30 y acierto 0.77 contra 0.54"
+    "motivo": "BSS +0.30 y acierto 0.79 contra 0.57"
    }
   },
   "sensores": {
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-17T01:01:51+00:00",
+    "ultima_utc": "2026-11-17T17:31:47+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 35,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "aviso",
     "motivo": "25 lecturas el 16-11 de 34 esperadas (74%)",
-    "ultima_utc": "2026-11-17T01:00:25+00:00",
+    "ultima_utc": "2026-11-17T17:30:19+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 25,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-17T01:00:09+00:00",
+    "ultima_utc": "2026-11-17T17:30:06+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 35,
     "esperadas_dia": 36,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "aviso",
     "motivo": "390 lecturas el 16-11 de 600 esperadas (65%)",
-    "ultima_utc": "2026-11-17T01:01:41+00:00",
+    "ultima_utc": "2026-11-17T17:31:34+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 390,
     "esperadas_dia": 600,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-17T00:01:45+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-11-17T13:01:40+00:00",
+    "edad_h": 4.5,
     "lecturas_ayer": 4692,
     "esperadas_dia": 4800,
     "fraccion": 0.98,
@@ -159,19 +159,19 @@
   },
   "curva_techo": {
    "nivel": "ok",
-   "motivo": "la aspirante no gana por el margen: diferencia +0.010 de Brier en 14 noches (hace falta <= -0.020)",
-   "fecha_utc": "2026-11-16T17:32:00+00:00",
+   "motivo": "la aspirante no gana por el margen: diferencia +0.000 de Brier en 14 noches (hace falta <= -0.020)",
+   "fecha_utc": "2026-11-17T17:32:04+00:00",
    "decision": "se_queda",
-   "razon": "la aspirante no gana por el margen: diferencia +0.010 de Brier en 14 noches (hace falta <= -0.020)",
+   "razon": "la aspirante no gana por el margen: diferencia +0.000 de Brier en 14 noches (hace falta <= -0.020)",
    "k_noches": 14,
    "margen": 0.02,
    "noches_examinadas": 14,
-   "brier_vigente": 0.136,
-   "brier_aspirante": 0.146,
-   "dif_brier": 0.01,
+   "brier_vigente": 0.132,
+   "brier_aspirante": 0.132,
+   "dif_brier": 0.0,
    "dif_brier_ic90": [
-    0.0,
-    0.02
+    -0.0,
+    0.001
    ],
    "auc_vigente": 0.875,
    "auc_aspirante": 0.875,
@@ -530,6 +530,33 @@
     "consenso": null
    },
    "voto": null
+  },
+  {
+   "noche": "2026-11-16",
+   "techo_abrio": true,
+   "techo_horas": 7.9,
+   "techo_fuente": "lecturas",
+   "techo_horas_oscuras": 7.6,
+   "d0": {
+    "p_abrir": 0.749,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.063,
+    "error_horas": -2.0
+   },
+   "dm1": {
+    "p_abrir": 0.89,
+    "abierto": true,
+    "resultado": "acierto",
+    "brier": 0.012
+   },
+   "despejado": {
+    "fotometro": 0.9,
+    "cloudwatcher": 0.82,
+    "allsky": 1.0,
+    "consenso": 1.0
+   },
+   "voto": "despejada"
   }
  ]
 }
