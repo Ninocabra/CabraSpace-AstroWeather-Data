@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-20T00:02:01+00:00",
+ "generado_utc": "2026-11-20T03:04:44+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-20T00:02:01+00:00",
+  "calculado_utc": "2026-11-20T03:04:44+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.72 y acierto 0.77 contra 0.38",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-20T00:01:53+00:00",
+    "ultima_utc": "2026-11-20T03:01:51+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
@@ -79,8 +79,8 @@
    "cloudwatcher": {
     "nivel": "aviso",
     "motivo": "21 lecturas el 19-11 de 34 esperadas (62%)",
-    "ultima_utc": "2026-11-19T23:59:59+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-20T03:00:55+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 21,
     "esperadas_dia": 34,
     "fraccion": 0.62,
@@ -97,8 +97,8 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-20T00:00:07+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-20T03:00:11+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 37,
     "esperadas_dia": 36,
     "fraccion": 1.03,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-20T00:01:58+00:00",
+    "ultima_utc": "2026-11-20T03:03:48+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 766,
     "esperadas_dia": 600,
@@ -133,11 +133,11 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-19T21:31:45+00:00",
-    "edad_h": 2.5,
-    "lecturas_ayer": 3757,
+    "ultima_utc": "2026-11-20T02:04:40+00:00",
+    "edad_h": 1.0,
+    "lecturas_ayer": 3951,
     "esperadas_dia": 4800,
-    "fraccion": 0.78,
+    "fraccion": 0.82,
     "ultimos_dias": {
      "2026-11-13": 4759,
      "2026-11-14": 4399,
@@ -145,7 +145,7 @@
      "2026-11-16": 4692,
      "2026-11-17": 4134,
      "2026-11-18": 3917,
-     "2026-11-19": 3757
+     "2026-11-19": 3951
     }
    }
   },
