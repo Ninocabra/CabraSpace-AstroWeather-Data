@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-21T00:02:04+00:00",
+ "generado_utc": "2026-11-21T01:02:28+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-21T00:02:04+00:00",
+  "calculado_utc": "2026-11-21T01:02:28+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.71 y acierto 0.77 contra 0.38",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-21T00:01:57+00:00",
+    "ultima_utc": "2026-11-21T01:01:55+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 34,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-21T00:00:38+00:00",
+    "ultima_utc": "2026-11-21T01:00:15+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 34,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-21T00:00:09+00:00",
+    "ultima_utc": "2026-11-21T01:00:10+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 34,
     "esperadas_dia": 36,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-21T00:01:13+00:00",
+    "ultima_utc": "2026-11-21T01:01:37+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 777,
     "esperadas_dia": 600,
@@ -133,11 +133,11 @@
    "allsky": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-20T20:01:39+00:00",
-    "edad_h": 4.0,
-    "lecturas_ayer": 3832,
+    "ultima_utc": "2026-11-21T00:02:22+00:00",
+    "edad_h": 1.0,
+    "lecturas_ayer": 4320,
     "esperadas_dia": 4800,
-    "fraccion": 0.8,
+    "fraccion": 0.9,
     "ultimos_dias": {
      "2026-11-14": 4399,
      "2026-11-15": 3823,
@@ -145,7 +145,7 @@
      "2026-11-17": 4134,
      "2026-11-18": 3917,
      "2026-11-19": 3951,
-     "2026-11-20": 3832
+     "2026-11-20": 4320
     }
    }
   },
