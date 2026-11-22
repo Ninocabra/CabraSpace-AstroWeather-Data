@@ -1,13 +1,13 @@
 {
- "leido_utc": "2026-11-22T06:04:37+00:00",
+ "leido_utc": "2026-11-22T10:32:18+00:00",
  "sensores": {
   "allsky_utc": null,
   "leido_utc": null,
   "medido_utc": null,
   "antiguedad_min": null,
   "fresco": false,
-  "temperatura": 9.270000457763672,
-  "humedad": 84.0,
+  "temperatura": 13.899999618530273,
+  "humedad": 55.0,
   "punto_rocio": 5.070000171661377,
   "margen_rocio": null,
   "riesgo_rocio": "desconocido",
@@ -24,8 +24,8 @@
   "incompleto": "sin respuesta",
   "techos_estado_archivo": false,
   "del_archivo": {
-   "temperatura": "2026-11-22T01:30:40+00:00",
-   "humedad": "2026-11-22T01:30:08+00:00",
+   "temperatura": "2026-11-22T09:00:00+00:00",
+   "humedad": "2026-11-22T09:00:00+00:00",
    "viento_ms": "2026-11-22T01:30:08+00:00",
    "presion": "2026-11-22T01:30:08+00:00",
    "punto_rocio": "2026-11-22T01:30:08+00:00",
