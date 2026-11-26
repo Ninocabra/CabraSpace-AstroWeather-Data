@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-26T01:31:38+00:00",
+ "generado_utc": "2026-11-26T17:06:35+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-26T01:31:38+00:00",
+  "calculado_utc": "2026-11-26T17:06:35+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.58 y acierto 0.80 contra 0.40",
@@ -61,8 +61,8 @@
    "techo": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 36 esperadas (42%)",
-    "ultima_utc": "2026-11-26T01:31:30+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-26T17:01:44+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 15,
     "esperadas_dia": 36,
     "fraccion": 0.42,
@@ -79,8 +79,8 @@
    "cloudwatcher": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 34 esperadas (44%)",
-    "ultima_utc": "2026-11-26T01:30:38+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-26T17:00:53+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 15,
     "esperadas_dia": 34,
     "fraccion": 0.44,
@@ -97,8 +97,8 @@
    "estacion": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 36 esperadas (42%)",
-    "ultima_utc": "2026-11-26T01:30:08+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-26T17:00:07+00:00",
+    "edad_h": 0.1,
     "lecturas_ayer": 15,
     "esperadas_dia": 36,
     "fraccion": 0.42,
@@ -115,8 +115,8 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-26T01:31:15+00:00",
-    "edad_h": 0.0,
+    "ultima_utc": "2026-11-26T06:32:12+00:00",
+    "edad_h": 10.6,
     "lecturas_ayer": 783,
     "esperadas_dia": 600,
     "fraccion": 1.3,
@@ -133,8 +133,8 @@
    "allsky": {
     "nivel": "aviso",
     "motivo": "2834 lecturas el 25-11 de 4800 esperadas (59%)",
-    "ultima_utc": "2026-11-26T00:31:30+00:00",
-    "edad_h": 1.0,
+    "ultima_utc": "2026-11-26T13:01:43+00:00",
+    "edad_h": 4.1,
     "lecturas_ayer": 2834,
     "esperadas_dia": 4800,
     "fraccion": 0.59,
@@ -160,7 +160,7 @@
   "curva_techo": {
    "nivel": "ok",
    "motivo": "la aspirante no gana por el margen: diferencia -0.002 de Brier en 14 noches (hace falta <= -0.020)",
-   "fecha_utc": "2026-11-25T16:38:37+00:00",
+   "fecha_utc": "2026-11-26T17:06:17+00:00",
    "decision": "se_queda",
    "razon": "la aspirante no gana por el margen: diferencia -0.002 de Brier en 14 noches (hace falta <= -0.020)",
    "k_noches": 14,
@@ -530,6 +530,33 @@
     "consenso": null
    },
    "voto": null
+  },
+  {
+   "noche": "2026-11-25",
+   "techo_abrio": true,
+   "techo_horas": 6.0,
+   "techo_fuente": "tabla limpio",
+   "techo_horas_oscuras": 2.6,
+   "d0": {
+    "p_abrir": null,
+    "abierto": null,
+    "resultado": null,
+    "brier": null,
+    "error_horas": null
+   },
+   "dm1": {
+    "p_abrir": null,
+    "abierto": null,
+    "resultado": null,
+    "brier": null
+   },
+   "despejado": {
+    "fotometro": 0.44,
+    "cloudwatcher": 0.64,
+    "allsky": 0.1,
+    "consenso": 0.4
+   },
+   "voto": "nublada"
   }
  ]
 }
