@@ -1,9 +1,9 @@
 {
- "generado_utc": "2026-11-26T00:01:47+00:00",
+ "generado_utc": "2026-11-26T01:31:38+00:00",
  "formato": "docs/aprendizaje_continuo.md",
  "salud": {
   "version": 1,
-  "calculado_utc": "2026-11-26T00:01:47+00:00",
+  "calculado_utc": "2026-11-26T01:31:38+00:00",
   "nota": {
    "nivel": "ok",
    "motivo": "BSS +0.58 y acierto 0.80 contra 0.40",
@@ -61,7 +61,7 @@
    "techo": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 36 esperadas (42%)",
-    "ultima_utc": "2026-11-26T00:01:41+00:00",
+    "ultima_utc": "2026-11-26T01:31:30+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 15,
     "esperadas_dia": 36,
@@ -79,7 +79,7 @@
    "cloudwatcher": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 34 esperadas (44%)",
-    "ultima_utc": "2026-11-26T00:00:49+00:00",
+    "ultima_utc": "2026-11-26T01:30:38+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 15,
     "esperadas_dia": 34,
@@ -97,7 +97,7 @@
    "estacion": {
     "nivel": "aviso",
     "motivo": "15 lecturas el 25-11 de 36 esperadas (42%)",
-    "ultima_utc": "2026-11-26T00:00:07+00:00",
+    "ultima_utc": "2026-11-26T01:30:08+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 15,
     "esperadas_dia": 36,
@@ -115,7 +115,7 @@
    "fotometro": {
     "nivel": "ok",
     "motivo": "al dia",
-    "ultima_utc": "2026-11-26T00:01:10+00:00",
+    "ultima_utc": "2026-11-26T01:31:15+00:00",
     "edad_h": 0.0,
     "lecturas_ayer": 783,
     "esperadas_dia": 600,
@@ -132,12 +132,12 @@
    },
    "allsky": {
     "nivel": "aviso",
-    "motivo": "1908 lecturas el 25-11 de 4800 esperadas (40%)",
-    "ultima_utc": "2026-11-25T20:01:41+00:00",
-    "edad_h": 4.0,
-    "lecturas_ayer": 1908,
+    "motivo": "2834 lecturas el 25-11 de 4800 esperadas (59%)",
+    "ultima_utc": "2026-11-26T00:31:30+00:00",
+    "edad_h": 1.0,
+    "lecturas_ayer": 2834,
     "esperadas_dia": 4800,
-    "fraccion": 0.4,
+    "fraccion": 0.59,
     "ultimos_dias": {
      "2026-11-19": 3951,
      "2026-11-20": 4320,
@@ -145,7 +145,7 @@
      "2026-11-22": 554,
      "2026-11-23": 0,
      "2026-11-24": 0,
-     "2026-11-25": 1908
+     "2026-11-25": 2834
     }
    }
   },
